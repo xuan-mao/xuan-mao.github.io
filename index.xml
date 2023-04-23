@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://xuan-mao.github.io/</link>
+    <link>https://xuan-mao.github.io/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Apr 2023 20:40:05 +0800</lastBuildDate><atom:link href="http://xuan-mao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Apr 2023 20:40:05 +0800</lastBuildDate><atom:link href="https://xuan-mao.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Hugo Post</title>
-      <link>http://xuan-mao.github.io/post/my-first-hugo-post/</link>
+      <link>https://xuan-mao.github.io/post/my-first-hugo-post/</link>
       <pubDate>Sun, 23 Apr 2023 20:40:05 +0800</pubDate>
       
-      <guid>http://xuan-mao.github.io/post/my-first-hugo-post/</guid>
+      <guid>https://xuan-mao.github.io/post/my-first-hugo-post/</guid>
       <description>Hello Hugo This is my first hugo post.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://xuan-mao.github.io/about/</link>
+      <link>https://xuan-mao.github.io/about/</link>
       <pubDate>Sun, 23 Apr 2023 20:35:01 +0800</pubDate>
       
-      <guid>http://xuan-mao.github.io/about/</guid>
+      <guid>https://xuan-mao.github.io/about/</guid>
       <description>this is a hugo test.</description>
     </item>
     
