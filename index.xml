@@ -1,1 +1,424 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Academic</title><link>https://aunomax.github.io/</link><description>Welcome to sass0on's site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 04 Jun 2023 18:45:30 +0800</lastBuildDate><atom:link href="https://aunomax.github.io/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Academic</title><link>https://aunomax.github.io/</link><atom:link href="https://aunomax.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Academic</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 04 Jun 2023 18:45:30 +0800</lastBuildDate><image><url>https://aunomax.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url><title>Academic</title><link>https://aunomax.github.io/</link></image><item><title>My Desktop Computer</title><link>https://aunomax.github.io/post/my-desktop-computer/</link><pubDate>Sun, 04 Jun 2023 18:45:30 +0800</pubDate><guid>https://aunomax.github.io/post/my-desktop-computer/</guid><description>&lt;h1 id="小白装机">小白装机&lt;/h1>
+&lt;p>我趁着五一劳动节优惠，在京东全套购买配件攒了台台式机，花费5448大洋。然后花了6个小时，一次点亮。其实发生了个小意外，虽然我一直都有过怀疑，但我还是坚信我不会犯这种错误，最终在过了三周后，我终于发现了，我涂硅脂，装散热器时，没有揭开保护膜。&lt;/p>
+&lt;p>具体配置单为&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">配件&lt;/th>
+&lt;th style="text-align:left">配置&lt;/th>
+&lt;th>价格&lt;/th>
+&lt;th>实付&lt;/th>
+&lt;th>备注&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">cpu&lt;/td>
+&lt;td style="text-align:left">intel i5-13600k&lt;/td>
+&lt;td>2599&lt;/td>
+&lt;td>2065&lt;/td>
+&lt;td>板u套装&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">主板&lt;/td>
+&lt;td style="text-align:left">rog b760g&lt;/td>
+&lt;td>1499&lt;/td>
+&lt;td>1385&lt;/td>
+&lt;td>板u套装&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">gpu&lt;/td>
+&lt;td style="text-align:left">蓝戟arc750&lt;/td>
+&lt;td>1549&lt;/td>
+&lt;td>1485&lt;/td>
+&lt;td>20230531&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">硬盘&lt;/td>
+&lt;td style="text-align:left">致钛7100-1t&lt;/td>
+&lt;td>539&lt;/td>
+&lt;td>526&lt;/td>
+&lt;td>20230430&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:left">宏基gm7&lt;/td>
+&lt;td>499&lt;/td>
+&lt;td>479&lt;/td>
+&lt;td>20230531&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">内存&lt;/td>
+&lt;td style="text-align:left">kingbank16*2ddr5&lt;/td>
+&lt;td>648&lt;/td>
+&lt;td>645&lt;/td>
+&lt;td>20230430&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">电源&lt;/td>
+&lt;td style="text-align:left">Segotep GM750&lt;/td>
+&lt;td>549&lt;/td>
+&lt;td>486&lt;/td>
+&lt;td>20230430&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">散热&lt;/td>
+&lt;td style="text-align:left">利民PA120SE&lt;/td>
+&lt;td>173&lt;/td>
+&lt;td>160&lt;/td>
+&lt;td>20230430&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">机箱&lt;/td>
+&lt;td style="text-align:left">先马m2air&lt;/td>
+&lt;td>118&lt;/td>
+&lt;td>118&lt;/td>
+&lt;td>20230430&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">风扇&lt;/td>
+&lt;td style="text-align:left">利民tl-c12c&lt;/td>
+&lt;td>26&lt;/td>
+&lt;td>26&lt;/td>
+&lt;td>20230430&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:left">id-cooling&lt;/td>
+&lt;td>19.9&lt;/td>
+&lt;td>18.9&lt;/td>
+&lt;td>20230430&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:left">id-cooling&lt;/td>
+&lt;td>19.9&lt;/td>
+&lt;td>8.5&lt;/td>
+&lt;td>20230520&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">其他&lt;/td>
+&lt;td style="text-align:left">赫钢精密螺丝刀套装&lt;/td>
+&lt;td>19.5&lt;/td>
+&lt;td>18.5&lt;/td>
+&lt;td>20230430&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>后续了解了intel新出了显卡，游戏性还不错，价格又低，就趁着618活动入了一款白色使用，同时看固态大降价，又冲动消费了一波，入了块宏基2t的固态，花费1964大洋。未来看看是不是要再入台4k办公显示器，目前在用的是前室友传给我的（也是他朋友送给他的，虽然它快十岁了，但质量还是杠杠的，noc的）。&lt;/p>
+&lt;p>有点难受致钛硬盘6月5号就降到了393，才过了一个多月2333……&lt;/p></description></item><item><title>Keychron K2 Keyboard</title><link>https://aunomax.github.io/post/keychron-k2-keyboard/</link><pubDate>Fri, 02 Jun 2023 11:17:13 +0800</pubDate><guid>https://aunomax.github.io/post/keychron-k2-keyboard/</guid><description>&lt;h1 id="京东京造keychron-k2键盘快捷键">京东京造Keychron K2键盘快捷键&lt;/h1>
+&lt;h2 id="蓝牙连接">蓝牙连接&lt;/h2>
+&lt;p>1 长按&lt;code>Fn+1/2/3&lt;/code>开启蓝牙连接配对模式，可分别与1/2/3设备连接&lt;/p>
+&lt;p>2 短按&lt;code>Fn+1/2/3&lt;/code>可分别与1/2/3设备切换&lt;/p>
+&lt;h2 id="自动睡眠">自动睡眠&lt;/h2>
+&lt;p>长按&lt;code>Fn+S+O&lt;/code>启用/禁用10分钟闲置自动睡眠&lt;/p>
+&lt;h2 id="功能键切换">功能键切换&lt;/h2>
+&lt;p>长按&lt;code>Fn+X+L&lt;/code>切换&lt;code>F1-F12&lt;/code>功能键和多媒体键。&lt;/p>
+&lt;h2 id="查看电量">查看电量&lt;/h2>
+&lt;p>长按&lt;code>Fn+B&lt;/code>；灭第一排，其余全亮，表示电亮30-70％。&lt;/p>
+&lt;h2 id="灯效">灯效&lt;/h2>
+&lt;p>长按&lt;code>Fn+L+💡&lt;/code>锁定当前灯效&lt;/p>
+&lt;h2 id="恢复出厂模式">恢复出厂模式&lt;/h2>
+&lt;p>长按&lt;code>Fn+J+Z&lt;/code>恢复出厂模式，蓝牙复位。&lt;/p></description></item><item><title>数学书单</title><link>https://aunomax.github.io/post/%E6%95%B0%E5%AD%A6%E4%B9%A6%E5%8D%95/</link><pubDate>Mon, 29 May 2023 21:59:38 +0800</pubDate><guid>https://aunomax.github.io/post/%E6%95%B0%E5%AD%A6%E4%B9%A6%E5%8D%95/</guid><description>&lt;h1 id="math-book">Math Book&lt;/h1>
+&lt;h2 id="functional-analysis">functional analysis&lt;/h2>
+&lt;ul>
+&lt;li>Yoside&lt;/li>
+&lt;li>Brezis&lt;/li>
+&lt;/ul>
+&lt;h2 id="operator-semigroup">Operator Semigroup&lt;/h2>
+&lt;ul>
+&lt;li>Pazy&lt;/li>
+&lt;/ul>
+&lt;h2 id="pde">PDE&lt;/h2>
+&lt;ul>
+&lt;li>Evans&lt;/li>
+&lt;/ul>
+&lt;h2 id="analysis">Analysis&lt;/h2>
+&lt;ul>
+&lt;li>Rudin(s)&lt;/li>
+&lt;/ul></description></item><item><title>软件工具</title><link>https://aunomax.github.io/post/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</link><pubDate>Mon, 29 May 2023 21:57:46 +0800</pubDate><guid>https://aunomax.github.io/post/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</guid><description>&lt;h1 id="工具">工具&lt;/h1>
+&lt;h2 id="解压缩工具">解压缩工具&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.7-zip.org/" target="_blank" rel="noopener">7-Zip&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="latex套装">$\LaTeX$套装&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://miktex.org/" target="_blank" rel="noopener">Miktex&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.winedt.com/" target="_blank" rel="noopener">WinEdt 11&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.texstudio.org/" target="_blank" rel="noopener">Texstudio&lt;/a>
+&lt;ul>
+&lt;li>languagetool&lt;/li>
+&lt;li>&lt;a href="https://extensions.libreoffice.org/en/extensions/show/english-dictionaries" target="_blank" rel="noopener">dictionary&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://www.sumatrapdfreader.org/free-pdf-reader" target="_blank" rel="noopener">SumatraPDF&lt;/a>&lt;/li>
+&lt;li>LanguageTool&lt;/li>
+&lt;li>&lt;a href="https://www.jabref.org/" target="_blank" rel="noopener">JabRef&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/goldendict/goldendict/wiki" target="_blank" rel="noopener">GoldenDict&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://mathpix.com/" target="_blank" rel="noopener">Mathpix&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="steam套装">Steam套装&lt;/h2>
+&lt;ul>
+&lt;li>Watt &lt;a href="https://steampp.net/" target="_blank" rel="noopener">Tookit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://steamdb.info/" target="_blank" rel="noopener">steamdb&lt;/a>&lt;/li>
+&lt;li>余额（淘宝）&lt;/li>
+&lt;li>steampy&lt;/li>
+&lt;li>&lt;a href="https://www.dogfight360.com/blog/686/" target="_blank" rel="noopener">steamcommunity 302 Ver.12.1.24 – Dogfight360&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="下载">下载&lt;/h2>
+&lt;ul>
+&lt;li>Thunder&lt;/li>
+&lt;li>IDM&lt;/li>
+&lt;li>qBittorrent&lt;/li>
+&lt;li>BT搜索&lt;a href="https://wwt.lanzoul.com/iWI4J0dajrgb" target="_blank" rel="noopener">BTSOU v22.10.06.rar - 蓝奏云 (lanzoul.com)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="影音">影音&lt;/h2>
+&lt;ul>
+&lt;li>Potplayer&lt;/li>
+&lt;li>VLC&lt;/li>
+&lt;/ul>
+&lt;h2 id="翻墙">翻墙&lt;/h2>
+&lt;ul>
+&lt;li>Clash for Windows + Docker + subconverter(后端转码)&lt;/li>
+&lt;li>v2rayNG/v2flyNG for android&lt;/li>
+&lt;li>shadowsocket for ios&lt;/li>
+&lt;li>airport
+&lt;ul>
+&lt;li>&lt;a href="https://www.mojie.cyou/#/dashboard" target="_blank" rel="noopener">mojie&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://panel.keleofficial.com/#/dashboard" target="_blank" rel="noopener">kelecloud&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://tly.llc/modules/index.php" target="_blank" rel="noopener">tly.llc&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="杀毒">杀毒&lt;/h2>
+&lt;ul>
+&lt;li>&lt;del>Avast&lt;/del>&lt;/li>
+&lt;li>卡巴斯基&lt;/li>
+&lt;li>&lt;del>火绒&lt;/del>&lt;/li>
+&lt;li>Windows Defender&lt;/li>
+&lt;/ul>
+&lt;h2 id="网盘">网盘&lt;/h2>
+&lt;ul>
+&lt;li>坚果云&lt;/li>
+&lt;li>OneDrive&lt;/li>
+&lt;/ul>
+&lt;h2 id="系统工具">系统工具&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/Chuyu-Team/Dism-Multi-language/releases" target="_blank" rel="noopener">Dism++&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/microsoft/PowerToys" target="_blank" rel="noopener">microsoft/PowerToys: Windows system utilities to maximize productivity (github.com)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.uderzo.it/main_products/space_sniffer/" target="_blank" rel="noopener">SpaceSniffer, find lost disk space the easy way. (uderzo.it)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/BluePointLilac/ContextMenuManager/releases" target="_blank" rel="noopener">ContextMenuManager&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/zhongyang219/TrafficMonitor" target="_blank" rel="noopener">zhongyang219/TrafficMonitor: 这是一个用于显示当前网速、CPU及内存利用率的桌面悬浮窗软件，并支持任务栏显示，支持更换皮肤。 (github.com)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://geekuninstaller.com/" target="_blank" rel="noopener">Geek Uninstaller - the best FREE uninstaller&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://kcsoftwares.com/?kcleaner" target="_blank" rel="noopener">KC Softwares删除系统缓存文件&lt;/a>&lt;/li>
+&lt;li>HiBit Uninstaller&lt;/li>
+&lt;li>图吧工具箱&lt;/li>
+&lt;li>Msi afterburner&lt;/li>
+&lt;/ul>
+&lt;h2 id="文件检索">文件检索&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.voidtools.com/support/everything/" target="_blank" rel="noopener">everything&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="录屏">录屏&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://obsproject.com/" target="_blank" rel="noopener">OBS Studio&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="系统修正">系统修正&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/Tatsu-syo/noMeiryoUI/releases" target="_blank" rel="noopener">修正系统字体字号-Releases · Tatsu-syo/noMeiryoUI (github.com)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="图形可视化">图形可视化&lt;/h2>
+&lt;ul>
+&lt;li>&lt;del>&lt;a href="https://graphviz.org/" target="_blank" rel="noopener">Graphviz&lt;/a>&lt;/del>&lt;/li>
+&lt;/ul>
+&lt;h2 id="图片查看器">图片查看器&lt;/h2>
+&lt;ul>
+&lt;li>&lt;del>&lt;a href="https://www.bandisoft.com/honeyview/" target="_blank" rel="noopener">Honeyview · 蜂蜜浏览器 · 免费的图像查看器 · 下载和功能说明 (bandisoft.com)&lt;/a>&lt;/del>&lt;/li>
+&lt;/ul>
+&lt;h2 id="截图">截图&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.snipaste.com/" target="_blank" rel="noopener">Snipaste&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="电子书">电子书&lt;/h2>
+&lt;ul>
+&lt;li>&lt;del>&lt;a href="https://calibre-ebook.com/" target="_blank" rel="noopener">calibre - E-book management (calibre-ebook.com)&lt;/a>&lt;/del>&lt;/li>
+&lt;/ul>
+&lt;h2 id="文件搜索">文件搜索&lt;/h2>
+&lt;ul>
+&lt;li>Everything&lt;/li>
+&lt;/ul>
+&lt;h2 id="线上会议">线上会议&lt;/h2>
+&lt;ul>
+&lt;li>Zoom&lt;/li>
+&lt;li>腾讯会议&lt;/li>
+&lt;/ul>
+&lt;h2 id="游戏">游戏&lt;/h2>
+&lt;ul>
+&lt;li>Epic&lt;/li>
+&lt;li>Steam&lt;/li>
+&lt;/ul></description></item><item><title>东南大学数学博士学位成果考核标准</title><link>https://aunomax.github.io/post/%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E5%8D%9A%E5%A3%AB%E5%AD%A6%E4%BD%8D%E6%88%90%E6%9E%9C%E8%80%83%E6%A0%B8%E6%A0%87%E5%87%86/</link><pubDate>Fri, 26 May 2023 17:02:01 +0800</pubDate><guid>https://aunomax.github.io/post/%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E5%8D%9A%E5%A3%AB%E5%AD%A6%E4%BD%8D%E6%88%90%E6%9E%9C%E8%80%83%E6%A0%B8%E6%A0%87%E5%87%86/</guid><description>&lt;h1 id="博士学位成果考核标准汇总">博士学位成果考核标准汇总&lt;/h1>
+&lt;p>博士学位成果考核标准汇总，请查看：研究生院-学位教育-学位授予-&lt;a href="https://seugs.seu.edu.cn/28878/list.htm" target="_blank" rel="noopener">规章制度 (seu.edu.cn)&lt;/a>。详见《东南大学博士研究生申请博士学位 的成果考核标准（2018 版）》。&lt;/p>
+&lt;h2 id="科研成果署名">科研成果署名&lt;/h2>
+&lt;p>博士学位申请者的学术论文必须以东南大学为第一署名单位， 即论文第一作者和第一通讯作者的第一署名单位必须均为“东南大 学”或“东南大学某机构”。除特别注明外，学位申请者必须是学术 论文的第一作者。&lt;/p>
+&lt;h2 id="期刊认定标准">期刊认定标准&lt;/h2>
+&lt;p>博士学位申请者的学术论文应发表在 SCIE、SSCI、A＆HCI、 EI、MI、CSSCI（核心版）、CSCD（核心版）、《中文核心期刊要目总览》 （北大图书馆编著，以论文发表当年的版本为准）的“来源期刊”（后 称“源刊”）上，但不包括这些学术期刊的增刊、专刊等非正常出版 的刊物。详见《东南大学博士研究生申请博士学位 的成果考核标准（2018 版）》。&lt;/p>
+&lt;h2 id="考核方案">考核方案&lt;/h2>
+&lt;p>理学的博士研究生申请博士学位时，须满足下列条件之一:&lt;/p>
+&lt;ol>
+&lt;li>在 SCIE/SSCI 源刊上发表学术论文二篇，其中在 JCR 分区表 中指定相应学科领域 Q1、Q2 区期刊学术论文至少一篇。&lt;/li>
+&lt;li>在 SCIE/SSCI 源刊或 EI/CSCD（核心版）源刊上发表学术论文三篇，其中被 SCIE/SSCI 收录学术论文至少二篇。&lt;/li>
+&lt;li>在 SCIE/SSCI 源刊上发表被 SCIE/SSCI 收录学术论文二篇， 且获授权国家发明专利一件。&lt;/li>
+&lt;/ol>
+&lt;h2 id="相关说明">相关说明&lt;/h2>
+&lt;p>博士学位申请者的成果应已正式发表或公布或授权，申请博士学 位时须提供学术论文所在期刊的原件及其它成果证明，包括学校图书 馆开具的论文检索证明。在 EI 源刊上发表的学术论文须被 EI 收录， EI 收录学术论文的文献类型原则上应是 Journal Article；被 SCIE/SSCI/A&amp;amp;HCI 收录学术论文的文献类型原则上应是 Article 或 Review 或 Letter；被 SCIE/SSCI/A&amp;amp;HCI/EI 收录学术论文须在相应的 数据库中检索到且有检索号。在 JCR 分区表中相应学科领域 Q1、Q2 区期刊上正式发表的学术论文可以视同被 SCIE/SSCI 收录，但须出示 有关论文正式发表的证明及期刊的 JCR 报告。&lt;/p>
+&lt;h2 id="注">注&lt;/h2>
+&lt;p>SCIE： Science Citation Index Expanded 《科学引文索引》&lt;/p>
+&lt;p>SSCI： Social Sciences Citation Index 《社会科学引文索引》&lt;/p>
+&lt;p>A&amp;amp;HCI： Arts&amp;amp;Humanities Citation Index 《艺术和人文学科引文索引》&lt;/p>
+&lt;p>EI： Engineering Index 《工程索引》&lt;/p>
+&lt;p>MI： MEDLINE 国际性生物医学文献书目数据 库包括《医学索引》（ Index Medicus）、《牙科文献索引》 （Index to Dental Literation）及 《国际护理索引》（International Nursing Index）&lt;/p>
+&lt;p>CSSCI： Chinese Social Science Citation Index 《中文社会科学引文索引》&lt;/p>
+&lt;p>CSCD： Chinese Science Citation Database 《中国科学引文数据库》&lt;/p>
+&lt;p>JCR: Journal Citation Reports 《期刊引用报告》（科睿唯安）&lt;/p></description></item><item><title>ThesisProposalDefense</title><link>https://aunomax.github.io/post/thesisproposaldefense/</link><pubDate>Thu, 25 May 2023 09:36:45 +0800</pubDate><guid>https://aunomax.github.io/post/thesisproposaldefense/</guid><description>&lt;h1 id="数学开题报告word模板的坑">数学开题报告Word模板的坑&lt;/h1>
+&lt;p>数学开题报告用Word写真的难受。多行公式编辑，排版是真不爽。&lt;/p>
+&lt;h2 id="word支持无插件插入数学公式多行公式技巧">Word支持无插件插入数学公式。多行公式技巧&lt;/h2>
+&lt;ul>
+&lt;li>先用快捷键”Alt+=“，在需要插入公式的位置插入数学格式，&lt;/li>
+&lt;li>然后点击如带大括号的多行公式，插入多行公式&lt;/li>
+&lt;li>调整行间距，否则多行公式显示不全。选中多行公式，右键单击选段落，行距选最短&lt;/li>
+&lt;li>键入公式支持用$\LaTeX$命令，直接输入对应公式即可，似乎数学字体格式不能用命令调用，如mathbb&lt;/li>
+&lt;li>关于插入公式序号，在多行公式末端敲&amp;quot;#()&amp;quot;，然后选插入-序号，选择需要的序号。或者将文本命令转化为数学符号后，在手动敲入序号&lt;/li>
+&lt;li>关于对齐，在将文本命令转化为数学符号后，选中整行公式，并将光标置于需要对其的位置，键入“&amp;amp;&amp;quot;,在其他行对应位置键入”&amp;amp;“后，公式将自动对齐。&lt;/li>
+&lt;/ul></description></item><item><title>Excerpts of Academic English</title><link>https://aunomax.github.io/post/excerpts-of-academic-english/</link><pubDate>Wed, 26 Apr 2023 12:47:05 +0800</pubDate><guid>https://aunomax.github.io/post/excerpts-of-academic-english/</guid><description>&lt;h1 id="excerpts">Excerpts&lt;/h1>
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;ul>
+&lt;li>The results of the paper &lt;strong>&lt;u>partially&lt;/u>&lt;/strong> extend previous works of Hu and Tao, and of Tao and Winkler.&lt;/li>
+&lt;/ul>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>A positive constant determined by $l$ besides $\tau$ (possibly changing from line to line) is henceforth denoted by $C_l$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Here and henceforth, $T_{max}$ denotes the maximal time of the existence of the solution, and $|\cdot|_p$ is the standard $L_p$ norm&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>We do not wish to give further physical motivations for the present analysis and address the reader to Refs. [CLMP, Ki] and especially [ES, MP] for a more detailed presentation of the matter and additional &lt;strong>&lt;u>references&lt;/u>&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Before to do this let us recall that a domain A is strictly star-shaped if (modulo translations of the origin) there exists α &amp;gt; 0, such that
+$$
+x \cdot v(x) \geqq \alpha&amp;gt;0 \quad \text { when } \quad x \in \partial \Lambda
+$$
+where $v(x)$ is the outer normal to $\Lambda$ in $x$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>under a &lt;strong>&lt;u>suitable&lt;/u>&lt;/strong> smallness condition on the initial data, we show that solutions exist globally and converge exponentially to a constant.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>An external chemoattractant source is provided in the form of a Dirac distribution &lt;strong>&lt;u>scaled by some positive constant&lt;/u>&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>We’ll refer to the environments generically as “align” and will &lt;strong>distinguish&lt;/strong> between them explicitly only when necessary.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The term &amp;ldquo;BIOS&amp;rdquo; in this user guide refers to &amp;ldquo;UEFI BIOS&amp;rdquo; &lt;u>&lt;strong>unless otherwise specified&lt;/strong>&lt;/u>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The volume-filling approach provides an &lt;strong>&lt;u>intuitive&lt;/u>&lt;/strong> way into how density-dependent chemotactic mod-
+els may be realistically derived.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>We have &lt;strong>&lt;u>so far&lt;/u>&lt;/strong> ignored the potential role of cell kinetics. This may be a reasonable modelling assumption for certain systems, for example during the aggregation stages of Dictyostelium discoideum when cell proliferation has &lt;strong>&lt;u>halted&lt;/u>&lt;/strong>, or if the time-scale of movement is significantly faster than that of cell growth.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Along the paper we use the following notation
+$$
+⟨f⟩ := \frac1{\Omega}\int_\Omega f
+$$
+for the average value of function $f ∈ L^1(Ω)$.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="deduction">Deduction&lt;/h2>
+&lt;ul>
+&lt;li>differentiating (1.4) &lt;strong>&lt;u>with respect to time&lt;/u>&lt;/strong> gives&lt;/li>
+&lt;li>We detail the proof for the case when δ is positive, leaving to the reader the &lt;strong>&lt;u>minor modifications&lt;/u>&lt;/strong> necessary for the limit case δ = 0.&lt;/li>
+&lt;li>from which Lemma 2.5 follows &lt;strong>&lt;u>after integration with respect to time.&lt;/u>&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>&lt;u>Gathering&lt;/u>&lt;/strong> the previous three identities &lt;strong>&lt;u>leads us to&lt;/u>&lt;/strong>&lt;/li>
+&lt;li>It &lt;strong>&lt;u>follows&lt;/u>&lt;/strong> from (1.4a) and Hölder’s and Young’s inequalities that&lt;/li>
+&lt;li>We now &lt;strong>&lt;u>use&lt;/u>&lt;/strong> Young’s inequality to &lt;strong>&lt;u>obtain&lt;/u>&lt;/strong>&lt;/li>
+&lt;li>the standard continuity argument &lt;strong>&lt;u>applied&lt;/u>&lt;/strong> to (36) &lt;strong>&lt;u>guarantees&lt;/u>&lt;/strong>&lt;/li>
+&lt;li>With this choice, if α &amp;gt; 0 is sufficiently small, we &lt;strong>&lt;u>find&lt;/u>&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>&lt;u>by&lt;/u>&lt;/strong> the standard convering argument,&lt;/li>
+&lt;li>where $R &amp;gt; 0$ and $T ∈ (0, 1)$ will be fixed &lt;strong>&lt;u>below&lt;/u>&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="subsequence">Subsequence&lt;/h3>
+&lt;ul>
+&lt;li>In addition, possibly after extracting a subsequence, we may assume that&lt;/li>
+&lt;li>up to the extraction of a subsequence,&lt;/li>
+&lt;li>extracting subsequences if necessary,&lt;/li>
+&lt;li>passing to a subsequence (denoted by the same symbol)&lt;/li>
+&lt;/ul>
+&lt;h3 id="similarity">Similarity&lt;/h3>
+&lt;ul>
+&lt;li>At this stage, we can reproduce the argument of [20].&lt;/li>
+&lt;li>The proof is done along a similar line, but estimates near the boundary are more crucial.&lt;/li>
+&lt;li>Now we take the reflection process of [20].&lt;/li>
+&lt;/ul>
+&lt;h3 id="brevity">Brevity&lt;/h3>
+&lt;ul>
+&lt;li>We drop the suffix $n$ for simplicity of writing.&lt;/li>
+&lt;li>for the sake of simplicity&lt;/li>
+&lt;li>Here and later on, C will denote a constant independent of blabla and A.&lt;/li>
+&lt;li>Without any danger of confusion we shall write $u = u(r, t)$ for $r = |x|$ throughout.&lt;/li>
+&lt;/ul>
+&lt;h3 id="obviousness">Obviousness&lt;/h3>
+&lt;ul>
+&lt;li>The following lemma is elementary, but we provide with the proof for completeness.&lt;/li>
+&lt;li>Those are preliminaries to the proof but have their own interests.&lt;/li>
+&lt;/ul>
+&lt;h3 id="conclusion">Conclusion&lt;/h3>
+&lt;ul>
+&lt;li>We are now in a position to apply [22, Lemma A.1] and derive an $L^\infty$-estimate on $u$.&lt;/li>
+&lt;/ul>
+&lt;h3 id="by-contradiction">by contradiction&lt;/h3>
+&lt;ul>
+&lt;li>Thus let us suppose (&lt;u>&lt;strong>by absurdum&lt;/strong>&lt;/u>) that&lt;/li>
+&lt;li>Suppose that (2.14) is &lt;strong>&lt;u>violated&lt;/u>&lt;/strong>.&lt;/li>
+&lt;li>This last point may be shown by contradiction.&lt;/li>
+&lt;li>this combined with the fact that E(p) &amp;lt; E leads to a &lt;strong>&lt;u>contradiction&lt;/u>&lt;/strong>.&lt;/li>
+&lt;li>Without loss of generality, we may assume that&lt;/li>
+&lt;/ul>
+&lt;h2 id="uncertainty">Uncertainty&lt;/h2>
+&lt;ul>
+&lt;li>it is not certain that&lt;/li>
+&lt;/ul>
+&lt;h2 id="miscellaneous">Miscellaneous&lt;/h2>
+&lt;ul>
+&lt;li>then the standard argument of covering guarantees&lt;/li>
+&lt;li>Many suggestions were obtained such as the behaviors global in time, the blowup mechanism, the dynamics, and so forth.&lt;/li>
+&lt;li>$|\cdot|_{L\log L}$ denotes the Zygmund norm.&lt;/li>
+&lt;li>For backward compatibility we therefore give only a warning for this condition instead of a full error, and try to recover using the aligned environment. The alignment of the material may be &lt;u>&lt;strong>adversely&lt;/strong>&lt;/u> affected but it will at least remain readable.&lt;/li>
+&lt;li>Purists will hate this, though many of them would not have noticed had I not pointed it out here.&lt;/li>
+&lt;li>When $\Lambda = \mathbb{R}^2$ and the additional invariance of the momentum of inertia &lt;!--惯性--> is explicitly taken into account,&lt;/li>
+&lt;li>If a solution $(u, v)$ &lt;strong>&lt;u>emanates&lt;/u>&lt;/strong> from nonnegative initial data with &lt;strong>&lt;u>suitably less regularity&lt;/u>&lt;/strong>&lt;/li>
+&lt;li>The embedding $C^{0,\beta}(\Omega)\subset C^{0,\alpha}(\Omega)$, $0&amp;lt;\alpha&amp;lt;\beta\leq1$
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c84c9900304f30e83d247931db01c22620f705d6" alt="C^{0,\beta }(\Omega )\subset C^{0,\alpha }(\Omega ),0&amp;amp;lt;\alpha &amp;amp;lt;\beta \leq 1" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+is not dense. For example, $u\in C^1[0,1]$ and $\sqrt x\in C^{1/2}[0,1]$, but $|u-\sqrt x|_{C^{1/2}}=1$.&lt;/li>
+&lt;li>Models are derived by inserting into said structures a phenomenological description of interactions &lt;strong>&lt;u>among&lt;/u>&lt;/strong> pedestrians and &lt;u>&lt;strong>between&lt;/strong>&lt;/u> pedestrians and external actions.&lt;/li>
+&lt;li>&lt;u>&lt;strong>As before&lt;/strong>&lt;/u>, the square brackets denotes that functional dependence with respect to its arguments.&lt;/li>
+&lt;li>However, this simpler model might contradict &lt;u>&lt;strong>empirical&lt;/strong>&lt;/u> observations in some cases.&lt;/li>
+&lt;li>Some precise form of the speed $v$ can be given, for example in 190,187,188, such that the maximal speed is kept under low density conditions (free flow regime),i.e., &lt;u>&lt;strong>up to&lt;/strong>&lt;/u> a certain critical density $ρ_c$, while the speed decreases to zero, with a polynomial type dependence on the local density, for values of $ρ$ greater than $ρ_c$ (slowdown zone).&lt;/li>
+&lt;li>Cellular differentiation follows, eventually resulting in a fruiting body structure &lt;u>&lt;strong>composed&lt;/strong>&lt;/u> of a
+ball of spore cells supported by a stalk of dead cells.&lt;/li>
+&lt;li>Quorum-sensing type behaviour occurs both &lt;strong>&lt;u>prior&lt;/u>&lt;/strong> to starvation and &lt;strong>&lt;u>during&lt;/u>&lt;/strong> aggregation stages.&lt;/li>
+&lt;li>During aggregation, cells secrete another molecule, counting factor (CF), which &lt;strong>&lt;u>regulates&lt;/u>&lt;/strong> the size of the aggregation to &lt;strong>&lt;u>optimise&lt;/u>&lt;/strong> the efficiency with which the fruiting body can disperse the cells, [5, 6]. The CF is thought to determine the group size &lt;strong>&lt;u>via&lt;/u>&lt;/strong> modulation of the adhesive and motility properties of the cells [52].&lt;/li>
+&lt;li>We &lt;strong>&lt;u>incorporate&lt;/u>&lt;/strong> the effect of such a mechanism by assuming the existence of a secondary chemical which allows the cells to determine the local density and &lt;strong>&lt;u>alter&lt;/u>&lt;/strong> the chemotactic response to the chemoattractant $v$ &lt;strong>&lt;u>accordingly&lt;/u>&lt;/strong>.&lt;/li>
+&lt;li>A key property of the above equations is their ability to give rise to spatial pattern formation when the chemical signal acts as an auto-attractant, &lt;strong>&lt;u>that is&lt;/u>&lt;/strong>, when cells both produce and migrate up gradients
+of the chemical signal.&lt;/li>
+&lt;/ul></description></item><item><title>Hello World</title><link>https://aunomax.github.io/test/hello-world/</link><pubDate>Tue, 25 Apr 2023 13:50:13 +0800</pubDate><guid>https://aunomax.github.io/test/hello-world/</guid><description>&lt;h1 id="hello-world">Hello World&lt;/h1>
+&lt;p>this is a test.&lt;/p>
+&lt;p>test 202306061620&lt;/p></description></item></channel></rss>
