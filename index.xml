@@ -11,6 +11,7 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;/ul>
 &lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Vanishing Viscosity Limits of a Chemotaxis Navier Stokes Model</title><link>https://aunomax.github.io/test/referee-report/vanishing-viscosity-limits-of-a-chemotaxis-navier-stokes-model/</link><pubDate>Sat, 10 Jun 2023 10:07:55 +0800</pubDate><guid>https://aunomax.github.io/test/referee-report/vanishing-viscosity-limits-of-a-chemotaxis-navier-stokes-model/</guid><description>&lt;center>
 REFEREE REPORT
+&lt;/center>
 &lt;center>on&lt;/center>
 &lt;center>
 "Vanishing viscosity limits of a chemotaxis-Navier-Stokes model"
@@ -642,7 +643,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-861725493" class="chart">&lt;/div>
+&lt;div id="chart-547683219" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -651,7 +652,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-861725493', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-547683219', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
