@@ -269,30 +269,24 @@ $$&lt;/p>
 &lt;p>欢迎提出宝贵意见。&lt;/p>
 &lt;hr></description></item><item><title>Vanishing Viscosity Limits of a Chemotaxis Navier Stokes Model</title><link>https://aunomax.github.io/test/referee-report/vanishing-viscosity-limits-of-a-chemotaxis-navier-stokes-model/</link><pubDate>Sat, 10 Jun 2023 10:07:55 +0800</pubDate><guid>https://aunomax.github.io/test/referee-report/vanishing-viscosity-limits-of-a-chemotaxis-navier-stokes-model/</guid><description>&lt;center>
 REFEREE REPORT
-&lt;/center>
-&lt;center>on&lt;/center>
-&lt;center>
+on
 "Vanishing viscosity limits of a chemotaxis-Navier-Stokes model"
-&lt;/center>
-&lt;center>
 by Jishan Fan and Fucai Li
 &lt;/center>
-&lt;p>In this paper the authors considered the following initial-boundary value problem for the chemotaxis system coupled with incompressible Navier-Stokes system
-$$
-\begin{split}
-&amp;amp; \partial_t n+u \cdot \nabla n-\Delta n=-\nabla \cdot(n \nabla p)-\nabla \cdot(n \nabla q), \
-&amp;amp; \partial_t p+u \cdot \nabla p-\epsilon_1 \Delta p=-n p, \
-&amp;amp; \partial_t q+u \cdot \nabla q-\epsilon_2 \Delta q+q=n, \
-&amp;amp; \partial_t u+u \cdot \nabla u-\Delta u+\nabla \pi=n \nabla \phi, \
-&amp;amp; \operatorname{div} u=0,
-\end{split}
-$$
+In this paper the authors considered the following initial-boundary value problem for the chemotaxis system coupled with incompressible Navier-Stokes system
+$$\begin{aligned}
+&amp; \partial_t n+u \cdot \nabla n-\Delta n=-\nabla \cdot(n \nabla p)-\nabla \cdot(n \nabla q), \\
+&amp; \partial_t p+u \cdot \nabla p-\epsilon_1 \Delta p=-n p, \\
+&amp; \partial_t q+u \cdot \nabla q-\epsilon_2 \Delta q+q=n, \\
+&amp; \partial_t u+u \cdot \nabla u-\Delta u+\nabla \pi=n \nabla \phi, \\
+&amp; \operatorname{div} u=0,
+\end{aligned}$$
 in a bounded domain $\Omega\subset \mathbb{R}^3$ withs mooth boundary, subjected to a mixed boundary conditions
 $$
 \frac{\partial n}{\partial \nu}=\frac{\partial p}{\partial \nu}=\frac{\partial q}{\partial \nu}=0, \quad u=0 \text { on } \partial \Omega \times(0, \infty) \text {, }
 $$
-where $\epsilon_1, \epsilon_2\in(0,1)$ are positive constants. This paper mainly investigated the vanishing viscosity limits of strong solutions for nonnegative initial data with suitably regularity. The main idea is to apply the Banach&amp;rsquo;s fixed point theorem to obtain local existence and uniformly estimates of strong solutions, independent of
-$\epsilon_1$ and $\epsilon_2$, which are sufficient to derive the vanishing viscosity limits by compact arguments. In the course of the design, the authors decouple the chemotaxis-fluid model into four linear problems and gain uniformly estimates by technical test procedures and the property of incompressible fluid. Compared with the results of [7], the design and calculation become more complex in appearance oft he fluid interaction.&lt;/p>
+where $\epsilon_1, \epsilon_2\in(0,1)$ are positive constants. This paper mainly investigated the vanishing viscosity limits of strong solutions for nonnegative initial data with suitably regularity. The main idea is to apply the Banach's fixed point theorem to obtain local existence and uniformly estimates of strong solutions, independent of
+$\epsilon_1$ and $\epsilon_2$, which are sufficient to derive the vanishing viscosity limits by compact arguments. In the course of the design, the authors decouple the chemotaxis-fluid model into four linear problems and gain uniformly estimates by technical test procedures and the property of incompressible fluid. Compared with the results of \[7\], the design and calculation become more complex in appearance oft he fluid interaction.
 &lt;p>In my opinion, the manuscript is well-written, the proofs diligently arranged and the overall presentation definitely good. After some appropriate revision addressing this and the minor points listed below, I can certainly, and with strong emphasis, recommend this paper for publication in Acta Mathematicae Applicatae Sinica, English Series.&lt;/p>
 &lt;ol>
 &lt;li>
@@ -901,7 +895,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-273914658" class="chart">&lt;/div>
+&lt;div id="chart-473519826" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -910,7 +904,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-273914658', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-473519826', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
