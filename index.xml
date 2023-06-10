@@ -24,43 +24,37 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;hr>
 &lt;h2 id="生物背景">生物背景&lt;/h2>
 &lt;p>趋化模型最早由Keller &amp;amp; Segel（1970）提出，用于描述细胞对化学信号刺激做出的趋向反应。
-$$
-\begin{cases}
-u_t =\nabla \cdot(\nabla u-u \nabla v), \
+$$\begin{cases}
+u_t =\nabla \cdot(\nabla u-u \nabla v), \\
 \tau v_t =\Delta v-v+u,
-\end{cases}
-$$&lt;/p>
+\end{cases}$$
+&lt;/p>
 &lt;hr>
 &lt;h2 id="生物背景-1">生物背景&lt;/h2>
 &lt;p>Painter &amp;amp; Hillen (2002) 引入体积填充（volume filling）效应，提出了如下密度依赖的趋化模型：
-$$
-\begin{cases}
-u_t=\nabla \cdot(D(u) \nabla u)-\nabla \cdot(S(u) \nabla v), \
+$$\begin{cases}
+u_t=\nabla \cdot(D(u) \nabla u)-\nabla \cdot(S(u) \nabla v), \\
 \tau v_t=\Delta v-v+u,
-\end{cases}
-$$&lt;/p>
-&lt;p>$$
-D(u)=(1+u)^{m-1},\quad S(u)=u(1+u)^{q-1},\quad m,q\in\mathbb{R}
-$$&lt;/p>
+\end{cases}$$
+$$D(u)=(1+u)^{m-1},\quad S(u)=u(1+u)^{q-1},\quad m,q\in\mathbb{R}$$
+&lt;/p>
 &lt;hr>
 &lt;h2 id="生物背景-2">生物背景&lt;/h2>
 &lt;p>Strohm, Tyson &amp;amp; Powell (2013)研究山松甲壳虫的聚集攻击现象时，提出了间接信号产生的趋化模型：
-$$
-\begin{cases}
-u_t=\Delta u-\nabla \cdot(u \nabla v) \
-\tau v_t=\Delta v - v + {w} \
+$$\begin{cases}
+u_t=\Delta u-\nabla \cdot(u \nabla v) \\
+\tau v_t=\Delta v - v + {w} \\
 w_t=u -w
-\end{cases}
-$$&lt;/p>
+\end{cases}$$
+&lt;/p>
 &lt;hr>
 &lt;h2 id="研究现状">研究现状&lt;/h2>
-&lt;p>$$
-\begin{cases}
-u_t =\nabla \cdot(\nabla u-u \nabla v), \
+&lt;p>
+$$\begin{cases}
+u_t =\nabla \cdot(\nabla u-u \nabla v), \\
 \tau v_t =\Delta v-v+u,
-\end{cases}
-$$&lt;/p>
-&lt;p>$\tau=1$,PP&lt;/p>
+\end{cases}$$
+$\tau=1$,PP&lt;/p>
 &lt;ul>
 &lt;li>1D Osaki &amp;amp; Yagi (2001):所有解都整体存在且全局有界。&lt;/li>
 &lt;li>2D 经典趋化模型在二维有界区域存在爆破临界质量现象。
@@ -76,7 +70,8 @@ $$&lt;/p>
 &lt;h2 id="研究现状-1">研究现状&lt;/h2>
 &lt;p>$\tau=0$,PE （化学信号扩散速度远大于细胞运动速度。）&lt;/p>
 &lt;ul>
-&lt;li>临界质量：J&amp;quot;{a}ger &amp;amp; Luckhaus (1992);Nagai (1995);Nagai (2001).&lt;/li>
+&lt;li>临界质量：
+J\"{a}ger \&amp; Luckhaus (1992);Nagai (1995);Nagai (2001).&lt;/li>
 &lt;li>趋化坍缩：Nagai, Senba &amp;amp; Suzuki(2000)&amp;mdash;Suzuki(2013)&lt;/li>
 &lt;li>二型爆破：Senba 2007 2d; Mizoguchi &amp;amp; Senba 2007 nd($n\geq11$);&lt;/li>
 &lt;li>一型爆破：Mizoguchi &amp;amp; Senba(2011)($3\leq n\leq 10$);Giga, Mizoguchi &amp;amp; Senba(2011)&lt;/li>
@@ -899,7 +894,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-539264781" class="chart">&lt;/div>
+&lt;div id="chart-764351892" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -908,7 +903,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-539264781', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-764351892', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();

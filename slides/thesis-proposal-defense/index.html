@@ -1,30 +1,23 @@
 <!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Wowchemy 5.7.0 for Hugo"><link rel=manifest href=/manifest.webmanifest><link rel=icon type=image/png href=/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png><link rel=apple-touch-icon type=image/png href=/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png><link rel=canonical href=https://aunomax.github.io/slides/thesis-proposal-defense/><title>Thesis Proposal Defense | Academic</title><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.min.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/black.min.css><link rel=stylesheet href=/css/libs/chroma/dracula.min.css></head><body><div class=reveal><div class=slides><section><h1 id=几类趋化方程解的爆破分析>几类趋化方程解的爆破分析</h1><p>2023年6月9日</p></section><section><h2 id=提纲>提纲</h2><ul><li>生物背景</li><li>研究现状</li><li>研究内容与方法</li><li>预计的困难及解决方法</li><li>预期成果</li><li>进度安排</li></ul></section><section><h2 id=生物背景>生物背景</h2><p>趋化模型最早由Keller & Segel（1970）提出，用于描述细胞对化学信号刺激做出的趋向反应。
-$$
-\begin{cases}
-u_t =\nabla \cdot(\nabla u-u \nabla v), \
+$$\begin{cases}
+u_t =\nabla \cdot(\nabla u-u \nabla v), \\
 \tau v_t =\Delta v-v+u,
-\end{cases}
-$$</p></section><section><h2 id=生物背景-1>生物背景</h2><p>Painter & Hillen (2002) 引入体积填充（volume filling）效应，提出了如下密度依赖的趋化模型：
-$$
-\begin{cases}
-u_t=\nabla \cdot(D(u) \nabla u)-\nabla \cdot(S(u) \nabla v), \
+\end{cases}$$</p></section><section><h2 id=生物背景-1>生物背景</h2><p>Painter & Hillen (2002) 引入体积填充（volume filling）效应，提出了如下密度依赖的趋化模型：
+$$\begin{cases}
+u_t=\nabla \cdot(D(u) \nabla u)-\nabla \cdot(S(u) \nabla v), \\
 \tau v_t=\Delta v-v+u,
-\end{cases}
-$$</p><p>$$
-D(u)=(1+u)^{m-1},\quad S(u)=u(1+u)^{q-1},\quad m,q\in\mathbb{R}
-$$</p></section><section><h2 id=生物背景-2>生物背景</h2><p>Strohm, Tyson & Powell (2013)研究山松甲壳虫的聚集攻击现象时，提出了间接信号产生的趋化模型：
-$$
-\begin{cases}
-u_t=\Delta u-\nabla \cdot(u \nabla v) \
-\tau v_t=\Delta v - v + {w} \
+\end{cases}$$
+$$D(u)=(1+u)^{m-1},\quad S(u)=u(1+u)^{q-1},\quad m,q\in\mathbb{R}$$</p></section><section><h2 id=生物背景-2>生物背景</h2><p>Strohm, Tyson & Powell (2013)研究山松甲壳虫的聚集攻击现象时，提出了间接信号产生的趋化模型：
+$$\begin{cases}
+u_t=\Delta u-\nabla \cdot(u \nabla v) \\
+\tau v_t=\Delta v - v + {w} \\
 w_t=u -w
-\end{cases}
-$$</p></section><section><h2 id=研究现状>研究现状</h2><p>$$
-\begin{cases}
-u_t =\nabla \cdot(\nabla u-u \nabla v), \
+\end{cases}$$</p></section><section><h2 id=研究现状>研究现状</h2><p>$$\begin{cases}
+u_t =\nabla \cdot(\nabla u-u \nabla v), \\
 \tau v_t =\Delta v-v+u,
-\end{cases}
-$$</p><p>$\tau=1$,PP</p><ul><li>1D Osaki & Yagi (2001):所有解都整体存在且全局有界。</li><li>2D 经典趋化模型在二维有界区域存在爆破临界质量现象。<ul><li>Nagai, Senba & Yoshida (1997): 细胞质量小于$4\pi$，所有解均整体存在且有界，</li><li>Horstmann & Wang (2001): 细胞质量大于$4\pi$且不是$4\pi$整数倍，存在解有限/无限时刻爆破。</li></ul></li><li>nD Winkler (2013): 任意细胞质量都存在解有限时刻爆破。</li><li>Mizoguchi(2016,2020,2020,2020);Winkler(2020)</li></ul></section><section><h2 id=研究现状-1>研究现状</h2><p>$\tau=0$,PE （化学信号扩散速度远大于细胞运动速度。）</p><ul><li>临界质量：J"{a}ger & Luckhaus (1992);Nagai (1995);Nagai (2001).</li><li>趋化坍缩：Nagai, Senba & Suzuki(2000)&mdash;Suzuki(2013)</li><li>二型爆破：Senba 2007 2d; Mizoguchi & Senba 2007 nd($n\geq11$);</li><li>一型爆破：Mizoguchi & Senba(2011)($3\leq n\leq 10$);Giga, Mizoguchi & Senba(2011)</li><li>爆破形态：Souplet & Winkler(2019);</li><li>新临界质量：Winkler(2019);Fuhrmann, Lankeit & Winkler(2022);</li></ul></section><section><h2 id=研究现状-2>研究现状</h2><p>$$
+\end{cases}$$
+$\tau=1$,PP</p><ul><li>1D Osaki & Yagi (2001):所有解都整体存在且全局有界。</li><li>2D 经典趋化模型在二维有界区域存在爆破临界质量现象。<ul><li>Nagai, Senba & Yoshida (1997): 细胞质量小于$4\pi$，所有解均整体存在且有界，</li><li>Horstmann & Wang (2001): 细胞质量大于$4\pi$且不是$4\pi$整数倍，存在解有限/无限时刻爆破。</li></ul></li><li>nD Winkler (2013): 任意细胞质量都存在解有限时刻爆破。</li><li>Mizoguchi(2016,2020,2020,2020);Winkler(2020)</li></ul></section><section><h2 id=研究现状-1>研究现状</h2><p>$\tau=0$,PE （化学信号扩散速度远大于细胞运动速度。）</p><ul><li>临界质量：
+J\"{a}ger \& Luckhaus (1992);Nagai (1995);Nagai (2001).</li><li>趋化坍缩：Nagai, Senba & Suzuki(2000)&mdash;Suzuki(2013)</li><li>二型爆破：Senba 2007 2d; Mizoguchi & Senba 2007 nd($n\geq11$);</li><li>一型爆破：Mizoguchi & Senba(2011)($3\leq n\leq 10$);Giga, Mizoguchi & Senba(2011)</li><li>爆破形态：Souplet & Winkler(2019);</li><li>新临界质量：Winkler(2019);Fuhrmann, Lankeit & Winkler(2022);</li></ul></section><section><h2 id=研究现状-2>研究现状</h2><p>$$
 \begin{cases}
 u_t =\nabla \cdot(\nabla u-u \nabla v) \
 0 =\Delta v + u
