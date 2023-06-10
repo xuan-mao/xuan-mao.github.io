@@ -1,4 +1,239 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Slides | Academic</title><link>https://aunomax.github.io/slides/</link><atom:link href="https://aunomax.github.io/slides/index.xml" rel="self" type="application/rss+xml"/><description>Slides</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate><item><title>Slides</title><link>https://aunomax.github.io/slides/example/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://aunomax.github.io/slides/example/</guid><description>&lt;h1 id="create-slides-in-markdown-with-wowchemy">Create slides in Markdown with Wowchemy&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Slides | Academic</title><link>https://aunomax.github.io/slides/</link><atom:link href="https://aunomax.github.io/slides/index.xml" rel="self" type="application/rss+xml"/><description>Slides</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 10 Jun 2023 13:28:02 +0800</lastBuildDate><item><title>Thesis Proposal Defense</title><link>https://aunomax.github.io/slides/thesis-proposal-defense/</link><pubDate>Sat, 10 Jun 2023 13:28:02 +0800</pubDate><guid>https://aunomax.github.io/slides/thesis-proposal-defense/</guid><description>&lt;h1 id="几类趋化方程解的爆破分析">几类趋化方程解的爆破分析&lt;/h1>
+&lt;p>2023年6月9日&lt;/p>
+&lt;h2 id="提纲">提纲&lt;/h2>
+&lt;ul>
+&lt;li>生物背景&lt;/li>
+&lt;li>研究现状&lt;/li>
+&lt;li>研究内容与方法&lt;/li>
+&lt;li>预计的困难及解决方法&lt;/li>
+&lt;li>预期成果&lt;/li>
+&lt;li>进度安排&lt;/li>
+&lt;/ul>
+&lt;h2 id="生物背景">生物背景&lt;/h2>
+&lt;p>趋化模型最早由Keller &amp;amp; Segel（1970）提出，用于描述细胞对化学信号刺激做出的趋向反应。
+$$
+\begin{cases}
+u_t =\nabla \cdot(\nabla u-u \nabla v), \
+\tau v_t =\Delta v-v+u,
+\end{cases}
+$$&lt;/p>
+&lt;h2 id="生物背景-1">生物背景&lt;/h2>
+&lt;p>Painter &amp;amp; Hillen (2002) 引入体积填充（volume filling）效应，提出了如下密度依赖的趋化模型：
+$$
+\begin{cases}
+u_t=\nabla \cdot(D(u) \nabla u)-\nabla \cdot(S(u) \nabla v), \
+\tau v_t=\Delta v-v+u,
+\end{cases}
+$$&lt;/p>
+&lt;p>$$
+D(u)=(1+u)^{m-1},\quad S(u)=u(1+u)^{q-1},\quad m,q\in\mathbb{R}
+$$&lt;/p>
+&lt;h2 id="生物背景-2">生物背景&lt;/h2>
+&lt;p>​ Strohm, Tyson &amp;amp; Powell (2013)研究山松甲壳虫的聚集攻击现象时，提出了间接信号产生的趋化模型：
+$$
+\begin{cases}
+u_t=\Delta u-\nabla \cdot(u \nabla v) \
+\tau v_t=\Delta v - v + {w} \
+w_t=u -w
+\end{cases}
+$$&lt;/p>
+&lt;h2 id="研究现状">研究现状&lt;/h2>
+&lt;p>$$
+\begin{cases}
+u_t =\nabla \cdot(\nabla u-u \nabla v), \
+\tau v_t =\Delta v-v+u,
+\end{cases}
+$$&lt;/p>
+&lt;p>​ $\tau=1$,PP&lt;/p>
+&lt;ul>
+&lt;li>1D Osaki &amp;amp; Yagi (2001):所有解都整体存在且全局有界。&lt;/li>
+&lt;li>2D 经典趋化模型在二维有界区域存在爆破临界质量现象。
+&lt;ul>
+&lt;li>Nagai, Senba &amp;amp; Yoshida (1997): 细胞质量小于$4\pi$，所有解均整体存在且有界，&lt;/li>
+&lt;li>Horstmann &amp;amp; Wang (2001): 细胞质量大于$4\pi$且不是$4\pi$整数倍，存在解有限/无限时刻爆破。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>nD Winkler (2013): 任意细胞质量都存在解有限时刻爆破。&lt;/li>
+&lt;li>Mizoguchi(2016,2020,2020,2020);Winkler(2020)&lt;/li>
+&lt;/ul>
+&lt;h2 id="研究现状-1">研究现状&lt;/h2>
+&lt;p>​ $\tau=0$,PE （化学信号扩散速度远大于细胞运动速度。）&lt;/p>
+&lt;ul>
+&lt;li>临界质量：J&amp;quot;{a}ger &amp;amp; Luckhaus (1992);Nagai (1995);Nagai (2001).&lt;/li>
+&lt;li>趋化坍缩：Nagai, Senba &amp;amp; Suzuki(2000)&amp;mdash;Suzuki(2013)&lt;/li>
+&lt;li>二型爆破：Senba 2007 2d; Mizoguchi &amp;amp; Senba 2007 nd($n\geq11$);&lt;/li>
+&lt;li>一型爆破：Mizoguchi &amp;amp; Senba(2011)($3\leq n\leq 10$);Giga, Mizoguchi &amp;amp; Senba(2011)&lt;/li>
+&lt;li>爆破形态：Souplet &amp;amp; Winkler(2019);&lt;/li>
+&lt;li>新临界质量：Winkler(2019);Fuhrmann, Lankeit &amp;amp; Winkler(2022);&lt;/li>
+&lt;/ul>
+&lt;h2 id="研究现状-2">研究现状&lt;/h2>
+&lt;p>$$
+\begin{cases}
+u_t =\nabla \cdot(\nabla u-u \nabla v) \
+0 =\Delta v + u
+\end{cases}
+$$&lt;/p>
+&lt;p>$\mathbb{R}^2$&lt;/p>
+&lt;ul>
+&lt;li>临界质量：Blanchet, Dolbeault &amp;amp; Perthame(2006); Wei(2018);&lt;/li>
+&lt;li>临界：Blanchet, Carrillo &amp;amp; Masmoudi(2008);Blanchet, Carlen &amp;amp; Carrillo(2012);L'{o}pez-G'{o}mez, Nagai &amp;amp; Yamada(2014); Ghoul &amp;amp; Masmoudi(2018);&lt;/li>
+&lt;li>次临界：Campos &amp;amp; Dolbeault(2014);Fern'{a}ndez &amp;amp; Mischler(2016);&lt;/li>
+&lt;li>超临界：Rapha&amp;quot;{e}l, Pierre and Schweyer(2014);Collot, Ghoul, Masmoudi &amp;amp; Nguyen(2022); Mizoguchi(2022)&lt;/li>
+&lt;/ul>
+&lt;h2 id="研究现状-3">研究现状&lt;/h2>
+&lt;p>​ 记$\alpha=q+1-m.$
+$$
+\begin{cases}
+u_t=\nabla \cdot((u+1)^{m-1} \nabla u)-\nabla \cdot(u(u+1)^{q-1} \nabla v) \
+\tau v_t=\Delta v-v+u
+\end{cases}
+$$&lt;/p>
+&lt;ul>
+&lt;li>$\alpha&amp;gt;2/n$ 存在解有限/无限时刻爆破。Cie'{s}lak &amp;amp; Winkler(2008);Winkler(2010,2019);Cie'{s}lak &amp;amp; Stinner(2012,2014,2015);Lankeit(2020);&lt;/li>
+&lt;li>$\alpha&amp;lt;2/n$ 解总是全局存在且有界的。Tao &amp;amp; Winkler(2012);Ishida, Seki &amp;amp; Yokota(2014);&lt;/li>
+&lt;/ul>
+&lt;h2 id="研究现状-4">研究现状&lt;/h2>
+&lt;p>​ 当$\alpha=2/n(n\geq3)$时&lt;/p>
+&lt;ul>
+&lt;li>$q=1,m=2-2/n$,临界扩散趋化系统小质量解整体存在且有界，存在大质量解有限时刻爆破。Cie'{s}lak &amp;amp; Lauren\c{c}ot(2009)&lt;/li>
+&lt;li>$q=2/n,m=1$,临界敏感度趋化问题存在一个临界质量$M_c$,任给初值质量小于$M_c$解都全局有界，任给初值质量大于$M_c$解都有限时刻爆破。Montaru(2013)&lt;/li>
+&lt;li>双抛物临界趋化系统存在一个临界质量$M_c$,任给初值质量小于$M_c$解都全局有界，存在初值质量大于$M_c$解有限/无穷时刻爆破。Winkler(2022);Cao &amp;amp; Gao(2023)&lt;/li>
+&lt;/ul>
+&lt;p>$n=1$临界结果Cie'{s}lak &amp;amp; Lauren\c{c}ot(2010,2010);Cie'{s}lak &amp;amp; Fujie(2018)&lt;/p>
+&lt;h2 id="研究现状-5">研究现状&lt;/h2>
+&lt;p>$$
+\begin{cases}
+u_t =\nabla \cdot\left[\nabla u^m(t, x)-u(t, x) \nabla \phi(t, x)\right] \
+0 = \Delta \phi(t, x) + u(t, x),
+\end{cases}
+$$&lt;/p>
+&lt;ul>
+&lt;li>$m=2-2/n(n\geq3)$ Sugiyama(2007);Blanchet, Carrillo &amp;amp; Lauren\c{c}ot(2009);Lauren\c{c}ot &amp;amp; Mizoguchi(2017);&lt;/li>
+&lt;li>$m=\frac{2n}{n+2}(n\geq3)$ Chen, Liu &amp;amp; Wang(2012)&lt;/li>
+&lt;/ul>
+&lt;h2 id="研究现状-6">研究现状&lt;/h2>
+&lt;p>$$
+\begin{cases}
+u_t=\Delta u-\nabla \cdot(u \nabla v) \
+\tau v_t=\Delta v-v+w \
+w_t+w=u
+\end{cases}
+$$&lt;/p>
+&lt;p>空间二维条件下解总是全局存在的。&lt;/p>
+&lt;ul>
+&lt;li>径向条件下临界质量是$8\pi$，初值质量小于$8\pi$,解总一致有界；存在初值质量大于$8\pi$对应解无界。Tao &amp;amp; Winkler(2017)&lt;/li>
+&lt;li>非径向条件下，临界质量是$4\pi$,初始质量小于$4\pi$,解总一致有界；存在初值质量大于$4\pi$且不为$4\pi$整数倍，对应解无界。Lauren\c{c}ot(2019)&lt;/li>
+&lt;/ul>
+&lt;p>Fujie &amp;amp; Senba(2019);Lauren\c{c}ot &amp;amp; Stinner(2021)&lt;/p>
+&lt;h2 id="研究内容与方法一">研究内容与方法（一）&lt;/h2>
+&lt;p>$$
+\begin{cases}
+u_t =\Delta u-\nabla \cdot\left(u(1+u)^{\alpha-1} \nabla v\right) &amp;amp;x\in\Omega,t&amp;gt;0\
+0 =\Delta v-\mu+u &amp;amp;x\in\Omega,t&amp;gt;0\
+\partial_\nu u =\partial_\nu v=0 &amp;amp;x\in\partial\Omega,t&amp;gt;0\
+u(\cdot, 0) =u_0(\cdot)&amp;amp;x\in\Omega
+\end{cases}
+$$&lt;/p>
+&lt;p>其中$\Omega\subset\mathbb{R}^n(n\geq2)$, $\mu=\int_\Omega u(\cdot,t)/|\Omega|$ 且$\alpha\geq2/n$.考虑径向对称系统在超临界趋化敏感度情形下的临界质量问题。&lt;/p>
+&lt;h2 id="研究内容与方法一-1">研究内容与方法（一）&lt;/h2>
+&lt;ul>
+&lt;li>考虑任给径向不增初值，运用极值型论证方法证明解也是径向不增的且可以对径向系统运用比较方法。&lt;/li>
+&lt;li>对于爆破结果，先运用加权函数法得到一个超临界情形下的局部爆破准则，&lt;/li>
+&lt;li>​ 然后通过构造合适的大质量稳态下解族，结合连通性论证方法得到稳态问题不存在大质量正则不增稳态解，&lt;/li>
+&lt;li>最后用反证法，结合解的长时间行为分析方法和比较方法，得到任给大质量不增初值，对应的解都有限时刻爆破。类似可以得到临界指数情形下，任给大质量不增初值，对应的解都有限时刻或无穷时刻爆破。&lt;/li>
+&lt;li>对于有界性结果，运行椭圆问题梯度估计技巧，构造在原点处消失且梯度一致有界的稳态上解，从而可以由比较方法得到小质量条件下存在不增初值使得解一致有界。&lt;/li>
+&lt;/ul>
+&lt;h2 id="研究内容与方法二">研究内容与方法（二）&lt;/h2>
+&lt;p>$$
+\begin{cases}
+u_t =\Delta u-\nabla \cdot\left(u(1+u)^{2/n-1} \nabla v\right) &amp;amp;x\in\Omega,t&amp;gt;0\
+0 =\Delta v-\mu+u &amp;amp;x\in\Omega,t&amp;gt;0\
+\partial_\nu u =\partial_\nu v=0 &amp;amp;x\in\partial\Omega,t&amp;gt;0\
+u(\cdot, 0) =u_0(\cdot)&amp;amp;x\in\Omega
+\end{cases}
+$$&lt;/p>
+&lt;p>其中$\Omega\subset\mathbb{R}^n(n\geq3)$, $\mu=\int_\Omega u(\cdot,t)/|\Omega|$. 考虑高维条件下径向系统的有限时刻爆破临界质量问题以及临界质量的具体值。&lt;/p>
+&lt;h2 id="研究内容与方法二-1">研究内容与方法（二）&lt;/h2>
+&lt;ul>
+&lt;li>利用抛物和椭圆的正则性理论，得到小初值的$L_\infty$估计。&lt;/li>
+&lt;li>对于大初值有限时刻爆破的存在性问题，我们仅考虑径向情形，我们在研究第一个问题时，已经得到了大质量不增初值意味着解有限时刻或无限时刻爆破，现在我们想确定临界质量具体值以及解究竟有限时刻还是无穷时刻爆破。&lt;/li>
+&lt;li>一个得到临界质量具体值的思路是需要推导一个最优的Moser-Trudinger型不等式，&lt;/li>
+&lt;li>一个排除无穷时刻爆破的思路是应用反证法假设解整体存在考虑稳态问题和对应变分问题的聚集-紧性质，以得到无穷时刻径向爆破解在原点处聚集固定的质量，从而与通过构造合适的下解其在无穷时刻于原点聚集更大的质量而矛盾。&lt;/li>
+&lt;/ul>
+&lt;h2 id="研究内容与方法三">研究内容与方法（三）&lt;/h2>
+&lt;p>$$
+\begin{cases}
+u_t =\Delta u-\nabla \cdot(u \nabla v) &amp;amp;x\in\Omega,t&amp;gt;0\
+0 =\Delta v-\mu(t)+w &amp;amp;x\in\Omega,t&amp;gt;0\
+w_t +w=u &amp;amp;x\in\Omega,t&amp;gt;0\
+\partial_v u =\partial_v v=0 &amp;amp;x\in\partial\Omega,t&amp;gt;0\
+u(x, 0) =u_0(x), \quad w(x, 0)=w_0(x) &amp;amp;x\in\Omega
+\end{cases}
+$$&lt;/p>
+&lt;p>其中$\Omega\subset\mathbb{R}^n(n\geq2)$,$\mu(t)=\int_\Omega w(\cdot,t)/|\Omega|$.考虑间接信号产生趋化问题的临界质量问题。&lt;/p>
+&lt;h2 id="研究内容与方法三-1">研究内容与方法（三）&lt;/h2>
+&lt;ul>
+&lt;li>在二维临界情形下，我们已得到一个结果，即任给比质量平均函数聚集的大初值，解无穷时刻爆破，而存在比质量平均函数聚集的小初值，解整体存在且有界。&lt;/li>
+&lt;li>现在我们考虑高维超临界情形下，径向解的有限时刻爆破问题。我们拟构造加权函数积分推导其满足一个超线性微分不等式从而得到一个局部爆破准则。&lt;/li>
+&lt;li>接下来考虑临界质量问题。为了得到有限时刻爆破结果，我们需要构造大质量稳态下解族，再考虑以下解作为初值的解的长时间行为，结合得到的局部爆破准则，通过反证得到该解有限时刻爆破，最后应用比较方法得到比质量平均函数更聚集的大质量初值对应的解都有限时刻爆破。&lt;/li>
+&lt;li>为了得到整体有界的结果，我们需要先得到一个$\varepsilon$-正则性型结果，以此为基础得到存在小质量初值使得对应解整体有界。&lt;/li>
+&lt;/ul>
+&lt;h2 id="预计的困难及解决办法">预计的困难及解决办法&lt;/h2>
+&lt;pre>&lt;code>\item 研究问题1超临界情形下的有限时刻爆破问题时，主要的困难在于非线性敏感度条件下的稳态上下解的构造，需要我们从稳态特解出发，适当引入并调整上下解的参数来具体构造。
+\item 研究问题2在高维临界情形下的有限时刻爆破的临界质量问题时，主要的困难在于建立稳态问题及其变分结构的聚集-紧引理，需要我们改进2维临界情形下的相关方法。
+\item 研究问题3的主要困难在于高维情形下有限时刻爆破的局部准则的建立，需要我们改进经典趋化问题超临界情形下相关结论的方法。
+&lt;/code>&lt;/pre>
+&lt;h2 id="预期的成果">预期的成果&lt;/h2>
+&lt;p>通过对上述趋化模型的研究，得出解的爆破准则和临界质量现象。在得到爆破准则的基础上进一步讨论相应的爆破机制，对模型进行定性的分析。拟在国际重要期刊发表学术论文3-4篇。&lt;/p>
+&lt;h2 id="进度安排">进度安排&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>起讫时间&lt;/th>
+&lt;th>工作内容和要求&lt;/th>
+&lt;th>备注&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>2023.6-2023.8&lt;/td>
+&lt;td>广泛收集材料，了解国内外本专业的动态和进展，综合相关问题的研究方法和技巧。&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2023.9-2024.1&lt;/td>
+&lt;td>深入阅读有关趋化方程爆破分析文献，在小组讨论班上汇报阅读文献后的收获，讨论解决相关问题的想法。&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2024.2-2024.4&lt;/td>
+&lt;td>寻找突破口，尝试解决相关的前沿问题。&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2024.5-2024.6&lt;/td>
+&lt;td>进一步研究上述模型，认真研读文献，在小组讨论班上汇报，并尝试解决相关问题。&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2024.7-2024.8&lt;/td>
+&lt;td>撰写并整理毕业论文。&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2024.9-2024.10&lt;/td>
+&lt;td>准备论文预答辩&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2024.11-2024.12&lt;/td>
+&lt;td>准备论文答辩&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="致谢">致谢&lt;/h2>
+&lt;p>欢迎提出宝贵意见。&lt;/p></description></item><item><title>Slides</title><link>https://aunomax.github.io/slides/example/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://aunomax.github.io/slides/example/</guid><description>&lt;h1 id="create-slides-in-markdown-with-wowchemy">Create slides in Markdown with Wowchemy&lt;/h1>
 &lt;p>&lt;a href="https://wowchemy.com/" target="_blank" rel="noopener">Wowchemy&lt;/a> | &lt;a href="https://wowchemy.com/docs/content/slides/" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p>
 &lt;hr>
 &lt;h2 id="features">Features&lt;/h2>
