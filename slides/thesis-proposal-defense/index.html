@@ -1,66 +1,66 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Wowchemy 5.7.0 for Hugo"><link rel=manifest href=/manifest.webmanifest><link rel=icon type=image/png href=/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png><link rel=apple-touch-icon type=image/png href=/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png><link rel=canonical href=https://aunomax.github.io/slides/thesis-proposal-defense/><title>Thesis Proposal Defense | Academic</title><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.min.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/black.min.css><link rel=stylesheet href=/css/libs/chroma/dracula.min.css></head><body><div class=reveal><div class=slides><section><h1 id=几类趋化方程解的爆破分析>几类趋化方程解的爆破分析</h1><p>2023年6月9日</p><h2 id=提纲>提纲</h2><ul><li>生物背景</li><li>研究现状</li><li>研究内容与方法</li><li>预计的困难及解决方法</li><li>预期成果</li><li>进度安排</li></ul><h2 id=生物背景>生物背景</h2><p>趋化模型最早由Keller & Segel（1970）提出，用于描述细胞对化学信号刺激做出的趋向反应。
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Wowchemy 5.7.0 for Hugo"><link rel=manifest href=/manifest.webmanifest><link rel=icon type=image/png href=/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png><link rel=apple-touch-icon type=image/png href=/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png><link rel=canonical href=https://aunomax.github.io/slides/thesis-proposal-defense/><title>Thesis Proposal Defense | Academic</title><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.min.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/black.min.css><link rel=stylesheet href=/css/libs/chroma/dracula.min.css></head><body><div class=reveal><div class=slides><section><h1 id=几类趋化方程解的爆破分析>几类趋化方程解的爆破分析</h1><h2 id=2023年6月9日>2023年6月9日</h2><h2 id=提纲>提纲</h2><ul><li>生物背景</li><li>研究现状</li><li>研究内容与方法</li><li>预计的困难及解决方法</li><li>预期成果</li><li>进度安排</li></ul></section><section><h2 id=生物背景>生物背景</h2><h2 id=heading>趋化模型最早由Keller & Segel（1970）提出，用于描述细胞对化学信号刺激做出的趋向反应。
 $$
 \begin{cases}
 u_t =\nabla \cdot(\nabla u-u \nabla v), \
 \tau v_t =\Delta v-v+u,
 \end{cases}
-$$</p><h2 id=生物背景-1>生物背景</h2><p>Painter & Hillen (2002) 引入体积填充（volume filling）效应，提出了如下密度依赖的趋化模型：
+$$</h2><h2 id=生物背景-1>生物背景</h2><p>Painter & Hillen (2002) 引入体积填充（volume filling）效应，提出了如下密度依赖的趋化模型：
 $$
 \begin{cases}
 u_t=\nabla \cdot(D(u) \nabla u)-\nabla \cdot(S(u) \nabla v), \
 \tau v_t=\Delta v-v+u,
 \end{cases}
-$$</p><p>$$
+$$</p><h2 id=heading-1>$$
 D(u)=(1+u)^{m-1},\quad S(u)=u(1+u)^{q-1},\quad m,q\in\mathbb{R}
-$$</p><h2 id=生物背景-2>生物背景</h2><p>​ Strohm, Tyson & Powell (2013)研究山松甲壳虫的聚集攻击现象时，提出了间接信号产生的趋化模型：
+$$</h2><h2 id=生物背景-2>生物背景</h2><h2 id=heading-2>Strohm, Tyson & Powell (2013)研究山松甲壳虫的聚集攻击现象时，提出了间接信号产生的趋化模型：
 $$
 \begin{cases}
 u_t=\Delta u-\nabla \cdot(u \nabla v) \
 \tau v_t=\Delta v - v + {w} \
 w_t=u -w
 \end{cases}
-$$</p><h2 id=研究现状>研究现状</h2><p>$$
+$$</h2><h2 id=研究现状>研究现状</h2><p>$$
 \begin{cases}
 u_t =\nabla \cdot(\nabla u-u \nabla v), \
 \tau v_t =\Delta v-v+u,
 \end{cases}
-$$</p><p>​ $\tau=1$,PP</p><ul><li>1D Osaki & Yagi (2001):所有解都整体存在且全局有界。</li><li>2D 经典趋化模型在二维有界区域存在爆破临界质量现象。<ul><li>Nagai, Senba & Yoshida (1997): 细胞质量小于$4\pi$，所有解均整体存在且有界，</li><li>Horstmann & Wang (2001): 细胞质量大于$4\pi$且不是$4\pi$整数倍，存在解有限/无限时刻爆破。</li></ul></li><li>nD Winkler (2013): 任意细胞质量都存在解有限时刻爆破。</li><li>Mizoguchi(2016,2020,2020,2020);Winkler(2020)</li></ul><h2 id=研究现状-1>研究现状</h2><p>​ $\tau=0$,PE （化学信号扩散速度远大于细胞运动速度。）</p><ul><li>临界质量：J"{a}ger & Luckhaus (1992);Nagai (1995);Nagai (2001).</li><li>趋化坍缩：Nagai, Senba & Suzuki(2000)&mdash;Suzuki(2013)</li><li>二型爆破：Senba 2007 2d; Mizoguchi & Senba 2007 nd($n\geq11$);</li><li>一型爆破：Mizoguchi & Senba(2011)($3\leq n\leq 10$);Giga, Mizoguchi & Senba(2011)</li><li>爆破形态：Souplet & Winkler(2019);</li><li>新临界质量：Winkler(2019);Fuhrmann, Lankeit & Winkler(2022);</li></ul><h2 id=研究现状-2>研究现状</h2><p>$$
+$$</p><p>$\tau=1$,PP</p><ul><li>1D Osaki & Yagi (2001):所有解都整体存在且全局有界。</li><li>2D 经典趋化模型在二维有界区域存在爆破临界质量现象。<ul><li>Nagai, Senba & Yoshida (1997): 细胞质量小于$4\pi$，所有解均整体存在且有界，</li><li>Horstmann & Wang (2001): 细胞质量大于$4\pi$且不是$4\pi$整数倍，存在解有限/无限时刻爆破。</li></ul></li><li>nD Winkler (2013): 任意细胞质量都存在解有限时刻爆破。</li><li>Mizoguchi(2016,2020,2020,2020);Winkler(2020)</li></ul></section><section><h2 id=研究现状-1>研究现状</h2><p>$\tau=0$,PE （化学信号扩散速度远大于细胞运动速度。）</p><ul><li>临界质量：J"{a}ger & Luckhaus (1992);Nagai (1995);Nagai (2001).</li><li>趋化坍缩：Nagai, Senba & Suzuki(2000)&mdash;Suzuki(2013)</li><li>二型爆破：Senba 2007 2d; Mizoguchi & Senba 2007 nd($n\geq11$);</li><li>一型爆破：Mizoguchi & Senba(2011)($3\leq n\leq 10$);Giga, Mizoguchi & Senba(2011)</li><li>爆破形态：Souplet & Winkler(2019);</li><li>新临界质量：Winkler(2019);Fuhrmann, Lankeit & Winkler(2022);</li></ul></section><section><h2 id=研究现状-2>研究现状</h2><p>$$
 \begin{cases}
 u_t =\nabla \cdot(\nabla u-u \nabla v) \
 0 =\Delta v + u
 \end{cases}
-$$</p><p>$\mathbb{R}^2$</p><ul><li>临界质量：Blanchet, Dolbeault & Perthame(2006); Wei(2018);</li><li>临界：Blanchet, Carrillo & Masmoudi(2008);Blanchet, Carlen & Carrillo(2012);L'{o}pez-G'{o}mez, Nagai & Yamada(2014); Ghoul & Masmoudi(2018);</li><li>次临界：Campos & Dolbeault(2014);Fern'{a}ndez & Mischler(2016);</li><li>超临界：Rapha"{e}l, Pierre and Schweyer(2014);Collot, Ghoul, Masmoudi & Nguyen(2022); Mizoguchi(2022)</li></ul><h2 id=研究现状-3>研究现状</h2><p>​ 记$\alpha=q+1-m.$
+$$</p><p>$\mathbb{R}^2$</p><ul><li>临界质量：Blanchet, Dolbeault & Perthame(2006); Wei(2018);</li><li>临界：Blanchet, Carrillo & Masmoudi(2008);Blanchet, Carlen & Carrillo(2012);L'{o}pez-G'{o}mez, Nagai & Yamada(2014); Ghoul & Masmoudi(2018);</li><li>次临界：Campos & Dolbeault(2014);Fern'{a}ndez & Mischler(2016);</li><li>超临界：Rapha"{e}l, Pierre and Schweyer(2014);Collot, Ghoul, Masmoudi & Nguyen(2022); Mizoguchi(2022)</li></ul></section><section><h2 id=研究现状-3>研究现状</h2><p>记$\alpha=q+1-m.$
 $$
 \begin{cases}
 u_t=\nabla \cdot((u+1)^{m-1} \nabla u)-\nabla \cdot(u(u+1)^{q-1} \nabla v) \
 \tau v_t=\Delta v-v+u
 \end{cases}
-$$</p><ul><li>$\alpha>2/n$ 存在解有限/无限时刻爆破。Cie'{s}lak & Winkler(2008);Winkler(2010,2019);Cie'{s}lak & Stinner(2012,2014,2015);Lankeit(2020);</li><li>$\alpha&lt;2/n$ 解总是全局存在且有界的。Tao & Winkler(2012);Ishida, Seki & Yokota(2014);</li></ul><h2 id=研究现状-4>研究现状</h2><p>​ 当$\alpha=2/n(n\geq3)$时</p><ul><li>$q=1,m=2-2/n$,临界扩散趋化系统小质量解整体存在且有界，存在大质量解有限时刻爆破。Cie'{s}lak & Lauren\c{c}ot(2009)</li><li>$q=2/n,m=1$,临界敏感度趋化问题存在一个临界质量$M_c$,任给初值质量小于$M_c$解都全局有界，任给初值质量大于$M_c$解都有限时刻爆破。Montaru(2013)</li><li>双抛物临界趋化系统存在一个临界质量$M_c$,任给初值质量小于$M_c$解都全局有界，存在初值质量大于$M_c$解有限/无穷时刻爆破。Winkler(2022);Cao & Gao(2023)</li></ul><p>$n=1$临界结果Cie'{s}lak & Lauren\c{c}ot(2010,2010);Cie'{s}lak & Fujie(2018)</p><h2 id=研究现状-5>研究现状</h2><p>$$
+$$</p><ul><li>$\alpha>2/n$ 存在解有限/无限时刻爆破。Cie'{s}lak & Winkler(2008);Winkler(2010,2019);Cie'{s}lak & Stinner(2012,2014,2015);Lankeit(2020);</li><li>$\alpha&lt;2/n$ 解总是全局存在且有界的。Tao & Winkler(2012);Ishida, Seki & Yokota(2014);</li></ul></section><section><h2 id=研究现状-4>研究现状</h2><p>当$\alpha=2/n(n\geq3)$时</p><ul><li>$q=1,m=2-2/n$,临界扩散趋化系统小质量解整体存在且有界，存在大质量解有限时刻爆破。Cie'{s}lak & Lauren\c{c}ot(2009)</li><li>$q=2/n,m=1$,临界敏感度趋化问题存在一个临界质量$M_c$,任给初值质量小于$M_c$解都全局有界，任给初值质量大于$M_c$解都有限时刻爆破。Montaru(2013)</li><li>双抛物临界趋化系统存在一个临界质量$M_c$,任给初值质量小于$M_c$解都全局有界，存在初值质量大于$M_c$解有限/无穷时刻爆破。Winkler(2022);Cao & Gao(2023)</li></ul><h2 id=n1临界结果cieslak--laurenccot20102010cieslak--fujie2018>$n=1$临界结果Cie'{s}lak & Lauren\c{c}ot(2010,2010);Cie'{s}lak & Fujie(2018)</h2><h2 id=研究现状-5>研究现状</h2><p>$$
 \begin{cases}
 u_t =\nabla \cdot\left[\nabla u^m(t, x)-u(t, x) \nabla \phi(t, x)\right] \
 0 = \Delta \phi(t, x) + u(t, x),
 \end{cases}
-$$</p><ul><li>$m=2-2/n(n\geq3)$ Sugiyama(2007);Blanchet, Carrillo & Lauren\c{c}ot(2009);Lauren\c{c}ot & Mizoguchi(2017);</li><li>$m=\frac{2n}{n+2}(n\geq3)$ Chen, Liu & Wang(2012)</li></ul><h2 id=研究现状-6>研究现状</h2><p>$$
+$$</p><ul><li>$m=2-2/n(n\geq3)$ Sugiyama(2007);Blanchet, Carrillo & Lauren\c{c}ot(2009);Lauren\c{c}ot & Mizoguchi(2017);</li><li>$m=\frac{2n}{n+2}(n\geq3)$ Chen, Liu & Wang(2012)</li></ul></section><section><h2 id=研究现状-6>研究现状</h2><p>$$
 \begin{cases}
 u_t=\Delta u-\nabla \cdot(u \nabla v) \
 \tau v_t=\Delta v-v+w \
 w_t+w=u
 \end{cases}
-$$</p><p>空间二维条件下解总是全局存在的。</p><ul><li>径向条件下临界质量是$8\pi$，初值质量小于$8\pi$,解总一致有界；存在初值质量大于$8\pi$对应解无界。Tao & Winkler(2017)</li><li>非径向条件下，临界质量是$4\pi$,初始质量小于$4\pi$,解总一致有界；存在初值质量大于$4\pi$且不为$4\pi$整数倍，对应解无界。Lauren\c{c}ot(2019)</li></ul><p>Fujie & Senba(2019);Lauren\c{c}ot & Stinner(2021)</p><h2 id=研究内容与方法一>研究内容与方法（一）</h2><p>$$
+$$</p><p>空间二维条件下解总是全局存在的。</p><ul><li>径向条件下临界质量是$8\pi$，初值质量小于$8\pi$,解总一致有界；存在初值质量大于$8\pi$对应解无界。Tao & Winkler(2017)</li><li>非径向条件下，临界质量是$4\pi$,初始质量小于$4\pi$,解总一致有界；存在初值质量大于$4\pi$且不为$4\pi$整数倍，对应解无界。Lauren\c{c}ot(2019)</li></ul><h2 id=fujie--senba2019laurenccot--stinner2021>Fujie & Senba(2019);Lauren\c{c}ot & Stinner(2021)</h2><h2 id=研究内容与方法一>研究内容与方法（一）</h2><p>$$
 \begin{cases}
 u_t =\Delta u-\nabla \cdot\left(u(1+u)^{\alpha-1} \nabla v\right) &amp;x\in\Omega,t>0\
 0 =\Delta v-\mu+u &amp;x\in\Omega,t>0\
 \partial_\nu u =\partial_\nu v=0 &amp;x\in\partial\Omega,t>0\
 u(\cdot, 0) =u_0(\cdot)&amp;x\in\Omega
 \end{cases}
-$$</p><p>其中$\Omega\subset\mathbb{R}^n(n\geq2)$, $\mu=\int_\Omega u(\cdot,t)/|\Omega|$ 且$\alpha\geq2/n$.考虑径向对称系统在超临界趋化敏感度情形下的临界质量问题。</p><h2 id=研究内容与方法一-1>研究内容与方法（一）</h2><ul><li>考虑任给径向不增初值，运用极值型论证方法证明解也是径向不增的且可以对径向系统运用比较方法。</li><li>对于爆破结果，先运用加权函数法得到一个超临界情形下的局部爆破准则，</li><li>​ 然后通过构造合适的大质量稳态下解族，结合连通性论证方法得到稳态问题不存在大质量正则不增稳态解，</li><li>最后用反证法，结合解的长时间行为分析方法和比较方法，得到任给大质量不增初值，对应的解都有限时刻爆破。类似可以得到临界指数情形下，任给大质量不增初值，对应的解都有限时刻或无穷时刻爆破。</li><li>对于有界性结果，运行椭圆问题梯度估计技巧，构造在原点处消失且梯度一致有界的稳态上解，从而可以由比较方法得到小质量条件下存在不增初值使得解一致有界。</li></ul><h2 id=研究内容与方法二>研究内容与方法（二）</h2><p>$$
+$$</p><h2 id=其中omegasubsetmathbbrnngeq2-muint_omega-ucdottomega-且alphageq2n考虑径向对称系统在超临界趋化敏感度情形下的临界质量问题>其中$\Omega\subset\mathbb{R}^n(n\geq2)$, $\mu=\int_\Omega u(\cdot,t)/|\Omega|$ 且$\alpha\geq2/n$.考虑径向对称系统在超临界趋化敏感度情形下的临界质量问题。</h2><h2 id=研究内容与方法一-1>研究内容与方法（一）</h2><ul><li>考虑任给径向不增初值，运用极值型论证方法证明解也是径向不增的且可以对径向系统运用比较方法。</li><li>对于爆破结果，先运用加权函数法得到一个超临界情形下的局部爆破准则，</li><li>然后通过构造合适的大质量稳态下解族，结合连通性论证方法得到稳态问题不存在大质量正则不增稳态解，</li><li>最后用反证法，结合解的长时间行为分析方法和比较方法，得到任给大质量不增初值，对应的解都有限时刻爆破。类似可以得到临界指数情形下，任给大质量不增初值，对应的解都有限时刻或无穷时刻爆破。</li><li>对于有界性结果，运行椭圆问题梯度估计技巧，构造在原点处消失且梯度一致有界的稳态上解，从而可以由比较方法得到小质量条件下存在不增初值使得解一致有界。</li></ul></section><section><h2 id=研究内容与方法二>研究内容与方法（二）</h2><p>$$
 \begin{cases}
 u_t =\Delta u-\nabla \cdot\left(u(1+u)^{2/n-1} \nabla v\right) &amp;x\in\Omega,t>0\
 0 =\Delta v-\mu+u &amp;x\in\Omega,t>0\
 \partial_\nu u =\partial_\nu v=0 &amp;x\in\partial\Omega,t>0\
 u(\cdot, 0) =u_0(\cdot)&amp;x\in\Omega
 \end{cases}
-$$</p><p>其中$\Omega\subset\mathbb{R}^n(n\geq3)$, $\mu=\int_\Omega u(\cdot,t)/|\Omega|$. 考虑高维条件下径向系统的有限时刻爆破临界质量问题以及临界质量的具体值。</p><h2 id=研究内容与方法二-1>研究内容与方法（二）</h2><ul><li>利用抛物和椭圆的正则性理论，得到小初值的$L_\infty$估计。</li><li>对于大初值有限时刻爆破的存在性问题，我们仅考虑径向情形，我们在研究第一个问题时，已经得到了大质量不增初值意味着解有限时刻或无限时刻爆破，现在我们想确定临界质量具体值以及解究竟有限时刻还是无穷时刻爆破。</li><li>一个得到临界质量具体值的思路是需要推导一个最优的Moser-Trudinger型不等式，</li><li>一个排除无穷时刻爆破的思路是应用反证法假设解整体存在考虑稳态问题和对应变分问题的聚集-紧性质，以得到无穷时刻径向爆破解在原点处聚集固定的质量，从而与通过构造合适的下解其在无穷时刻于原点聚集更大的质量而矛盾。</li></ul><h2 id=研究内容与方法三>研究内容与方法（三）</h2><p>$$
+$$</p><h2 id=其中omegasubsetmathbbrnngeq3-muint_omega-ucdottomega----考虑高维条件下径向系统的有限时刻爆破临界质量问题以及临界质量的具体值>其中$\Omega\subset\mathbb{R}^n(n\geq3)$, $\mu=\int_\Omega u(\cdot,t)/|\Omega|$. 考虑高维条件下径向系统的有限时刻爆破临界质量问题以及临界质量的具体值。</h2><h2 id=研究内容与方法二-1>研究内容与方法（二）</h2><ul><li>利用抛物和椭圆的正则性理论，得到小初值的$L_\infty$估计。</li><li>对于大初值有限时刻爆破的存在性问题，我们仅考虑径向情形，我们在研究第一个问题时，已经得到了大质量不增初值意味着解有限时刻或无限时刻爆破，现在我们想确定临界质量具体值以及解究竟有限时刻还是无穷时刻爆破。</li><li>一个得到临界质量具体值的思路是需要推导一个最优的Moser-Trudinger型不等式，</li><li>一个排除无穷时刻爆破的思路是应用反证法假设解整体存在考虑稳态问题和对应变分问题的聚集-紧性质，以得到无穷时刻径向爆破解在原点处聚集固定的质量，从而与通过构造合适的下解其在无穷时刻于原点聚集更大的质量而矛盾。</li></ul></section><section><h2 id=研究内容与方法三>研究内容与方法（三）</h2><p>$$
 \begin{cases}
 u_t =\Delta u-\nabla \cdot(u \nabla v) &amp;x\in\Omega,t>0\
 0 =\Delta v-\mu(t)+w &amp;x\in\Omega,t>0\
@@ -68,10 +68,7 @@ w_t +w=u &amp;x\in\Omega,t>0\
 \partial_v u =\partial_v v=0 &amp;x\in\partial\Omega,t>0\
 u(x, 0) =u_0(x), \quad w(x, 0)=w_0(x) &amp;x\in\Omega
 \end{cases}
-$$</p><p>其中$\Omega\subset\mathbb{R}^n(n\geq2)$,$\mu(t)=\int_\Omega w(\cdot,t)/|\Omega|$.考虑间接信号产生趋化问题的临界质量问题。</p><h2 id=研究内容与方法三-1>研究内容与方法（三）</h2><ul><li>在二维临界情形下，我们已得到一个结果，即任给比质量平均函数聚集的大初值，解无穷时刻爆破，而存在比质量平均函数聚集的小初值，解整体存在且有界。</li><li>现在我们考虑高维超临界情形下，径向解的有限时刻爆破问题。我们拟构造加权函数积分推导其满足一个超线性微分不等式从而得到一个局部爆破准则。</li><li>接下来考虑临界质量问题。为了得到有限时刻爆破结果，我们需要构造大质量稳态下解族，再考虑以下解作为初值的解的长时间行为，结合得到的局部爆破准则，通过反证得到该解有限时刻爆破，最后应用比较方法得到比质量平均函数更聚集的大质量初值对应的解都有限时刻爆破。</li><li>为了得到整体有界的结果，我们需要先得到一个$\varepsilon$-正则性型结果，以此为基础得到存在小质量初值使得对应解整体有界。</li></ul><h2 id=预计的困难及解决办法>预计的困难及解决办法</h2><pre><code>\item	研究问题1超临界情形下的有限时刻爆破问题时，主要的困难在于非线性敏感度条件下的稳态上下解的构造，需要我们从稳态特解出发，适当引入并调整上下解的参数来具体构造。
-\item	研究问题2在高维临界情形下的有限时刻爆破的临界质量问题时，主要的困难在于建立稳态问题及其变分结构的聚集-紧引理，需要我们改进2维临界情形下的相关方法。
-\item	研究问题3的主要困难在于高维情形下有限时刻爆破的局部准则的建立，需要我们改进经典趋化问题超临界情形下相关结论的方法。
-</code></pre><h2 id=预期的成果>预期的成果</h2><p>通过对上述趋化模型的研究，得出解的爆破准则和临界质量现象。在得到爆破准则的基础上进一步讨论相应的爆破机制，对模型进行定性的分析。拟在国际重要期刊发表学术论文3-4篇。</p><h2 id=进度安排>进度安排</h2><table><thead><tr><th>起讫时间</th><th>工作内容和要求</th><th>备注</th></tr></thead><tbody><tr><td>2023.6-2023.8</td><td>广泛收集材料，了解国内外本专业的动态和进展，综合相关问题的研究方法和技巧。</td><td></td></tr><tr><td>2023.9-2024.1</td><td>深入阅读有关趋化方程爆破分析文献，在小组讨论班上汇报阅读文献后的收获，讨论解决相关问题的想法。</td><td></td></tr><tr><td>2024.2-2024.4</td><td>寻找突破口，尝试解决相关的前沿问题。</td><td></td></tr><tr><td>2024.5-2024.6</td><td>进一步研究上述模型，认真研读文献，在小组讨论班上汇报，并尝试解决相关问题。</td><td></td></tr><tr><td>2024.7-2024.8</td><td>撰写并整理毕业论文。</td><td></td></tr><tr><td>2024.9-2024.10</td><td>准备论文预答辩</td><td></td></tr><tr><td>2024.11-2024.12</td><td>准备论文答辩</td><td></td></tr></tbody></table><h2 id=致谢>致谢</h2><p>欢迎提出宝贵意见。</p></section></div></div><script src=https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.min.js crossorigin=anonymous></script>
+$$</p><h2 id=其中omegasubsetmathbbrnngeq2mutint_omega-wcdottomega考虑间接信号产生趋化问题的临界质量问题>其中$\Omega\subset\mathbb{R}^n(n\geq2)$,$\mu(t)=\int_\Omega w(\cdot,t)/|\Omega|$.考虑间接信号产生趋化问题的临界质量问题。</h2><h2 id=研究内容与方法三-1>研究内容与方法（三）</h2><ul><li>在二维临界情形下，我们已得到一个结果，即任给比质量平均函数聚集的大初值，解无穷时刻爆破，而存在比质量平均函数聚集的小初值，解整体存在且有界。</li><li>现在我们考虑高维超临界情形下，径向解的有限时刻爆破问题。我们拟构造加权函数积分推导其满足一个超线性微分不等式从而得到一个局部爆破准则。</li><li>接下来考虑临界质量问题。为了得到有限时刻爆破结果，我们需要构造大质量稳态下解族，再考虑以下解作为初值的解的长时间行为，结合得到的局部爆破准则，通过反证得到该解有限时刻爆破，最后应用比较方法得到比质量平均函数更聚集的大质量初值对应的解都有限时刻爆破。</li><li>为了得到整体有界的结果，我们需要先得到一个$\varepsilon$-正则性型结果，以此为基础得到存在小质量初值使得对应解整体有界。</li></ul></section><section><h2 id=预计的困难及解决办法>预计的困难及解决办法</h2><ul><li>研究问题1超临界情形下的有限时刻爆破问题时，主要的困难在于非线性敏感度条件下的稳态上下解的构造，需要我们从稳态特解出发，适当引入并调整上下解的参数来具体构造。</li><li>研究问题2在高维临界情形下的有限时刻爆破的临界质量问题时，主要的困难在于建立稳态问题及其变分结构的聚集-紧引理，需要我们改进2维临界情形下的相关方法。</li><li>研究问题3的主要困难在于高维情形下有限时刻爆破的局部准则的建立，需要我们改进经典趋化问题超临界情形下相关结论的方法。</li></ul></section><section><h2 id=预期的成果>预期的成果</h2><h2 id=通过对上述趋化模型的研究得出解的爆破准则和临界质量现象在得到爆破准则的基础上进一步讨论相应的爆破机制对模型进行定性的分析拟在国际重要期刊发表学术论文3-4篇>通过对上述趋化模型的研究，得出解的爆破准则和临界质量现象。在得到爆破准则的基础上进一步讨论相应的爆破机制，对模型进行定性的分析。拟在国际重要期刊发表学术论文3-4篇。</h2><h2 id=进度安排>进度安排</h2><table><thead><tr><th>起讫时间</th><th>工作内容和要求</th><th>备注</th></tr></thead><tbody><tr><td>2023.6-2023.8</td><td>广泛收集材料，了解国内外本专业的动态和进展，综合相关问题的研究方法和技巧。</td><td></td></tr><tr><td>2023.9-2024.1</td><td>深入阅读有关趋化方程爆破分析文献，在小组讨论班上汇报阅读文献后的收获，讨论解决相关问题的想法。</td><td></td></tr><tr><td>2024.2-2024.4</td><td>寻找突破口，尝试解决相关的前沿问题。</td><td></td></tr><tr><td>2024.5-2024.6</td><td>进一步研究上述模型，认真研读文献，在小组讨论班上汇报，并尝试解决相关问题。</td><td></td></tr><tr><td>2024.7-2024.8</td><td>撰写并整理毕业论文。</td><td></td></tr><tr><td>2024.9-2024.10</td><td>准备论文预答辩</td><td></td></tr><tr><td>2024.11-2024.12</td><td>准备论文答辩</td><td></td></tr></tbody></table></section><section><h2 id=致谢>致谢</h2><h2 id=欢迎提出宝贵意见>欢迎提出宝贵意见。</h2></section></div></div><script src=https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.min.js crossorigin=anonymous></script>
 <script src=https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/markdown/markdown.min.js crossorigin=anonymous></script>
 <script src=https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/notes/notes.min.js crossorigin=anonymous></script>
 <script src=https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/search/search.min.js crossorigin=anonymous></script>
