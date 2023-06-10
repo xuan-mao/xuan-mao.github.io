@@ -10,7 +10,7 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Vanishing Viscosity Limits of a Chemotaxis Navier Stokes Model</title><link>https://aunomax.github.io/test/referee-report/vanishing-viscosity-limits-of-a-chemotaxis-navier-stokes-model/</link><pubDate>Sat, 10 Jun 2023 10:07:55 +0800</pubDate><guid>https://aunomax.github.io/test/referee-report/vanishing-viscosity-limits-of-a-chemotaxis-navier-stokes-model/</guid><description>&lt;center>
-REFEREES REPORT
+REFEREE REPORT
 &lt;center>on&lt;/center>
 &lt;center>
 "Vanishing viscosity limits of a chemotaxis-Navier-Stokes model"
@@ -20,13 +20,13 @@ by Jishan Fan and Fucai Li
 &lt;/center>
 &lt;p>In this paper the authors considered the following initial-boundary value problem for the chemotaxis system coupled with incompressible Navier-Stokes system
 $$
-\begin{aligned}
+\begin{align*}
 &amp;amp; \partial_t n+u \cdot \nabla n-\Delta n=-\nabla \cdot(n \nabla p)-\nabla \cdot(n \nabla q), \
 &amp;amp; \partial_t p+u \cdot \nabla p-\epsilon_1 \Delta p=-n p, \
 &amp;amp; \partial_t q+u \cdot \nabla q-\epsilon_2 \Delta q+q=n, \
 &amp;amp; \partial_t u+u \cdot \nabla u-\Delta u+\nabla \pi=n \nabla \phi, \
 &amp;amp; \operatorname{div} u=0,
-\end{aligned}
+\end{align*}
 $$
 in a bounded domain $\Omega\subset \mathbb{R}^3$ withs mooth boundary, subjected to a mixed boundary conditions
 $$
@@ -42,24 +42,24 @@ to apply Banach&amp;rsquo;s fixed point theorem should be given explicitly.&lt;/
 &lt;/li>
 &lt;li>
 &lt;p>P5L-last line:
-&amp;ldquo;$\int_{\Omega} p|\nabla \tilde{n} | \nabla p|^5 \mathrm{~d} x$&amp;quot;
-$\Rightarrow$
-&amp;ldquo;$\int_{\Omega} p|\nabla p|^4 \nabla p \cdot\nabla\tilde{n} \mathrm{~d} x$&amp;quot;.&lt;/p>
+$$
+\text{&lt;code>}\int_{\Omega} p|\nabla \tilde{n} \| \nabla p|^5 \mathrm{~d} x\text{&amp;quot; }\Rightarrow\text{ &lt;/code>}\int_{\Omega} p|\nabla p|^4 \nabla p \cdot\nabla\tilde{n} \mathrm{~d} x\text{&amp;quot;.}
+$$&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>P6L-penultimate equation: It should be
-$$\frac{\mathrm{d}}{\mathrm{d} t}|q|&lt;em>{L^6} \leq|\tilde{n}|&lt;/em>{L^6}.$$&lt;/p>
+$$
+\frac{\mathrm{d}}{\mathrm{d} t}|q|&lt;em>{L^6} \leq|\tilde{n}|&lt;/em>{L^6}.
+$$&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>P7L-18,19: &amp;ldquo;$\frac{4}{l^2}$&amp;quot; $\Rightarrow$ &amp;ldquo;$\frac{4(l-1)}{l^2}$&amp;quot;
-and &amp;ldquo;$\frac{2}{l}$&amp;quot; $\Rightarrow$ &amp;ldquo;$\frac{2(l-1)}{l}$&amp;quot;.&lt;/p>
+&lt;p>P7L-18,19: &amp;ldquo;$\frac{4}{l^2}$&amp;quot; $\Rightarrow$ &amp;ldquo;$\frac{4(l-1)}{l^2}$&amp;quot; and &amp;ldquo;$\frac{2}{l}$&amp;quot; $\Rightarrow$ &amp;ldquo;$\frac{2(l-1)}{l}$&amp;quot;.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>P8L-23: &amp;ldquo;eh&amp;quot; $\Rightarrow$ &amp;ldquo;the&amp;quot;.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>P11L-fourth line from the bottom: we &amp;ldquo;easily&amp;quot; see that the
-conclusions in Theorem 1.1 hold.&lt;/p>
+&lt;p>P11L-fourth line from the bottom: we &amp;ldquo;easily&amp;quot; see that the conclusions in Theorem 1.1 hold.&lt;/p>
 &lt;/li>
 &lt;/ol></description></item><item><title>Thesis Proposal Defense</title><link>https://aunomax.github.io/talk/thesis-proposal-defense/</link><pubDate>Fri, 09 Jun 2023 14:00:00 +0800</pubDate><guid>https://aunomax.github.io/talk/thesis-proposal-defense/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
@@ -642,7 +642,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-279638154" class="chart">&lt;/div>
+&lt;div id="chart-861725493" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -651,7 +651,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-279638154', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-861725493', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
