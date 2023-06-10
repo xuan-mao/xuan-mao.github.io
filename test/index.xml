@@ -17,7 +17,7 @@ $$
 \frac{\partial n}{\partial \nu}=\frac{\partial p}{\partial \nu}=\frac{\partial q}{\partial \nu}=0, \quad u=0 \text { on } \partial \Omega \times(0, \infty) \text {, }
 $$
 where $\epsilon_1, \epsilon_2\in(0,1)$ are positive constants. This paper mainly investigated the vanishing viscosity limits of strong solutions for nonnegative initial data with suitably regularity. The main idea is to apply the Banach's fixed point theorem to obtain local existence and uniformly estimates of strong solutions, independent of
-$\epsilon_1$ and $\epsilon_2$, which are sufficient to derive the vanishing viscosity limits by compact arguments. In the course of the design, the authors decouple the chemotaxis-fluid model into four linear problems and gain uniformly estimates by technical test procedures and the property of incompressible fluid. Compared with the results of \[7\], the design and calculation become more complex in appearance oft he fluid interaction.
+$\epsilon_1$ and $\epsilon_2$, which are sufficient to derive the vanishing viscosity limits by compact arguments. In the course of the design, the authors decouple the chemotaxis-fluid model into four linear problems and gain uniformly estimates by technical test procedures and the property of incompressible fluid. Compared with the results of [7], the design and calculation become more complex in appearance oft he fluid interaction.
 &lt;p>In my opinion, the manuscript is well-written, the proofs diligently arranged and the overall presentation definitely good. After some appropriate revision addressing this and the minor points listed below, I can certainly, and with strong emphasis, recommend this paper for publication in Acta Mathematicae Applicatae Sinica, English Series.&lt;/p>
 &lt;ol>
 &lt;li>
@@ -26,15 +26,13 @@ to apply Banach&amp;rsquo;s fixed point theorem should be given explicitly.&lt;/
 &lt;/li>
 &lt;li>
 &lt;p>P5L-last line:
-$$
-\int_{\Omega} p|\nabla \tilde{n} | \nabla p|^5 \mathrm{~d} x\Rightarrow\int_{\Omega} p|\nabla p|^4 \nabla p \cdot\nabla\tilde{n} \mathrm{~d} x.
-$$&lt;/p>
+$$ \int_{\Omega} p|\nabla \tilde{n} \| \nabla p|^5 \mathrm{~d} x\Rightarrow\int_{\Omega} p|\nabla p|^4 \nabla p \cdot\nabla\tilde{n} \mathrm{~d} x. $$
+&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>P6L-penultimate equation: It should be
-$$
-\frac{\mathrm{d}}{\mathrm{d} t}|q|&lt;em>{L^6} \leq|\tilde{n}|&lt;/em>{L^6}.
-$$&lt;/p>
+$$\frac{\mathrm{d}}{\mathrm{d} t}\|q\|_{L^6} \leq\|\tilde{n}\|_{L^6}.$$
+&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>P7L-18,19: &amp;ldquo;$\frac{4}{l^2}$&amp;quot; $\Rightarrow$ &amp;ldquo;$\frac{4(l-1)}{l^2}$&amp;quot; and &amp;ldquo;$\frac{2}{l}$&amp;quot; $\Rightarrow$ &amp;ldquo;$\frac{2(l-1)}{l}$&amp;quot;.&lt;/p>
