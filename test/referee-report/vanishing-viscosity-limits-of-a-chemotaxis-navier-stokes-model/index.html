@@ -8,13 +8,13 @@
 <center>"Vanishing viscosity limits of a chemotaxis-Navier-Stokes model"</center>
 <center>by Jishan Fan and Fucai Li</center><p>In this paper the authors considered the following initial-boundary value problem for the chemotaxis system coupled with incompressible Navier-Stokes system
 $$
-\begin{align*}
+\begin{split}
 & \partial_t n+u \cdot \nabla n-\Delta n=-\nabla \cdot(n \nabla p)-\nabla \cdot(n \nabla q), \
 & \partial_t p+u \cdot \nabla p-\epsilon_1 \Delta p=-n p, \
 & \partial_t q+u \cdot \nabla q-\epsilon_2 \Delta q+q=n, \
 & \partial_t u+u \cdot \nabla u-\Delta u+\nabla \pi=n \nabla \phi, \
 & \operatorname{div} u=0,
-\end{align*}
+\end{split}
 $$
 in a bounded domain $\Omega\subset \mathbb{R}^3$ withs mooth boundary, subjected to a mixed boundary conditions
 $$
@@ -24,7 +24,7 @@ where $\epsilon_1, \epsilon_2\in(0,1)$ are positive constants. This paper mainly
 $\epsilon_1$ and $\epsilon_2$, which are sufficient to derive the vanishing viscosity limits by compact arguments. In the course of the design, the authors decouple the chemotaxis-fluid model into four linear problems and gain uniformly estimates by technical test procedures and the property of incompressible fluid. Compared with the results of [7], the design and calculation become more complex in appearance oft he fluid interaction.</p><p>In my opinion, the manuscript is well-written, the proofs diligently arranged and the overall presentation definitely good. After some appropriate revision addressing this and the minor points listed below, I can certainly, and with strong emphasis, recommend this paper for publication in Acta Mathematicae Applicatae Sinica, English Series.</p><ol><li><p>P4L-3: A set should not be defined by recursion. The working space
 to apply Banach&rsquo;s fixed point theorem should be given explicitly.</p></li><li><p>P5L-last line:
 $$
-\text{<code>}\int_{\Omega} p|\nabla \tilde{n} \| \nabla p|^5 \mathrm{~d} x\text{" }\Rightarrow\text{ </code>}\int_{\Omega} p|\nabla p|^4 \nabla p \cdot\nabla\tilde{n} \mathrm{~d} x\text{".}
+\int_{\Omega} p|\nabla \tilde{n} | \nabla p|^5 \mathrm{~d} x\Rightarrow\int_{\Omega} p|\nabla p|^4 \nabla p \cdot\nabla\tilde{n} \mathrm{~d} x.
 $$</p></li><li><p>P6L-penultimate equation: It should be
 $$
 \frac{\mathrm{d}}{\mathrm{d} t}|q|<em>{L^6} \leq|\tilde{n}|</em>{L^6}.

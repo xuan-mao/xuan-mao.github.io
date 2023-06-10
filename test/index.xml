@@ -10,13 +10,13 @@ by Jishan Fan and Fucai Li
 &lt;/center>
 &lt;p>In this paper the authors considered the following initial-boundary value problem for the chemotaxis system coupled with incompressible Navier-Stokes system
 $$
-\begin{align*}
+\begin{split}
 &amp;amp; \partial_t n+u \cdot \nabla n-\Delta n=-\nabla \cdot(n \nabla p)-\nabla \cdot(n \nabla q), \
 &amp;amp; \partial_t p+u \cdot \nabla p-\epsilon_1 \Delta p=-n p, \
 &amp;amp; \partial_t q+u \cdot \nabla q-\epsilon_2 \Delta q+q=n, \
 &amp;amp; \partial_t u+u \cdot \nabla u-\Delta u+\nabla \pi=n \nabla \phi, \
 &amp;amp; \operatorname{div} u=0,
-\end{align*}
+\end{split}
 $$
 in a bounded domain $\Omega\subset \mathbb{R}^3$ withs mooth boundary, subjected to a mixed boundary conditions
 $$
@@ -33,7 +33,7 @@ to apply Banach&amp;rsquo;s fixed point theorem should be given explicitly.&lt;/
 &lt;li>
 &lt;p>P5L-last line:
 $$
-\text{&lt;code>}\int_{\Omega} p|\nabla \tilde{n} \| \nabla p|^5 \mathrm{~d} x\text{&amp;quot; }\Rightarrow\text{ &lt;/code>}\int_{\Omega} p|\nabla p|^4 \nabla p \cdot\nabla\tilde{n} \mathrm{~d} x\text{&amp;quot;.}
+\int_{\Omega} p|\nabla \tilde{n} | \nabla p|^5 \mathrm{~d} x\Rightarrow\int_{\Omega} p|\nabla p|^4 \nabla p \cdot\nabla\tilde{n} \mathrm{~d} x.
 $$&lt;/p>
 &lt;/li>
 &lt;li>
