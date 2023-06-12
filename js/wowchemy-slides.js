@@ -1,6 +1,6 @@
 (() => {
   // ns-params:@params
-  var slides = { diagram: true, diagram_options: { theme: "base" }, highlight_style: "dracula", reveal_options: { background_transition: "slide", center: true, controls: true, loop: false, menu_enabled: true, mouse_wheel: true, progress: true, rtl: false, slide_number: "c/t", touch: true, transition: "fade", transitionspeed: "default" }, theme: "black" };
+  var slides = { diagram: true, diagram_options: { theme: "base" }, highlight_style: "dracula", reveal_options: { background_transition: "slide", center: false, controls: true, loop: false, menu_enabled: true, mouse_wheel: true, progress: true, rtl: false, slide_number: "c/t", touch: true, transition: "fade", transitionspeed: "default" }, theme: "black" };
 
   // <stdin>
   var enabledPlugins = [RevealMarkdown, RevealSearch, RevealNotes, RevealMath.KaTeX, RevealZoom];
