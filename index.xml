@@ -739,7 +739,7 @@ ball of spore cells supported by a stalk of dead cells.&lt;/li>
 of the chemical signal.&lt;/li>
 &lt;/ul></description></item><item><title>Hello World</title><link>https://aunomax.github.io/test/hello-world/</link><pubDate>Tue, 25 Apr 2023 13:50:13 +0800</pubDate><guid>https://aunomax.github.io/test/hello-world/</guid><description>&lt;h1 id="hello-world">Hello World&lt;/h1>
 &lt;p>this is a test.&lt;/p>
-&lt;p>test 202306061620&lt;/p></description></item><item><title>Welcome to Wowchemy, the website builder for Hugo</title><link>https://aunomax.github.io/post/getting-started/</link><pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate><guid>https://aunomax.github.io/post/getting-started/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">libr&lt;/span>
+&lt;p>&lt;a href="https://i.imgur.com/AFfPGDE.png" target="_blank" rel="noopener">Imgur&lt;/a>&lt;/p></description></item><item><title>Welcome to Wowchemy, the website builder for Hugo</title><link>https://aunomax.github.io/post/getting-started/</link><pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate><guid>https://aunomax.github.io/post/getting-started/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">libr&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;hello&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;ol>
@@ -886,7 +886,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-963521478" class="chart">&lt;/div>
+&lt;div id="chart-728916453" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -895,7 +895,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-963521478', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-728916453', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
