@@ -661,6 +661,17 @@ for the average value of function $f ∈ L^1(Ω)$.&lt;/p>
 &lt;li>
 &lt;p>Throughout the paper we denote generic constants by C which may vary line by line according to the context.&lt;/p>
 &lt;/li>
+&lt;li>
+&lt;p>Throughout this paper, the domain $\Omega$ and the non-trivial initial function $u_0$ are only confined to the following case:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>$\Omega$ is the open ball of radius $L$ with center at the origin in $R^N$.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>$u_o$ is radially symmetric when $N \geq 2$.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;h2 id="deduction">Deduction&lt;/h2>
 &lt;ul>
@@ -742,6 +753,7 @@ ball of spore cells supported by a stalk of dead cells.&lt;/li>
 &lt;li>We &lt;strong>&lt;u>incorporate&lt;/u>&lt;/strong> the effect of such a mechanism by assuming the existence of a secondary chemical which allows the cells to determine the local density and &lt;strong>&lt;u>alter&lt;/u>&lt;/strong> the chemotactic response to the chemoattractant $v$ &lt;strong>&lt;u>accordingly&lt;/u>&lt;/strong>.&lt;/li>
 &lt;li>A key property of the above equations is their ability to give rise to spatial pattern formation when the chemical signal acts as an auto-attractant, &lt;strong>&lt;u>that is&lt;/u>&lt;/strong>, when cells both produce and migrate up gradients
 of the chemical signal.&lt;/li>
+&lt;li>The following lemma of which proof is done by elementary calculations is useful to estimate integrals of $u^2$ and $(\partial u/\partial r)^2$ with respect to $r$.&lt;/li>
 &lt;/ul></description></item><item><title>Hello World</title><link>https://aunomax.github.io/test/hello-world/</link><pubDate>Tue, 25 Apr 2023 13:50:13 +0800</pubDate><guid>https://aunomax.github.io/test/hello-world/</guid><description>&lt;h1 id="hello-world">Hello World&lt;/h1>
 &lt;p>this is a test.&lt;/p>
 &lt;p>
@@ -896,7 +908,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-594138672" class="chart">&lt;/div>
+&lt;div id="chart-463285719" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -905,7 +917,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-594138672', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-463285719', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
