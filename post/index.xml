@@ -352,6 +352,9 @@ for the average value of function $f ∈ L^1(Ω)$.&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;/li>
+&lt;li>
+&lt;p>Here we note that $W$ itself is bounded above for all times by the constant $nMR^n$, whereas the original function $u$ blows up if and only if the derivative $W_s(s, t) ≡ \frac1nu(r, t)$ does. Accordingly, we are interested in gradient blow-up in the problem (3.6), and as we shall see below, such behaviour occurs if $u_0$ is such that its initial mass is sufficiently strongly concentrated near $r = 0$.&lt;/p>
+&lt;/li>
 &lt;/ul>
 &lt;h2 id="deduction">Deduction&lt;/h2>
 &lt;ul>
@@ -584,7 +587,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-621495783" class="chart">&lt;/div>
+&lt;div id="chart-458193726" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -593,7 +596,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-621495783', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-458193726', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
