@@ -355,6 +355,19 @@ for the average value of function $f ∈ L^1(Ω)$.&lt;/p>
 &lt;li>
 &lt;p>Here we note that $W$ itself is bounded above for all times by the constant $nMR^n$, whereas the original function $u$ blows up if and only if the derivative $W_s(s, t) ≡ \frac1nu(r, t)$ does. Accordingly, we are interested in gradient blow-up in the problem (3.6), and as we shall see below, such behaviour occurs if $u_0$ is such that its initial mass is sufficiently strongly concentrated near $r = 0$.&lt;/p>
 &lt;/li>
+&lt;li>
+&lt;p>We adopt the usual convention that two functions are considered equal if they &lt;strong>&lt;u>agree&lt;/u>&lt;/strong> except on a set of $\mu$-measure zero. Then we denote by $L_p(U, d\mu)$ (or simply $L_p(d\mu)$, $L_p(U)$ or even $L_p$) the Lebesgue-space of (all equivalence classes of) scalar-valued $\mu$-measurable functions $f$ on $U$, such that
+$$
+|f|&lt;em>{L_p} = (\int_u|f(x)|^pd\mu)^{1/p}
+$$
+is finite. Here we have $1\leqslant p&amp;lt;\infty$. In the limiting case, $p=\infty$, $L_p$ consists of all $\mu$-measurable and bounded functions. Then we write
+$$
+|f|&lt;/em>{L_\infty}=\sup_U|f(x)|.
+$$&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Here we shall &lt;strong>&lt;u>reproduce&lt;/u>&lt;/strong> the elementary proof which was given by Thorin.&lt;/p>
+&lt;/li>
 &lt;/ul>
 &lt;h2 id="deduction">Deduction&lt;/h2>
 &lt;ul>
@@ -441,6 +454,8 @@ ball of spore cells supported by a stalk of dead cells.&lt;/li>
 of the chemical signal.&lt;/li>
 &lt;li>The following lemma of which proof is done by elementary calculations is useful to estimate integrals of $u^2$ and $(\partial u/\partial r)^2$ with respect to $r$.&lt;/li>
 &lt;li>The striking technical advantage of the radial framework here is that it allows for a transformation of the system (0.1) to a setting where parabolic comparison is available. &lt;u>&lt;strong>Namely&lt;/strong>&lt;/u>, &amp;hellip;&lt;/li>
+&lt;li>The following collection of comments should be considered &lt;strong>&lt;u>as far from&lt;/u>&lt;/strong> exhaustive with regard to
+aspects of language use.&lt;/li>
 &lt;/ul></description></item><item><title>Welcome to Wowchemy, the website builder for Hugo</title><link>https://aunomax.github.io/post/getting-started/</link><pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate><guid>https://aunomax.github.io/post/getting-started/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">libr&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;hello&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="overview">Overview&lt;/h2>
@@ -588,7 +603,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-952837461" class="chart">&lt;/div>
+&lt;div id="chart-719462538" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -597,7 +612,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-952837461', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-719462538', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
