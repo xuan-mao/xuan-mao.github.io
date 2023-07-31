@@ -256,6 +256,12 @@
 &lt;ul>
 &lt;li>Epic&lt;/li>
 &lt;li>Steam&lt;/li>
+&lt;/ul>
+&lt;h2 id="远程桌面">远程桌面&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://parsec.app/" target="_blank" rel="noopener">parsec&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://moonlight-stream.org/" target="_blank" rel="noopener">moonlight&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://rustdesk.com/zh/" target="_blank" rel="noopener">rustdesk&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>东南大学数学博士学位成果考核标准</title><link>https://aunomax.github.io/post/%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E5%8D%9A%E5%A3%AB%E5%AD%A6%E4%BD%8D%E6%88%90%E6%9E%9C%E8%80%83%E6%A0%B8%E6%A0%87%E5%87%86/</link><pubDate>Fri, 26 May 2023 17:02:01 +0800</pubDate><guid>https://aunomax.github.io/post/%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E5%8D%9A%E5%A3%AB%E5%AD%A6%E4%BD%8D%E6%88%90%E6%9E%9C%E8%80%83%E6%A0%B8%E6%A0%87%E5%87%86/</guid><description>&lt;h1 id="博士学位成果考核标准汇总">博士学位成果考核标准汇总&lt;/h1>
 &lt;p>博士学位成果考核标准汇总，请查看：研究生院-学位教育-学位授予-&lt;a href="https://seugs.seu.edu.cn/28878/list.htm" target="_blank" rel="noopener">规章制度 (seu.edu.cn)&lt;/a>。详见《东南大学博士研究生申请博士学位 的成果考核标准（2018 版）》。&lt;/p>
 &lt;h2 id="科研成果署名">科研成果署名&lt;/h2>
@@ -603,7 +609,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-719462538" class="chart">&lt;/div>
+&lt;div id="chart-496152783" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -612,7 +618,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-719462538', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-496152783', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
