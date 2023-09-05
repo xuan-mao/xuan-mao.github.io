@@ -426,6 +426,11 @@ integrating &lt;strong>&lt;u>over&lt;/u>&lt;/strong> $(0, r)$, we obtain&amp;hel
 &lt;li>We will assume without loss of generality that &amp;hellip; and start by proving &amp;hellip;&lt;/li>
 &lt;li>The proof &lt;strong>&lt;u>goes along&lt;/u>&lt;/strong> the lines of [27, Lemma 3.2].&lt;/li>
 &lt;li>Furthermore, some comments and results on the convergence to steady-state solutions for general Keller–Segel-type models have been established for example in [14,34]. However, here we follow a &lt;strong>&lt;u>slightly&lt;/u>&lt;/strong> different approach.&lt;/li>
+&lt;li>&lt;strong>&lt;u>Using&lt;/u>&lt;/strong> $\Delta = r^{1-n}\partial_r(r^{n-1}\partial_r)$, multiplying the second equation in (1.1) with $r^{n-1}$ and integrating over $(0, r)$ , we get &amp;hellip;&lt;/li>
+&lt;li>On the other hand, &lt;strong>&lt;u>from&lt;/u>&lt;/strong> the first equation in (1.1), we obtain &amp;hellip;&lt;/li>
+&lt;li>&lt;strong>&lt;u>Differentiating&lt;/u>&lt;/strong> (1.1), we get &amp;hellip;&lt;/li>
+&lt;li>&lt;strong>&lt;u>Substituting&lt;/u>&lt;/strong> (2.1), (2.2) and (2.3) in (1.1), we finally obtain (2.4).&lt;/li>
+&lt;li>for each $t\in(0,T)$, $w(\cdot, t)$ can be extend to a $C^2$ function &lt;strong>&lt;u>up&lt;/u>&lt;/strong> to $r=0$.&lt;/li>
 &lt;/ul>
 &lt;h3 id="subsequence">Subsequence&lt;/h3>
 &lt;ul>
@@ -646,7 +651,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-264819375" class="chart">&lt;/div>
+&lt;div id="chart-196573824" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -655,7 +660,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-264819375', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-196573824', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
