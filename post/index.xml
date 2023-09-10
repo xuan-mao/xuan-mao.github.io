@@ -364,6 +364,9 @@ for the average value of function $f ∈ L^1(Ω)$.&lt;/p>
 &lt;p>Throughout the paper we denote generic constants by C which may vary line by line according to the context.&lt;/p>
 &lt;/li>
 &lt;li>
+&lt;p>$C$ always denotes a generic positive constant.&lt;/p>
+&lt;/li>
+&lt;li>
 &lt;p>Throughout this paper, the domain $\Omega$ and the non-trivial initial function $u_0$ are only confined to the following case:&lt;/p>
 &lt;ul>
 &lt;li>
@@ -406,6 +409,24 @@ obtained by any other method, &lt;strong>&lt;u>provided&lt;/u>&lt;/strong> there
 &lt;li>
 &lt;p>In the following, we &lt;strong>&lt;u>adopt&lt;/u>&lt;/strong> the usual convention not to distinguish (in notation) between a measurable function and its equivalence class modulo functions vanishing almost everywhere.&lt;/p>
 &lt;/li>
+&lt;li>
+&lt;p>We &lt;strong>&lt;u>remark&lt;/u>&lt;/strong> that $\limsup$ in (1.1) for solutions of (P) can be replaced with $\lim$ (see [23,27]).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In two dimensions, &lt;strong>&lt;u>to the best of our knowledge&lt;/u>&lt;/strong>, the first result on finite-time blowup was shown in [19] for radial solutions of (JL) on a disk.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Under a &lt;strong>&lt;u>restricted&lt;/u>&lt;/strong> condition on $\partial\Omega$, we show the finite-time blowup of nonradial solutions, &lt;strong>&lt;u>provided&lt;/u>&lt;/strong> that $\int_\Omega u_0 d x &amp;gt; 4\pi$ and $\int_\Omega u_0 |x-q|^2dx$ is sufficiently small.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In our construction, to have solutions global in time, it is sufficient to obtain &lt;strong>&lt;u>an a priori estimate&lt;/u>&lt;/strong> on the $L^2(\Omega)$ norm of $(u, v)$ locally uniform in time. We will show such an estimate in certain cases in the next section, but here we would like to point out that in the case of $\Omega\subset R^3$, it &lt;strong>&lt;u>suffices&lt;/u>&lt;/strong> to have such an estimate only in $L^p, p &amp;gt; 3/2$. This follows from Amann’s theory of parabolic systems with nonlinear boundary conditions &lt;strong>&lt;u>(a personal communication)&lt;/u>&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;h2 id="formalism">Formalism&lt;/h2>
+&lt;ul>
+&lt;li>By &lt;strong>&lt;u>abuse&lt;/u>&lt;/strong> of language we will write them in the differential form, which is &lt;strong>&lt;u>formally&lt;/u>&lt;/strong> obtained by taking the $L^2$ inner product of (1) and (2) with $u$, $v$, respectively, and integrating by parts. &lt;strong>&lt;u>In the sequel&lt;/u>&lt;/strong> we will be &lt;strong>&lt;u>performing some formal calculations&lt;/u>&lt;/strong> leading to differential inequalities, but we will &lt;strong>&lt;u>understand&lt;/u>&lt;/strong> them in the proper integral formulation like the energy relations above.&lt;/li>
+&lt;li>In the sequel we will not write explicitly the &lt;strong>&lt;u>dependence&lt;/u>&lt;/strong> of the &lt;strong>&lt;u>considered&lt;/u>&lt;/strong> functions on $t$,&lt;/li>
 &lt;/ul>
 &lt;h2 id="deduction">Deduction&lt;/h2>
 &lt;ul>
@@ -431,6 +452,15 @@ integrating &lt;strong>&lt;u>over&lt;/u>&lt;/strong> $(0, r)$, we obtain&amp;hel
 &lt;li>&lt;strong>&lt;u>Differentiating&lt;/u>&lt;/strong> (1.1), we get &amp;hellip;&lt;/li>
 &lt;li>&lt;strong>&lt;u>Substituting&lt;/u>&lt;/strong> (2.1), (2.2) and (2.3) in (1.1), we finally obtain (2.4).&lt;/li>
 &lt;li>for each $t\in(0,T)$, $w(\cdot, t)$ can be extend to a $C^2$ function &lt;strong>&lt;u>up&lt;/u>&lt;/strong> to $r=0$.&lt;/li>
+&lt;li>&lt;strong>&lt;u>summing&lt;/u>&lt;/strong> up (23) and (24) we &lt;strong>&lt;u>arrive&lt;/u>&lt;/strong> at &amp;hellip; with the last inequality following from the Sobolev trace theorem.&lt;/li>
+&lt;li>&lt;strong>&lt;u>interpolating&lt;/u>&lt;/strong> Sobolev norms, we obtain from (25)&lt;/li>
+&lt;li>After the integration of (35) over $[0, T]$, and then letting $T$ &lt;strong>&lt;u>tend&lt;/u>&lt;/strong> to $\infty$, we conclude that there
+exists a sequence $t_k \to \infty$ such that &amp;hellip;&lt;/li>
+&lt;li>Taking into account the boundary condition (6) $(\varphi=0$ on $\partial \Omega)$ we see that $\varphi\left(t_k\right)$ converges &lt;strong>&lt;u>strongly&lt;/u>&lt;/strong> in $L^2(\Omega)$ to a function $\psi$.&lt;/li>
+&lt;li>If (37) is satisfied, then from the &lt;strong>&lt;u>compactness of imbeddings&lt;/u>&lt;/strong> $H^1(\Omega) \subset \subset L^q(\Omega), 3&amp;lt;q&amp;lt;6$, $H^1(\Omega) \subset \subset L^r(\partial \Omega), 2&amp;lt;r&amp;lt;4$, we conclude that there exist functions $w, z \in L^q(\Omega) \cap L^r(\partial \Omega)$ such that $w=\lim _{k \rightarrow \infty} u^{1 / 2}\left(t_k\right), z=\lim _{k \rightarrow \infty} v^{1 / 2}\left(t_k\right)$ in the above space &lt;strong>&lt;u>along a subsequence&lt;/u>&lt;/strong> of $t_k \mathrm{~s}$.&lt;/li>
+&lt;li>This &lt;strong>&lt;u>permits&lt;/u>&lt;/strong> us to&lt;/li>
+&lt;li>The $L^1$ convergence of $u(t)$ and $v(t)$ &lt;strong>&lt;u>is implied by&lt;/u>&lt;/strong> the estimate &amp;hellip;&lt;/li>
+&lt;li>&lt;/li>
 &lt;/ul>
 &lt;h3 id="subsequence">Subsequence&lt;/h3>
 &lt;ul>
@@ -438,12 +468,19 @@ integrating &lt;strong>&lt;u>over&lt;/u>&lt;/strong> $(0, r)$, we obtain&amp;hel
 &lt;li>up to the extraction of a subsequence,&lt;/li>
 &lt;li>extracting subsequences if necessary,&lt;/li>
 &lt;li>passing to a subsequence (denoted by the same symbol)&lt;/li>
+&lt;li>hence, a subsequence $\nabla v(t_k)$, with a new subsequence $t_k\to\infty$, still denoted $t_k$, converges weakly in $L^2(\Omega)$.&lt;/li>
+&lt;li>&lt;/li>
 &lt;/ul>
 &lt;h3 id="similarity">Similarity&lt;/h3>
 &lt;ul>
 &lt;li>At this stage, we can reproduce the argument of [20].&lt;/li>
 &lt;li>The proof is done along a similar line, but estimates near the boundary are more crucial.&lt;/li>
 &lt;li>Now we take the reflection process of [20].&lt;/li>
+&lt;li>We note in the following proposition useful facts about $(u, v)$ which can be proved in a
+standard manner along the lines of the proof of propositions 1 and 2 in [9].&lt;/li>
+&lt;li>The proof is &lt;strong>&lt;u>patterned&lt;/u>&lt;/strong> upon that of theorem 2 in [9].&lt;/li>
+&lt;li>&lt;strong>&lt;u>An analogous reasoning&lt;/u>&lt;/strong> shows that &amp;hellip;, too.&lt;/li>
+&lt;li>&lt;/li>
 &lt;/ul>
 &lt;h3 id="brevity">Brevity&lt;/h3>
 &lt;ul>
@@ -469,9 +506,25 @@ integrating &lt;strong>&lt;u>over&lt;/u>&lt;/strong> $(0, r)$, we obtain&amp;hel
 &lt;li>this combined with the fact that $E(p) &amp;lt; E$ leads to a &lt;strong>&lt;u>contradiction&lt;/u>&lt;/strong>.&lt;/li>
 &lt;li>Without loss of generality, we may assume that&lt;/li>
 &lt;/ul>
+&lt;h2 id="remark">Remark&lt;/h2>
+&lt;ul>
+&lt;li>Having in mind &lt;strong>&lt;u>the remarks in the Introduction&lt;/u>&lt;/strong> on the nonexistence of global solutions emanating from large initial data for this problem, we should note that any attempt to prove the global existence of solutions in the electrolytic case needs a more subtle analysis of the terms on the right-hand sides of (9) and (10).&lt;/li>
+&lt;li>the integral $\int_\Omega u\nabla v\cdot\nabla v$ (even after certain integration by parts) in the general case cannot be estimated &lt;strong>&lt;u>crudely&lt;/u>&lt;/strong> for $n = 3$ using the &lt;strong>&lt;u>Sobolev-Gagliardo-Nirenberg inequalities&lt;/u>&lt;/strong>.&lt;/li>
+&lt;li>The reason is that the, so-called, net smoothness of the only terms $l&amp;lt;u, u&amp;gt;l_2^2$,
+$|\nabla&amp;lt;u, u&amp;gt;|_2^2$ that could be used to &lt;strong>&lt;u>compensate&lt;/u>&lt;/strong> the above integral is strictly less than its net
+smoothness.&lt;/li>
+&lt;li>In particular, theorem 10.1 in Chapter III of [13] gives the Hölder continuity: $u, v \in C^{\alpha, \alpha / 2}(\Omega \times(0, T))$ with some $\alpha \in(0,1)$, and the Hölder constant is locally bounded in $(x, t)$. &lt;strong>&lt;u>Under assumptions on the supplementary regularity of the boundary&lt;/u>&lt;/strong> $\partial \Omega \in C^{2+\alpha}$, and the Hölder continuity of $\langle u, v\rangle$ restricted to the parabolic boundary of $\Omega \times(0, T)$ (with suitable compatibility conditions on $\partial \Omega \times{0})$ we can obtain $C^{2+\alpha, 1+\alpha / 2}(\bar{\Omega} \times[0, T])$ regularity of solutions, which are in this case the classical ones, cf. e.g. [13, Chapter III, Section 12].&lt;/li>
+&lt;li>The general case is proved by &lt;strong>&lt;u>exhausting&lt;/u>&lt;/strong> the domain fi by an increasing sequence of smooth
+domains $\Omega_k$ for which (31) with the condition $\Phi_k = 0$ on $\partial\Omega$ is solved.&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul>
 &lt;h2 id="uncertainty">Uncertainty&lt;/h2>
 &lt;ul>
 &lt;li>it is not certain that&lt;/li>
+&lt;/ul>
+&lt;h2 id="reference">Reference&lt;/h2>
+&lt;ul>
+&lt;li>Some parts of the proofs in this paper will be merely &lt;strong>&lt;u>sketched&lt;/u>&lt;/strong>. In such a situation [9] is a standard reference, where the details of &lt;strong>&lt;u>reasoning&lt;/u>&lt;/strong> for the simplified problem may be found.&lt;/li>
 &lt;/ul>
 &lt;h2 id="miscellaneous">Miscellaneous&lt;/h2>
 &lt;ul>
@@ -512,6 +565,7 @@ aspects of language use.&lt;/li>
 &lt;li>It is also &lt;strong>recognized&lt;/strong> as a general purpose computing language, unlike traditional numerical computing systems, allowing it to be used not only to &lt;strong>&lt;u>prototype&lt;/u>&lt;/strong> numerical algorithms, but also to &lt;strong>&lt;u>deploy&lt;/u>&lt;/strong> those algorithms and even serve results to the rest of the world.&lt;/li>
 &lt;li>succinctly, simply&lt;/li>
 &lt;li>Can we &lt;strong>&lt;u>strike a balance&lt;/u>&lt;/strong> between the human&amp;rsquo;s preference to avoid types and the computer&amp;rsquo;s need to know?&lt;/li>
+&lt;li>As a &lt;strong>&lt;u>by-product&lt;/u>&lt;/strong> of the proof we also obtain some global in time regularity of weak solutions.&lt;/li>
 &lt;li>&lt;/li>
 &lt;/ul></description></item><item><title>Welcome to Wowchemy, the website builder for Hugo</title><link>https://aunomax.github.io/post/getting-started/</link><pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate><guid>https://aunomax.github.io/post/getting-started/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">libr&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;hello&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
@@ -660,7 +714,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-328176954" class="chart">&lt;/div>
+&lt;div id="chart-918527346" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -669,7 +723,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-328176954', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-918527346', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
