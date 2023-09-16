@@ -460,7 +460,7 @@ exists a sequence $t_k \to \infty$ such that &amp;hellip;&lt;/li>
 &lt;li>If (37) is satisfied, then from the &lt;strong>&lt;u>compactness of imbeddings&lt;/u>&lt;/strong> $H^1(\Omega) \subset \subset L^q(\Omega), 3&amp;lt;q&amp;lt;6$, $H^1(\Omega) \subset \subset L^r(\partial \Omega), 2&amp;lt;r&amp;lt;4$, we conclude that there exist functions $w, z \in L^q(\Omega) \cap L^r(\partial \Omega)$ such that $w=\lim _{k \rightarrow \infty} u^{1 / 2}\left(t_k\right), z=\lim _{k \rightarrow \infty} v^{1 / 2}\left(t_k\right)$ in the above space &lt;strong>&lt;u>along a subsequence&lt;/u>&lt;/strong> of $t_k \mathrm{~s}$.&lt;/li>
 &lt;li>This &lt;strong>&lt;u>permits&lt;/u>&lt;/strong> us to&lt;/li>
 &lt;li>The $L^1$ convergence of $u(t)$ and $v(t)$ &lt;strong>&lt;u>is implied by&lt;/u>&lt;/strong> the estimate &amp;hellip;&lt;/li>
-&lt;li>&lt;/li>
+&lt;li>We &lt;strong>&lt;u>observe&lt;/u>&lt;/strong> that a slightly modified version of (3.11) is also true for $p &amp;lt; n$,&lt;/li>
 &lt;/ul>
 &lt;h3 id="subsequence">Subsequence&lt;/h3>
 &lt;ul>
@@ -516,7 +516,7 @@ smoothness.&lt;/li>
 &lt;li>In particular, theorem 10.1 in Chapter III of [13] gives the Hölder continuity: $u, v \in C^{\alpha, \alpha / 2}(\Omega \times(0, T))$ with some $\alpha \in(0,1)$, and the Hölder constant is locally bounded in $(x, t)$. &lt;strong>&lt;u>Under assumptions on the supplementary regularity of the boundary&lt;/u>&lt;/strong> $\partial \Omega \in C^{2+\alpha}$, and the Hölder continuity of $\langle u, v\rangle$ restricted to the parabolic boundary of $\Omega \times(0, T)$ (with suitable compatibility conditions on $\partial \Omega \times{0})$ we can obtain $C^{2+\alpha, 1+\alpha / 2}(\bar{\Omega} \times[0, T])$ regularity of solutions, which are in this case the classical ones, cf. e.g. [13, Chapter III, Section 12].&lt;/li>
 &lt;li>The general case is proved by &lt;strong>&lt;u>exhausting&lt;/u>&lt;/strong> the domain fi by an increasing sequence of smooth
 domains $\Omega_k$ for which (31) with the condition $\Phi_k = 0$ on $\partial\Omega$ is solved.&lt;/li>
-&lt;li>&lt;/li>
+&lt;li>At the cost of some technical expense, on the basis of Theorem 2.1 and the ideas in [6], it is possible to extend the above result to less regular initial data: &lt;strong>&lt;u>Upon&lt;/u>&lt;/strong> an approximation argument, namely, one can assert global existence of small-data weak solutions with the asymptotic properties (2.2) and (2.3) for initial data with possibly discontinuous $u_0$ and $\nabla v_0$, satisfying only (2.1).&lt;/li>
 &lt;/ul>
 &lt;h2 id="uncertainty">Uncertainty&lt;/h2>
 &lt;ul>
@@ -714,7 +714,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-918527346" class="chart">&lt;/div>
+&lt;div id="chart-791645832" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -723,7 +723,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-918527346', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-791645832', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
