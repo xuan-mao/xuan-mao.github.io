@@ -783,7 +783,7 @@ obtained by any other method, &lt;strong>&lt;u>provided&lt;/u>&lt;/strong> there
 integrating &lt;strong>&lt;u>over&lt;/u>&lt;/strong> $(0, r)$, we obtain&amp;hellip;&lt;/li>
 &lt;li>which gives the desired estimate, up to relabeling the constant $C(n,p,s)$.&lt;/li>
 &lt;li>$\Gamma$ is oriented &lt;strong>&lt;u>in a way&lt;/u>&lt;/strong> that $Im\lambda$ increasing along $\Gamma$.&lt;/li>
-&lt;li>We will assume without loss of generality that &amp;hellip; and start by proving &amp;hellip;&lt;/li>
+&lt;li>We will &lt;strong>&lt;u>assume without loss of generality&lt;/u>&lt;/strong> that &amp;hellip; and start by proving &amp;hellip;&lt;/li>
 &lt;li>The proof &lt;strong>&lt;u>goes along&lt;/u>&lt;/strong> the lines of [27, Lemma 3.2].&lt;/li>
 &lt;li>Furthermore, some comments and results on the convergence to steady-state solutions for general Keller–Segel-type models have been established for example in [14,34]. However, here we follow a &lt;strong>&lt;u>slightly&lt;/u>&lt;/strong> different approach.&lt;/li>
 &lt;li>&lt;strong>&lt;u>Using&lt;/u>&lt;/strong> $\Delta = r^{1-n}\partial_r(r^{n-1}\partial_r)$, multiplying the second equation in (1.1) with $r^{n-1}$ and integrating over $(0, r)$ , we get &amp;hellip;&lt;/li>
@@ -800,6 +800,7 @@ exists a sequence $t_k \to \infty$ such that &amp;hellip;&lt;/li>
 &lt;li>This &lt;strong>&lt;u>permits&lt;/u>&lt;/strong> us to&lt;/li>
 &lt;li>The $L^1$ convergence of $u(t)$ and $v(t)$ &lt;strong>&lt;u>is implied by&lt;/u>&lt;/strong> the estimate &amp;hellip;&lt;/li>
 &lt;li>We &lt;strong>&lt;u>observe&lt;/u>&lt;/strong> that a slightly modified version of (3.11) is also true for $p &amp;lt; n$,&lt;/li>
+&lt;li>To see this, for functions A, B and D &lt;strong>&lt;u>to be specified below&lt;/u>&lt;/strong>, let us consider&lt;/li>
 &lt;/ul>
 &lt;h3 id="subsequence">Subsequence&lt;/h3>
 &lt;ul>
@@ -827,6 +828,7 @@ standard manner along the lines of the proof of propositions 1 and 2 in [9].&lt;
 &lt;li>for the sake of simplicity&lt;/li>
 &lt;li>Here and later on, C will denote a constant independent of blabla and A.&lt;/li>
 &lt;li>Without any danger of confusion we shall write $u = u(r, t)$ for $r = |x|$ throughout.&lt;/li>
+&lt;li>The constant $C$ depends also on the space dimension $n$ but here and in the following we will suppress any dependence on $n$.&lt;/li>
 &lt;/ul>
 &lt;h3 id="obviousness">Obviousness&lt;/h3>
 &lt;ul>
@@ -906,6 +908,9 @@ aspects of language use.&lt;/li>
 &lt;li>Can we &lt;strong>&lt;u>strike a balance&lt;/u>&lt;/strong> between the human&amp;rsquo;s preference to avoid types and the computer&amp;rsquo;s need to know?&lt;/li>
 &lt;li>As a &lt;strong>&lt;u>by-product&lt;/u>&lt;/strong> of the proof we also obtain some global in time regularity of weak solutions.&lt;/li>
 &lt;li>&lt;strong>&lt;u>proceedings&lt;/u>&lt;/strong> [plural] the official written report of a meeting, etc.&lt;/li>
+&lt;li>If Rust did this, the operation $s2 = s1$ could be very expensive &lt;strong>&lt;u>in terms of&lt;/u>&lt;/strong> runtime performance if the data on the heap were large.&lt;/li>
+&lt;li>Most of the time when Rustaceans say “crate”, they mean library crate, and they use “crate” &lt;strong>&lt;u>interchangeably&lt;/u>&lt;/strong> with the general programming concept of a “library&amp;quot;.&lt;/li>
+&lt;li>We’ll also discuss the ways in which String is different from the other collections, &lt;strong>&lt;u>namely&lt;/u>&lt;/strong> how indexing into a String is complicated by the differences between how people and computers interpret String data.&lt;/li>
 &lt;/ul></description></item><item><title>Hello World</title><link>https://aunomax.github.io/test/hello-world/</link><pubDate>Tue, 25 Apr 2023 13:50:13 +0800</pubDate><guid>https://aunomax.github.io/test/hello-world/</guid><description>&lt;h1 id="hello-world">Hello World&lt;/h1>
 &lt;p>this is a test.&lt;/p>
 &lt;p>
@@ -1060,7 +1065,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-782139564" class="chart">&lt;/div>
+&lt;div id="chart-975281364" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -1069,7 +1074,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-782139564', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-975281364', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
