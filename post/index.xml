@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | Academic</title><link>https://aunomax.github.io/post/</link><atom:link href="https://aunomax.github.io/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 29 Aug 2023 10:50:55 +0800</lastBuildDate><image><url>https://aunomax.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>Posts</title><link>https://aunomax.github.io/post/</link></image><item><title>Shortcut</title><link>https://aunomax.github.io/post/shortcut/</link><pubDate>Tue, 29 Aug 2023 10:50:55 +0800</pubDate><guid>https://aunomax.github.io/post/shortcut/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | Academic</title><link>https://aunomax.github.io/post/</link><atom:link href="https://aunomax.github.io/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 Oct 2023 21:04:09 +0800</lastBuildDate><image><url>https://aunomax.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>Posts</title><link>https://aunomax.github.io/post/</link></image><item><title>International_conference</title><link>https://aunomax.github.io/post/international_conference/</link><pubDate>Sat, 07 Oct 2023 21:04:09 +0800</pubDate><guid>https://aunomax.github.io/post/international_conference/</guid><description>&lt;h1 id="办护照">办护照&lt;/h1>
+&lt;ul>
+&lt;li>支付宝搜索国家移民管理局，进移民局选择城市填写相关信息预约。&lt;/li>
+&lt;/ul></description></item><item><title>Shortcut</title><link>https://aunomax.github.io/post/shortcut/</link><pubDate>Tue, 29 Aug 2023 10:50:55 +0800</pubDate><guid>https://aunomax.github.io/post/shortcut/</guid><description>&lt;ul>
 &lt;li>Microsoft Edge
 &lt;ul>
 &lt;li>Ctrl + Shift + /: toggle the Sidebar on/off&lt;/li>
@@ -738,7 +741,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-975281364" class="chart">&lt;/div>
+&lt;div id="chart-913572846" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -747,7 +750,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-975281364', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-913572846', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
