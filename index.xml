@@ -9,9 +9,15 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
 &lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
 &lt;/ul>
-&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>International_conference</title><link>https://aunomax.github.io/post/international_conference/</link><pubDate>Sat, 07 Oct 2023 21:04:09 +0800</pubDate><guid>https://aunomax.github.io/post/international_conference/</guid><description>&lt;h1 id="办护照">办护照&lt;/h1>
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>International_conference</title><link>https://aunomax.github.io/post/international_conference/</link><pubDate>Sat, 07 Oct 2023 21:04:09 +0800</pubDate><guid>https://aunomax.github.io/post/international_conference/</guid><description>&lt;h1 id="联系会议">联系会议&lt;/h1>
+&lt;p>申请人自行联系并获取国际会议邀请函&lt;/p>
+&lt;h1 id="办护照">办护照&lt;/h1>
 &lt;ul>
 &lt;li>支付宝搜索国家移民管理局，进移民局选择城市填写相关信息预约。&lt;/li>
+&lt;/ul>
+&lt;h1 id="国际交流申请">国际交流申请&lt;/h1>
+&lt;ul>
+&lt;li>申请理由：申请人（Xuan Mao）受邀于2023年12月9-11号在马来西亚举办的第三届太平洋优化会议（Third Pacific Optimisation Conference）上，口头报告申请人为第一作者，导师（Yuxiang Li）为第二作者的学术论文。该论文题为Dirac-Type Aggregation with Full Mass in A Chemotaxis Model，现已被英文国际期刊Discrete and Continuous Dynamical Systems - Series S接收。申请人是东南大学全日制博士生，希望研究生院予以资助此次国际会议的相关费用，包括往返交通费、会议注册费及签证费等。&lt;/li>
 &lt;/ul></description></item><item><title>Shortcut</title><link>https://aunomax.github.io/post/shortcut/</link><pubDate>Tue, 29 Aug 2023 10:50:55 +0800</pubDate><guid>https://aunomax.github.io/post/shortcut/</guid><description>&lt;ul>
 &lt;li>Microsoft Edge
 &lt;ul>
@@ -914,6 +920,65 @@ aspects of language use.&lt;/li>
 &lt;li>If Rust did this, the operation $s2 = s1$ could be very expensive &lt;strong>&lt;u>in terms of&lt;/u>&lt;/strong> runtime performance if the data on the heap were large.&lt;/li>
 &lt;li>Most of the time when Rustaceans say “crate”, they mean library crate, and they use “crate” &lt;strong>&lt;u>interchangeably&lt;/u>&lt;/strong> with the general programming concept of a “library&amp;quot;.&lt;/li>
 &lt;li>We’ll also discuss the ways in which String is different from the other collections, &lt;strong>&lt;u>namely&lt;/u>&lt;/strong> how indexing into a String is complicated by the differences between how people and computers interpret String data.&lt;/li>
+&lt;li>AUTHOR INFORMATION PACK of JOURNAL OF DIFFERENTIAL EQUATIONS &lt;a href="https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions" target="_blank" rel="noopener">Latex Instructions (elsevier.com)&lt;/a>
+&lt;ul>
+&lt;li>
+&lt;p>Math formulae&lt;/p>
+&lt;ul>
+&lt;li>Please submit math equations as editable text and not as images.&lt;/li>
+&lt;li>Present simple formulae in line with normal text where possible and use the solidus (/) instead of a horizontal line for small fractional terms, e.g., $X/Y$.&lt;/li>
+&lt;li>In principle, variables are to be presented in italics.&lt;/li>
+&lt;li>Powers of $e$ are often more conveniently denoted by $\exp$.&lt;/li>
+&lt;li>Number consecutively any equations that have to be displayed separately from the text (if referred to explicitly in the text).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Citation in text&lt;/p>
+&lt;ul>
+&lt;li>Please ensure that every reference cited in the text is also present in the reference list (and vice
+versa).&lt;/li>
+&lt;li>Any references cited in the abstract must be given in full.&lt;/li>
+&lt;li>Unpublished results and personal communications are not recommended in the reference list, but may be mentioned in the text.&lt;/li>
+&lt;li>If these references are included in the reference list they should follow the standard reference style of the journal and should include a substitution of the publication date with either &lt;strong>&lt;u>&amp;lsquo;Unpublished results&amp;rsquo;&lt;/u>&lt;/strong> or &lt;strong>&lt;u>&amp;lsquo;Personal communication&amp;rsquo;&lt;/u>&lt;/strong>.&lt;/li>
+&lt;li>Citation of a reference as &lt;strong>&lt;u>&amp;lsquo;in press&amp;rsquo;&lt;/u>&lt;/strong> implies that the item has been accepted for publication.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Web references&lt;/p>
+&lt;ul>
+&lt;li>As a minimum, the full URL should be given and the date when the reference was last accessed. Any further information, if known (DOI, author names, dates, reference to a source publication, etc.), should also be given. Web references can be listed separately (e.g., after the reference list) under a different heading if desired, or can be included in the reference list.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Data references&lt;/p>
+&lt;ul>
+&lt;li>This journal encourages you to cite underlying or relevant datasets in your manuscript by citing them in your text and including a data reference in your Reference List. Data references should include the following elements: author name(s), dataset title, data repository, version (where available), year, and &lt;strong>&lt;u>global persistent identifier&lt;/u>&lt;/strong>. Add [dataset] immediately before the reference so we can properly identify it as a data reference. The [dataset] identifier will not appear in your published article.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Preprint references&lt;/p>
+&lt;ul>
+&lt;li>Where a preprint has subsequently become available as a peer-reviewed publication, the formal publication should be used as the reference.&lt;/li>
+&lt;li>If there are preprints that are central to your work or that cover crucial developments in the topic, but are not yet formally published, these may be referenced.&lt;/li>
+&lt;li>Preprints should be clearly marked as such, for example by including the word preprint, or the name of the preprint server, as part of the reference. The preprint DOI should also be provided.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Reference management software&lt;/p>
+&lt;ul>
+&lt;li>Most Elsevier journals have their reference template available in many of the most popular reference management software products. These include all products that support Citation Style Language styles, such as Mendeley. Using citation plug-ins from these products, authors only need to select the appropriate journal template when preparing their article, after which citations and bibliographies will be automatically formatted in the journal&amp;rsquo;s style. If no template is yet available for this journal, please follow the format of the sample references and citations as shown in this Guide.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Reference style&lt;/p>
+&lt;ul>
+&lt;li>Text: Indicate references by number(s) in square brackets in line with the text. The actual authors can be referred to, but the reference number(s) must always be given. Example: &amp;lsquo;&amp;hellip;.. as demonstrated [3,6]. Barnaby and Jones [8] obtained a different result &amp;hellip;.&amp;rsquo;&lt;/li>
+&lt;li>List: The list of references is arranged alphabetically and then numbered (numbers in square
+brackets).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul></description></item><item><title>Hello World</title><link>https://aunomax.github.io/test/hello-world/</link><pubDate>Tue, 25 Apr 2023 13:50:13 +0800</pubDate><guid>https://aunomax.github.io/test/hello-world/</guid><description>&lt;h1 id="hello-world">Hello World&lt;/h1>
 &lt;p>this is a test.&lt;/p>
 &lt;p>
@@ -1068,7 +1133,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-913572846" class="chart">&lt;/div>
+&lt;div id="chart-278965314" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -1077,7 +1142,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-913572846', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-278965314', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
