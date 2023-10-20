@@ -88,6 +88,7 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># install lazy-vim https://github.com/LazyVim/LazyVim&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># https://www.lazyvim.org/installation&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># install git&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo zypper install git-core
@@ -108,6 +109,9 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">rust_prj&lt;/span>&lt;span class="o">=&lt;/span>/mnt/g/mao/Documents/Github/rust_prj
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">myWebSite&lt;/span>&lt;span class="o">=&lt;/span>/mnt/g/mao/Documents/Github/myWebSite/
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">prj_euler&lt;/span>&lt;span class="o">=&lt;/span>/mnt/g/mao/Documents/Github/ProjectEuler/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>open a url from vim: place the cursor on the url and type &lt;code>gx&lt;/code>.&lt;/p>
+&lt;h2 id="rustlings">rustlings&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">curl -L sh.rustlings.cool &lt;span class="p">|&lt;/span> bash
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="trouble-or-bugs-happensed-to-me">trouble or bugs happensed to me&lt;/h2>
 &lt;h3 id="inputoutput-error-httpsgithubcommicrosoftwslissues4377">Input/output error &lt;a href="https://github.com/microsoft/WSL/issues/4377" target="_blank" rel="noopener">https://github.com/microsoft/WSL/issues/4377&lt;/a>&lt;/h3>
 &lt;p>That error occurs if the hidden wslhost.exe process is died/killed. Just use &lt;code>wsl.exe --shutdown&lt;/code> and restart it.&lt;/p></description></item><item><title>International_conference</title><link>https://aunomax.github.io/post/international_conference/</link><pubDate>Sat, 07 Oct 2023 21:04:09 +0800</pubDate><guid>https://aunomax.github.io/post/international_conference/</guid><description>&lt;h1 id="联系会议">联系会议&lt;/h1>
@@ -918,7 +922,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-328957614" class="chart">&lt;/div>
+&lt;div id="chart-842571936" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -927,7 +931,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-328957614', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-842571936', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
