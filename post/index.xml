@@ -109,7 +109,13 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">rust_prj&lt;/span>&lt;span class="o">=&lt;/span>/mnt/g/mao/Documents/Github/rust_prj
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">myWebSite&lt;/span>&lt;span class="o">=&lt;/span>/mnt/g/mao/Documents/Github/myWebSite/
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">prj_euler&lt;/span>&lt;span class="o">=&lt;/span>/mnt/g/mao/Documents/Github/ProjectEuler/
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>open a url from vim: place the cursor on the url and type &lt;code>gx&lt;/code>.&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="vim">vim&lt;/h2>
+&lt;ul>
+&lt;li>open a url: place the cursor on the url and type &lt;code>gx&lt;/code>.&lt;/li>
+&lt;li>copy: &lt;code>y&lt;/code>&lt;/li>
+&lt;li>paste: &lt;code>p&lt;/code>&lt;/li>
+&lt;li>delete: &lt;code>d&lt;/code>&lt;/li>
+&lt;/ul>
 &lt;h2 id="rustlings">rustlings&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">curl -L sh.rustlings.cool &lt;span class="p">|&lt;/span> bash
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="trouble-or-bugs-happensed-to-me">trouble or bugs happensed to me&lt;/h2>
@@ -238,16 +244,31 @@
 &lt;td>20230520&lt;/td>
 &lt;/tr>
 &lt;tr>
+&lt;td style="text-align:center">显示器&lt;/td>
+&lt;td style="text-align:left">飞利浦27E2F7901&lt;/td>
+&lt;td>2799&lt;/td>
+&lt;td>2668.9&lt;/td>
+&lt;td>20231102&lt;/td>
+&lt;/tr>
+&lt;tr>
 &lt;td style="text-align:center">其他&lt;/td>
 &lt;td style="text-align:left">赫钢精密螺丝刀套装&lt;/td>
 &lt;td>19.5&lt;/td>
 &lt;td>18.5&lt;/td>
 &lt;td>20230430&lt;/td>
 &lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:left">&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;p>后续了解了intel新出了显卡，游戏性还不错，价格又低，就趁着618活动入了一款白色使用，同时看固态大降价，又冲动消费了一波，入了块宏基2t的固态，花费1964大洋。未来看看是不是要再入台4k办公显示器，目前在用的是前室友传给我的（也是他朋友送给他的，虽然它快十岁了，但质量还是杠杠的，noc的）。&lt;/p>
-&lt;p>有点难受致钛硬盘6月5号就降到了393，才过了一个多月2333……&lt;/p></description></item><item><title>Keychron K2 Keyboard</title><link>https://aunomax.github.io/post/keychron-k2-keyboard/</link><pubDate>Fri, 02 Jun 2023 11:17:13 +0800</pubDate><guid>https://aunomax.github.io/post/keychron-k2-keyboard/</guid><description>&lt;h1 id="京东京造keychron-k2键盘快捷键">京东京造Keychron K2键盘快捷键&lt;/h1>
+&lt;p>有点难受致钛硬盘6月5号就降到了393，才过了一个多月2333……&lt;/p>
+&lt;p>趁双十一优惠，购入飞利浦显示器27寸4k60hz办公显示器。&lt;/p></description></item><item><title>Keychron K2 Keyboard</title><link>https://aunomax.github.io/post/keychron-k2-keyboard/</link><pubDate>Fri, 02 Jun 2023 11:17:13 +0800</pubDate><guid>https://aunomax.github.io/post/keychron-k2-keyboard/</guid><description>&lt;h1 id="京东京造keychron-k2键盘快捷键">京东京造Keychron K2键盘快捷键&lt;/h1>
 &lt;h2 id="蓝牙连接">蓝牙连接&lt;/h2>
 &lt;p>1 长按&lt;code>Fn+1/2/3&lt;/code>开启蓝牙连接配对模式，可分别与1/2/3设备连接&lt;/p>
 &lt;p>2 短按&lt;code>Fn+1/2/3&lt;/code>可分别与1/2/3设备切换&lt;/p>
@@ -775,6 +796,8 @@ brackets).&lt;/li>
 &lt;/li>
 &lt;/ul>
 &lt;/li>
+&lt;li>&lt;/li>
+&lt;li>It is assumed that the reader has a basic understanding of the domain name system as described by [2].&lt;/li>
 &lt;/ul></description></item><item><title>Welcome to Wowchemy, the website builder for Hugo</title><link>https://aunomax.github.io/post/getting-started/</link><pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate><guid>https://aunomax.github.io/post/getting-started/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">libr&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;hello&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="overview">Overview&lt;/h2>
@@ -922,7 +945,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-842571936" class="chart">&lt;/div>
+&lt;div id="chart-576894132" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -931,7 +954,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-842571936', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-576894132', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
