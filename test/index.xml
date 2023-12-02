@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tests | Texify</title><link>https://aunomax.github.io/test/</link><atom:link href="https://aunomax.github.io/test/index.xml" rel="self" type="application/rss+xml"/><description>Tests</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 10 Jun 2023 10:07:55 +0800</lastBuildDate><image><url>https://aunomax.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>Tests</title><link>https://aunomax.github.io/test/</link></image><item><title>Vanishing Viscosity Limits of a Chemotaxis Navier Stokes Model</title><link>https://aunomax.github.io/test/referee-report/vanishing-viscosity-limits-of-a-chemotaxis-navier-stokes-model/</link><pubDate>Sat, 10 Jun 2023 10:07:55 +0800</pubDate><guid>https://aunomax.github.io/test/referee-report/vanishing-viscosity-limits-of-a-chemotaxis-navier-stokes-model/</guid><description>&lt;center>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tests on TeXify</title><link>https://aunomax.github.io/test/</link><description>Recent content in Tests on TeXify</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>me@example.com (author)</managingEditor><webMaster>me@example.com (author)</webMaster><lastBuildDate>Sat, 10 Jun 2023 10:07:55 +0800</lastBuildDate><atom:link href="https://aunomax.github.io/test/index.xml" rel="self" type="application/rss+xml"/><item><title>Vanishing Viscosity Limits of a Chemotaxis Navier Stokes Model</title><link>https://aunomax.github.io/test/referee-report/vanishing-viscosity-limits-of-a-chemotaxis-navier-stokes-model/</link><pubDate>Sat, 10 Jun 2023 10:07:55 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/test/referee-report/vanishing-viscosity-limits-of-a-chemotaxis-navier-stokes-model/</guid><description>&lt;center>
 REFEREE REPORT
 &lt;/center>
 &lt;center>
@@ -31,14 +31,12 @@ $\epsilon_1$ and $\epsilon_2$, which are sufficient to derive the vanishing visc
 to apply Banach&amp;rsquo;s fixed point theorem should be given explicitly.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>P5L-last line:
-$$ \int_{\Omega} p|\nabla \tilde{n} \| \nabla p|^5 \mathrm{~d} x\Rightarrow\int_{\Omega} p|\nabla p|^4 \nabla p \cdot\nabla\tilde{n} \mathrm{~d} x. $$
-&lt;/p>
+&lt;p>P5L-last line:&lt;/p>
+&lt;p>$$ \int_{\Omega} p|\nabla \tilde{n} | \nabla p|^5 \mathrm{~d} x\Rightarrow\int_{\Omega} p|\nabla p|^4 \nabla p \cdot\nabla\tilde{n} \mathrm{~d} x. $$&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>P6L-penultimate equation: It should be
-$$\frac{\mathrm{d}}{\mathrm{d} t}\|q\|_{L^6} \leq\|\tilde{n}\|_{L^6}.$$
-&lt;/p>
+&lt;p>P6L-penultimate equation: It should be&lt;/p>
+&lt;p>$$\frac{\mathrm{d}}{\mathrm{d} t}|q|&lt;em>{L^6} \leq|\tilde{n}|&lt;/em>{L^6}.$$&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>P7L-18,19: &amp;ldquo;$\frac{4}{l^2}$&amp;quot; $\Rightarrow$ &amp;ldquo;$\frac{4(l-1)}{l^2}$&amp;quot; and &amp;ldquo;$\frac{2}{l}$&amp;quot; $\Rightarrow$ &amp;ldquo;$\frac{2(l-1)}{l}$&amp;quot;.&lt;/p>
@@ -49,11 +47,6 @@ $$\frac{\mathrm{d}}{\mathrm{d} t}\|q\|_{L^6} \leq\|\tilde{n}\|_{L^6}.$$
 &lt;li>
 &lt;p>P11L-fourth line from the bottom: we &amp;ldquo;easily&amp;quot; see that the conclusions in Theorem 1.1 hold.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Hello World</title><link>https://aunomax.github.io/test/hello-world/</link><pubDate>Tue, 25 Apr 2023 13:50:13 +0800</pubDate><guid>https://aunomax.github.io/test/hello-world/</guid><description>&lt;h1 id="hello-world">Hello World&lt;/h1>
+&lt;/ol></description></item><item><title>Hello World</title><link>https://aunomax.github.io/test/hello-world/</link><pubDate>Tue, 25 Apr 2023 13:50:13 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/test/hello-world/</guid><description>&lt;h1 id="hello-world">Hello World&lt;/h1>
 &lt;p>this is a test.&lt;/p>
-&lt;p>
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="https://i.imgur.com/AFfPGDE.png" alt="Imgur" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p></description></item></channel></rss>
+&lt;p>&lt;img src="https://i.imgur.com/AFfPGDE.png" alt="Imgur">&lt;/p></description></item></channel></rss>

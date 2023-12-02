@@ -1,3 +1,2 @@
 User-agent: *
-
 Sitemap: https://aunomax.github.io/sitemap.xml

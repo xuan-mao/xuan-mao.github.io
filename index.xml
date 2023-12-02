@@ -1,130 +1,119 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Texify</title><link>https://aunomax.github.io/</link><atom:link href="https://aunomax.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Texify</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><image><url>https://aunomax.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>Texify</title><link>https://aunomax.github.io/</link></image><item><title>Example Talk</title><link>https://aunomax.github.io/talk/example-talk/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>https://aunomax.github.io/talk/example-talk/</guid><description>&lt;div class="alert alert-note">
-&lt;div>
-Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
-&lt;/div>
-&lt;/div>
-&lt;p>Slides can be added in a few ways:&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Create&lt;/strong> slides using Wowchemy&amp;rsquo;s &lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">&lt;em>Slides&lt;/em>&lt;/a> feature and link using &lt;code>slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
-&lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
-&lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Wsl for OpenSUSE</title><link>https://aunomax.github.io/post/wslopensuse/</link><pubDate>Mon, 16 Oct 2023 13:01:42 +0800</pubDate><guid>https://aunomax.github.io/post/wslopensuse/</guid><description>&lt;h1 id="installation">installation&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TeXify</title><link>https://aunomax.github.io/</link><description>Recent content on TeXify</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>me@example.com (author)</managingEditor><webMaster>me@example.com (author)</webMaster><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://aunomax.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Wsl for OpenSUSE</title><link>https://aunomax.github.io/post/wslopensuse/</link><pubDate>Mon, 16 Oct 2023 13:01:42 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/post/wslopensuse/</guid><description>&lt;h1 id="installation">installation&lt;/h1>
 &lt;p>在Windows terminal中输入&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="line">&lt;span class="cl"> &lt;span class="n">wsl&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">-list&lt;/span> &lt;span class="n">-o&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-powershell" data-lang="powershell">&lt;span style="display:flex;">&lt;span> wsl --list -o
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>查看可安装的分发列表：&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="line">&lt;span class="cl">&lt;span class="n">NAME&lt;/span> &lt;span class="n">FRIENDLY&lt;/span> &lt;span class="n">NAME&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Ubuntu&lt;/span> &lt;span class="n">Ubuntu&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Debian&lt;/span> &lt;span class="n">Debian&lt;/span> &lt;span class="n">GNU&lt;/span>&lt;span class="p">/&lt;/span>&lt;span class="n">Linux&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">kali-linux&lt;/span> &lt;span class="n">Kali&lt;/span> &lt;span class="n">Linux&lt;/span> &lt;span class="n">Rolling&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Ubuntu&lt;/span>&lt;span class="p">-&lt;/span>&lt;span class="mf">18.04&lt;/span> &lt;span class="n">Ubuntu&lt;/span> &lt;span class="mf">18.04&lt;/span> &lt;span class="n">LTS&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Ubuntu&lt;/span>&lt;span class="p">-&lt;/span>&lt;span class="mf">20.04&lt;/span> &lt;span class="n">Ubuntu&lt;/span> &lt;span class="mf">20.04&lt;/span> &lt;span class="n">LTS&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Ubuntu&lt;/span>&lt;span class="p">-&lt;/span>&lt;span class="mf">22.04&lt;/span> &lt;span class="n">Ubuntu&lt;/span> &lt;span class="mf">22.04&lt;/span> &lt;span class="n">LTS&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">OracleLinux_7_9&lt;/span> &lt;span class="n">Oracle&lt;/span> &lt;span class="n">Linux&lt;/span> &lt;span class="mf">7.9&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">OracleLinux_8_7&lt;/span> &lt;span class="n">Oracle&lt;/span> &lt;span class="n">Linux&lt;/span> &lt;span class="mf">8.7&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">OracleLinux_9_1&lt;/span> &lt;span class="n">Oracle&lt;/span> &lt;span class="n">Linux&lt;/span> &lt;span class="mf">9.1&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">openSUSE-Leap&lt;/span>&lt;span class="p">-&lt;/span>&lt;span class="mf">15.5&lt;/span> &lt;span class="n">openSUSE&lt;/span> &lt;span class="n">Leap&lt;/span> &lt;span class="mf">15.5&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">SUSE-Linux&lt;/span>&lt;span class="n">-Enterprise-Server&lt;/span>&lt;span class="p">-&lt;/span>&lt;span class="mf">15&lt;/span>&lt;span class="n">-SP4&lt;/span> &lt;span class="n">SUSE&lt;/span> &lt;span class="n">Linux&lt;/span> &lt;span class="n">Enterprise&lt;/span> &lt;span class="n">Server&lt;/span> &lt;span class="mf">15&lt;/span> &lt;span class="n">SP4&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">SUSE-Linux&lt;/span>&lt;span class="n">-Enterprise&lt;/span>&lt;span class="p">-&lt;/span>&lt;span class="mf">15&lt;/span>&lt;span class="n">-SP5&lt;/span> &lt;span class="n">SUSE&lt;/span> &lt;span class="n">Linux&lt;/span> &lt;span class="n">Enterprise&lt;/span> &lt;span class="mf">15&lt;/span> &lt;span class="n">SP5&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">openSUSE-Tumbleweed&lt;/span> &lt;span class="n">openSUSE&lt;/span> &lt;span class="n">Tumbleweed&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-powershell" data-lang="powershell">&lt;span style="display:flex;">&lt;span>NAME FRIENDLY NAME
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Ubuntu Ubuntu
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Debian Debian GNU/Linux
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a2f">kali-linux&lt;/span> Kali Linux Rolling
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Ubuntu-&lt;span style="color:#666">18.04&lt;/span> Ubuntu &lt;span style="color:#666">18.04&lt;/span> LTS
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Ubuntu-&lt;span style="color:#666">20.04&lt;/span> Ubuntu &lt;span style="color:#666">20.04&lt;/span> LTS
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Ubuntu-&lt;span style="color:#666">22.04&lt;/span> Ubuntu &lt;span style="color:#666">22.04&lt;/span> LTS
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>OracleLinux_7_9 Oracle Linux &lt;span style="color:#666">7.9&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>OracleLinux_8_7 Oracle Linux &lt;span style="color:#666">8.7&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>OracleLinux_9_1 Oracle Linux &lt;span style="color:#666">9.1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a2f">openSUSE-Leap&lt;/span>-&lt;span style="color:#666">15.5&lt;/span> openSUSE Leap &lt;span style="color:#666">15.5&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a2f">SUSE-Linux&lt;/span>-Enterprise-Server-&lt;span style="color:#666">15&lt;/span>-SP4 SUSE Linux Enterprise Server &lt;span style="color:#666">15&lt;/span> SP4
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a2f">SUSE-Linux&lt;/span>-Enterprise-&lt;span style="color:#666">15&lt;/span>-SP5 SUSE Linux Enterprise &lt;span style="color:#666">15&lt;/span> SP5
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a2f">openSUSE-Tumbleweed&lt;/span> openSUSE Tumbleweed
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>使用 &lt;code>wsl.exe --install &amp;lt;Distro&amp;gt;&lt;/code> 安装。&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="line">&lt;span class="cl"> &lt;span class="n">wsl&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">-install&lt;/span> &lt;span class="nb">openSUSE-Leap&lt;/span>&lt;span class="p">-&lt;/span>&lt;span class="mf">15.5&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-powershell" data-lang="powershell">&lt;span style="display:flex;">&lt;span> wsl --install &lt;span style="color:#a2f">openSUSE-Leap&lt;/span>-&lt;span style="color:#666">15.5&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>按照指示创建用户名密码安装即可。&lt;/p>
 &lt;p>查看版本信息&lt;code>cat /etc/os-release&lt;/code>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">NAME=&amp;#34;openSUSE Leap&amp;#34;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">VERSION=&amp;#34;15.5&amp;#34;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ID=&amp;#34;opensuse-leap&amp;#34;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ID_LIKE=&amp;#34;suse opensuse&amp;#34;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">VERSION_ID=&amp;#34;15.5&amp;#34;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">PRETTY_NAME=&amp;#34;openSUSE Leap 15.5&amp;#34;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ANSI_COLOR=&amp;#34;0;32&amp;#34;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">CPE_NAME=&amp;#34;cpe:/o:opensuse:leap:15.5&amp;#34;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">BUG_REPORT_URL=&amp;#34;https://bugs.opensuse.org&amp;#34;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">HOME_URL=&amp;#34;https://www.opensuse.org/&amp;#34;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">DOCUMENTATION_URL=&amp;#34;https://en.opensuse.org/Portal:Leap&amp;#34;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">LOGO=&amp;#34;distributor-logo-Leap&amp;#34;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="mirror-repository-opensuse-源使用帮助--ustc-mirror-help-文档httpsmirrorsustceducnhelpopensusehtml">mirror repository &lt;a href="https://mirrors.ustc.edu.cn/help/opensuse.html" target="_blank" rel="noopener">openSUSE 源使用帮助 — USTC Mirror Help 文档&lt;/a>&lt;/h2>
+&lt;pre tabindex="0">&lt;code>NAME=&amp;#34;openSUSE Leap&amp;#34;
+VERSION=&amp;#34;15.5&amp;#34;
+ID=&amp;#34;opensuse-leap&amp;#34;
+ID_LIKE=&amp;#34;suse opensuse&amp;#34;
+VERSION_ID=&amp;#34;15.5&amp;#34;
+PRETTY_NAME=&amp;#34;openSUSE Leap 15.5&amp;#34;
+ANSI_COLOR=&amp;#34;0;32&amp;#34;
+CPE_NAME=&amp;#34;cpe:/o:opensuse:leap:15.5&amp;#34;
+BUG_REPORT_URL=&amp;#34;https://bugs.opensuse.org&amp;#34;
+HOME_URL=&amp;#34;https://www.opensuse.org/&amp;#34;
+DOCUMENTATION_URL=&amp;#34;https://en.opensuse.org/Portal:Leap&amp;#34;
+LOGO=&amp;#34;distributor-logo-Leap&amp;#34;
+&lt;/code>&lt;/pre>&lt;h2 id="mirror-repository-opensuse-源使用帮助--ustc-mirror-help-文档httpsmirrorsustceducnhelpopensusehtml">mirror repository &lt;a href="https://mirrors.ustc.edu.cn/help/opensuse.html">openSUSE 源使用帮助 — USTC Mirror Help 文档&lt;/a>&lt;/h2>
 &lt;p>确认当前配置的软件源；&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo zypper lr -d
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo zypper lr -d
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>禁用原有软件源；&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo zypper mr -da
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo zypper mr -da
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>添加科大镜像源，以 openSUSE Leap 为例：&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo zypper ar -fcg &lt;span class="s1">&amp;#39;https://mirrors.ustc.edu.cn/opensuse/distribution/leap/$releasever/repo/oss&amp;#39;&lt;/span> USTC:OSS
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo zypper ar -fcg &lt;span class="s1">&amp;#39;https://mirrors.ustc.edu.cn/opensuse/distribution/leap/$releasever/repo/non-oss&amp;#39;&lt;/span> USTC:NON-OSS
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo zypper ar -fcg &lt;span class="s1">&amp;#39;https://mirrors.ustc.edu.cn/opensuse/update/leap/$releasever/oss&amp;#39;&lt;/span> USTC:UPDATE-OSS
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo zypper ar -fcg &lt;span class="s1">&amp;#39;https://mirrors.ustc.edu.cn/opensuse/update/leap/$releasever/non-oss&amp;#39;&lt;/span> USTC:UPDATE-NON-OSS
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo zypper ar -fcg &lt;span style="color:#b44">&amp;#39;https://mirrors.ustc.edu.cn/opensuse/distribution/leap/$releasever/repo/oss&amp;#39;&lt;/span> USTC:OSS
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zypper ar -fcg &lt;span style="color:#b44">&amp;#39;https://mirrors.ustc.edu.cn/opensuse/distribution/leap/$releasever/repo/non-oss&amp;#39;&lt;/span> USTC:NON-OSS
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zypper ar -fcg &lt;span style="color:#b44">&amp;#39;https://mirrors.ustc.edu.cn/opensuse/update/leap/$releasever/oss&amp;#39;&lt;/span> USTC:UPDATE-OSS
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zypper ar -fcg &lt;span style="color:#b44">&amp;#39;https://mirrors.ustc.edu.cn/opensuse/update/leap/$releasever/non-oss&amp;#39;&lt;/span> USTC:UPDATE-NON-OSS
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>对于 15.3 或更高版本的 openSUSE Leap，还需添加 SLE 更新源和 Backports 更新源：&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo zypper ar -fcg &lt;span class="s1">&amp;#39;https://mirrors.ustc.edu.cn/opensuse/update/leap/$releasever/sle&amp;#39;&lt;/span> USTC:UPDATE-SLE
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo zypper ar -fcg &lt;span class="s1">&amp;#39;https://mirrors.ustc.edu.cn/opensuse/update/leap/$releasever/backports&amp;#39;&lt;/span> USTC:UPDATE-BACKPORTS
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># refresh repository&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo zypper refresh
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># list packages that can be updated&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">zypper lu
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo zypper ar -fcg &lt;span style="color:#b44">&amp;#39;https://mirrors.ustc.edu.cn/opensuse/update/leap/$releasever/sle&amp;#39;&lt;/span> USTC:UPDATE-SLE
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zypper ar -fcg &lt;span style="color:#b44">&amp;#39;https://mirrors.ustc.edu.cn/opensuse/update/leap/$releasever/backports&amp;#39;&lt;/span> USTC:UPDATE-BACKPORTS
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># refresh repository&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zypper refresh
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># list packages that can be updated&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>zypper lu
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="surf-the-internet">surf the internet&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># fonts used in firefox&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo zypper in wqy-microhei-fonts
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># install firefox&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo zypper install MozillaFirefox
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="programming-for-fun-rust-programming-language-rust-langorghttpswwwrust-langorg">programming for fun &lt;a href="https://www.rust-lang.org/" target="_blank" rel="noopener">Rust Programming Language (rust-lang.org)&lt;/a>&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># If you’re a Windows Subsystem for Linux user run the following in your terminal, &lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># then follow the on-screen instructions to install Rust.&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">curl --proto &lt;span class="s1">&amp;#39;=https&amp;#39;&lt;/span> --tlsv1.2 -sSf https://sh.rustup.rs &lt;span class="p">|&lt;/span> sh
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># follow the instruction to finish the installation.&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># to configure your current shell, run:&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">source&lt;/span> &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="nv">$HOME&lt;/span>&lt;span class="s2">/.cargo/env&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># install rust-analyzer&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">rustup component add rust-analyzer
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># install cross-compile tools&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">rustup target add x86_64-pc-windows-gnu
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">rustup toolchain install stable-x86_64-pc-windows-gnu
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo zypper in mingw64-cross-gcc-c++
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># cargo build --release --target x86_64-pc-windows-gnu&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="neovim-and-lazyvimlazyvim-neovim-config-for-the-lazy-githubcomhttpsgithubcomlazyvimlazyvim">neovim and &lt;a href="https://github.com/LazyVim/LazyVim" target="_blank" rel="noopener">LazyVim/LazyVim: Neovim config for the lazy (github.com)&lt;/a>&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># network interface through clash for windows&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># append the following three lines to .bashrc&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">http_proxy&lt;/span>&lt;span class="o">=&lt;/span>172.20.224.1:65353
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">https_proxy&lt;/span>&lt;span class="o">=&lt;/span>172.20.224.1:65353
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">socks_proxy&lt;/span>&lt;span class="o">=&lt;/span>172.20.224.1:65353
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># to apply those changes instantly, run:&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">source&lt;/span> .bashrc
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># download nvim.appimage&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">wget https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># use `chmod u+x nvim.appimage &amp;amp;&amp;amp; ./nvim.appimage` and get a failure with message:&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># AppImages require FUSE to run.&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># You might still be able to extract the contents of this AppImage&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># if you run it with the --appimage-extract option.&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># See https://github.com/AppImage/AppImageKit/wiki/FUSE&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># for more information&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">./nvim.appimage --appimage-extract
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># move squashfs-root directory to root&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo mv squashfs-root/ /
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># create a symbolic link &lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># install lazy-vim https://github.com/LazyVim/LazyVim&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># https://www.lazyvim.org/installation&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># install git&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo zypper install git-core
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># install gcc&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo zypper install gcc
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo zypper in gcc-c++
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Clone the starter&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git clone https://github.com/LazyVim/starter ~/.config/nvim
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Remove the .git folder, so you can add it to your own repo later&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">rm -rf ~/.config/nvim/.git
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># fonts used in firefox&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zypper in wqy-microhei-fonts
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># install firefox&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zypper install MozillaFirefox
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="programming-for-fun-rust-programming-language-rust-langorghttpswwwrust-langorg">programming for fun &lt;a href="https://www.rust-lang.org/">Rust Programming Language (rust-lang.org)&lt;/a>&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># If you’re a Windows Subsystem for Linux user run the following in your terminal, &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># then follow the on-screen instructions to install Rust.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>curl --proto &lt;span style="color:#b44">&amp;#39;=https&amp;#39;&lt;/span> --tlsv1.2 -sSf https://sh.rustup.rs | sh
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># follow the instruction to finish the installation.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># to configure your current shell, run:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a2f">source&lt;/span> &lt;span style="color:#b44">&amp;#34;&lt;/span>&lt;span style="color:#b8860b">$HOME&lt;/span>&lt;span style="color:#b44">/.cargo/env&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># install rust-analyzer&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>rustup component add rust-analyzer
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># install cross-compile tools&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>rustup target add x86_64-pc-windows-gnu
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>rustup toolchain install stable-x86_64-pc-windows-gnu
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zypper in mingw64-cross-gcc-c++
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># cargo build --release --target x86_64-pc-windows-gnu&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="neovim-and-lazyvimlazyvim-neovim-config-for-the-lazy-githubcomhttpsgithubcomlazyvimlazyvim">neovim and &lt;a href="https://github.com/LazyVim/LazyVim">LazyVim/LazyVim: Neovim config for the lazy (github.com)&lt;/a>&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># network interface through clash for windows&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># append the following three lines to .bashrc&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a2f">export&lt;/span> &lt;span style="color:#b8860b">http_proxy&lt;/span>&lt;span style="color:#666">=&lt;/span>172.20.224.1:65353
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a2f">export&lt;/span> &lt;span style="color:#b8860b">https_proxy&lt;/span>&lt;span style="color:#666">=&lt;/span>172.20.224.1:65353
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a2f">export&lt;/span> &lt;span style="color:#b8860b">socks_proxy&lt;/span>&lt;span style="color:#666">=&lt;/span>172.20.224.1:65353
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># to apply those changes instantly, run:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a2f">source&lt;/span> .bashrc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># download nvim.appimage&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>wget https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># use `chmod u+x nvim.appimage &amp;amp;&amp;amp; ./nvim.appimage` and get a failure with message:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># AppImages require FUSE to run.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># You might still be able to extract the contents of this AppImage&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># if you run it with the --appimage-extract option.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># See https://github.com/AppImage/AppImageKit/wiki/FUSE&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># for more information&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>./nvim.appimage --appimage-extract
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># move squashfs-root directory to root&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo mv squashfs-root/ /
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># create a symbolic link &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># install lazy-vim https://github.com/LazyVim/LazyVim&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># https://www.lazyvim.org/installation&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># install git&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zypper install git-core
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># install gcc&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zypper install gcc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zypper in gcc-c++
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># Clone the starter&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git clone https://github.com/LazyVim/starter ~/.config/nvim
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># Remove the .git folder, so you can add it to your own repo later&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>rm -rf ~/.config/nvim/.git
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>add &lt;code>.config/nvim/init.lua&lt;/code>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-lua" data-lang="lua">&lt;span class="line">&lt;span class="cl">&lt;span class="n">require&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;lspconfig&amp;#34;&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="n">rust_analyzer.setup&lt;/span>&lt;span class="p">({})&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-lua" data-lang="lua">&lt;span style="display:flex;">&lt;span>require(&lt;span style="color:#b44">&amp;#34;lspconfig&amp;#34;&lt;/span>).rust_analyzer.setup({})
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>custom commands in &lt;code>.bashrc&lt;/code>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># custom&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">rust_prj&lt;/span>&lt;span class="o">=&lt;/span>/mnt/g/mao/Documents/Github/rust_prj
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">myWebSite&lt;/span>&lt;span class="o">=&lt;/span>/mnt/g/mao/Documents/Github/myWebSite/
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">prj_euler&lt;/span>&lt;span class="o">=&lt;/span>/mnt/g/mao/Documents/Github/ProjectEuler/
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#080;font-style:italic"># custom&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a2f">export&lt;/span> &lt;span style="color:#b8860b">rust_prj&lt;/span>&lt;span style="color:#666">=&lt;/span>/mnt/g/mao/Documents/Github/rust_prj
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a2f">export&lt;/span> &lt;span style="color:#b8860b">myWebSite&lt;/span>&lt;span style="color:#666">=&lt;/span>/mnt/g/mao/Documents/Github/myWebSite/
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a2f">export&lt;/span> &lt;span style="color:#b8860b">prj_euler&lt;/span>&lt;span style="color:#666">=&lt;/span>/mnt/g/mao/Documents/Github/ProjectEuler/
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="vim">vim&lt;/h2>
 &lt;ul>
 &lt;li>open a url: place the cursor on the url and type &lt;code>gx&lt;/code>.&lt;/li>
@@ -133,10 +122,10 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;li>delete: &lt;code>d&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h2 id="rustlings">rustlings&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">curl -L sh.rustlings.cool &lt;span class="p">|&lt;/span> bash
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>curl -L sh.rustlings.cool | bash
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="trouble-or-bugs-happensed-to-me">trouble or bugs happensed to me&lt;/h2>
-&lt;h3 id="inputoutput-error-httpsgithubcommicrosoftwslissues4377">Input/output error &lt;a href="https://github.com/microsoft/WSL/issues/4377" target="_blank" rel="noopener">https://github.com/microsoft/WSL/issues/4377&lt;/a>&lt;/h3>
-&lt;p>That error occurs if the hidden wslhost.exe process is died/killed. Just use &lt;code>wsl.exe --shutdown&lt;/code> and restart it.&lt;/p></description></item><item><title>International_conference</title><link>https://aunomax.github.io/post/international_conference/</link><pubDate>Sat, 07 Oct 2023 21:04:09 +0800</pubDate><guid>https://aunomax.github.io/post/international_conference/</guid><description>&lt;h1 id="联系会议">联系会议&lt;/h1>
+&lt;h3 id="inputoutput-error-httpsgithubcommicrosoftwslissues4377">Input/output error &lt;a href="https://github.com/microsoft/WSL/issues/4377">https://github.com/microsoft/WSL/issues/4377&lt;/a>&lt;/h3>
+&lt;p>That error occurs if the hidden wslhost.exe process is died/killed. Just use &lt;code>wsl.exe --shutdown&lt;/code> and restart it.&lt;/p></description></item><item><title>International_conference</title><link>https://aunomax.github.io/post/international_conference/</link><pubDate>Sat, 07 Oct 2023 21:04:09 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/post/international_conference/</guid><description>&lt;h1 id="联系会议">联系会议&lt;/h1>
 &lt;p>申请人自行联系并获取国际会议邀请函&lt;/p>
 &lt;h1 id="办护照">办护照&lt;/h1>
 &lt;ul>
@@ -145,7 +134,7 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;h1 id="国际交流申请">国际交流申请&lt;/h1>
 &lt;ul>
 &lt;li>申请理由：申请人（Xuan Mao）受邀于2023年12月9-11号在马来西亚举办的第三届太平洋优化会议（Third Pacific Optimisation Conference）上，口头报告申请人为第一作者，导师（Yuxiang Li）为第二作者的学术论文。该论文题为Dirac-Type Aggregation with Full Mass in A Chemotaxis Model，现已被英文国际期刊Discrete and Continuous Dynamical Systems - Series S接收。申请人是东南大学全日制博士生，希望研究生院予以资助此次国际会议的相关费用，包括往返交通费、会议注册费及签证费等。&lt;/li>
-&lt;/ul></description></item><item><title>Shortcut</title><link>https://aunomax.github.io/post/shortcut/</link><pubDate>Tue, 29 Aug 2023 10:50:55 +0800</pubDate><guid>https://aunomax.github.io/post/shortcut/</guid><description>&lt;ul>
+&lt;/ul></description></item><item><title>Shortcut</title><link>https://aunomax.github.io/post/shortcut/</link><pubDate>Tue, 29 Aug 2023 10:50:55 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/post/shortcut/</guid><description>&lt;ul>
 &lt;li>Microsoft Edge
 &lt;ul>
 &lt;li>Ctrl + Shift + /: toggle the Sidebar on/off&lt;/li>
@@ -161,12 +150,7 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;li>Ctrl + c + c&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Critical mass for Keller-Segel systems with supercritical nonlinear sensitivity</title><link>https://aunomax.github.io/publication/preprint/</link><pubDate>Wed, 14 Jun 2023 00:42:36 +0000</pubDate><guid>https://aunomax.github.io/publication/preprint/</guid><description>&lt;div class="alert alert-note">
-&lt;div>
-Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
-&lt;/div>
-&lt;/div>
-&lt;p>Supplementary notes can be added here, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">code, math, and images&lt;/a>.&lt;/p></description></item><item><title>Thesis Proposal Defense</title><link>https://aunomax.github.io/slides/thesis-proposal-defense/</link><pubDate>Sat, 10 Jun 2023 13:28:02 +0800</pubDate><guid>https://aunomax.github.io/slides/thesis-proposal-defense/</guid><description>&lt;h1 id="几类趋化方程解的爆破分析">几类趋化方程解的爆破分析&lt;/h1>
+&lt;/ul></description></item><item><title>Thesis Proposal Defense</title><link>https://aunomax.github.io/slides/thesis-proposal-defense/</link><pubDate>Sat, 10 Jun 2023 13:28:02 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/slides/thesis-proposal-defense/</guid><description>&lt;h1 id="几类趋化方程解的爆破分析">几类趋化方程解的爆破分析&lt;/h1>
 &lt;p>2023年6月9日&lt;/p>
 &lt;hr>
 &lt;h2 id="提纲">提纲&lt;/h2>
@@ -182,33 +166,29 @@ Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check
 &lt;h2 id="生物背景">生物背景&lt;/h2>
 &lt;p>趋化模型最早由Keller &amp;amp; Segel（1970）提出，用于描述细胞对化学信号刺激做出的趋向反应。
 $$\begin{cases}
-u_t =\nabla \cdot(\nabla u-u \nabla v), \\
+u_t =\nabla \cdot(\nabla u-u \nabla v), \
 \tau v_t =\Delta v-v+u,
-\end{cases}$$
-&lt;/p>
+\end{cases}$$&lt;/p>
 &lt;hr>
 &lt;h2 id="生物背景-1">生物背景&lt;/h2>
 &lt;p>Painter &amp;amp; Hillen (2002) 引入体积填充（volume filling）效应，提出了如下密度依赖的趋化模型：
 $$\begin{cases}
-u_t=\nabla \cdot(D(u) \nabla u)-\nabla \cdot(S(u) \nabla v), \\
+u_t=\nabla \cdot(D(u) \nabla u)-\nabla \cdot(S(u) \nabla v), \
 \tau v_t=\Delta v-v+u,
 \end{cases}$$
-$$D(u)=(1+u)^{m-1},\quad S(u)=u(1+u)^{q-1},\quad m,q\in\mathbb{R}$$
-&lt;/p>
+$$D(u)=(1+u)^{m-1},\quad S(u)=u(1+u)^{q-1},\quad m,q\in\mathbb{R}$$&lt;/p>
 &lt;hr>
 &lt;h2 id="生物背景-2">生物背景&lt;/h2>
 &lt;p>Strohm, Tyson &amp;amp; Powell (2013)研究山松甲壳虫的聚集攻击现象时，提出了间接信号产生的趋化模型：
 $$\begin{cases}
-u_t=\Delta u-\nabla \cdot(u \nabla v) \\
-\tau v_t=\Delta v - v + {w} \\
+u_t=\Delta u-\nabla \cdot(u \nabla v) \
+\tau v_t=\Delta v - v + {w} \
 w_t=u -w
-\end{cases}$$
-&lt;/p>
+\end{cases}$$&lt;/p>
 &lt;hr>
 &lt;h2 id="研究现状">研究现状&lt;/h2>
-&lt;p>
-$$\begin{cases}
-u_t =\nabla \cdot(\nabla u-u \nabla v), \\
+&lt;p>$$\begin{cases}
+u_t =\nabla \cdot(\nabla u-u \nabla v), \
 \tau v_t =\Delta v-v+u,
 \end{cases}$$
 $\tau=1$,PP&lt;/p>
@@ -227,8 +207,7 @@ $\tau=1$,PP&lt;/p>
 &lt;h2 id="研究现状-1">研究现状&lt;/h2>
 &lt;p>$\tau=0$,PE （化学信号扩散速度远大于细胞运动速度。）&lt;/p>
 &lt;ul>
-&lt;li>临界质量：
-J\"{a}ger \&amp; Luckhaus (1992);Nagai (1995);Nagai (2001).&lt;/li>
+&lt;li>临界质量：J&amp;quot;{a}ger &amp;amp; Luckhaus (1992);Nagai (1995);Nagai (2001).&lt;/li>
 &lt;li>趋化坍缩：Nagai, Senba &amp;amp; Suzuki(2000)&amp;mdash;Suzuki(2013)&lt;/li>
 &lt;li>二型爆破：Senba 2007 2d; Mizoguchi &amp;amp; Senba 2007 nd($n\geq11$);&lt;/li>
 &lt;li>一型爆破：Mizoguchi &amp;amp; Senba(2011)($3\leq n\leq 10$);Giga, Mizoguchi &amp;amp; Senba(2011)&lt;/li>
@@ -419,7 +398,7 @@ $$&lt;/p>
 &lt;hr>
 &lt;h2 id="致谢">致谢&lt;/h2>
 &lt;p>欢迎提出宝贵意见。&lt;/p>
-&lt;hr></description></item><item><title>Vanishing Viscosity Limits of a Chemotaxis Navier Stokes Model</title><link>https://aunomax.github.io/test/referee-report/vanishing-viscosity-limits-of-a-chemotaxis-navier-stokes-model/</link><pubDate>Sat, 10 Jun 2023 10:07:55 +0800</pubDate><guid>https://aunomax.github.io/test/referee-report/vanishing-viscosity-limits-of-a-chemotaxis-navier-stokes-model/</guid><description>&lt;center>
+&lt;hr></description></item><item><title>Vanishing Viscosity Limits of a Chemotaxis Navier Stokes Model</title><link>https://aunomax.github.io/test/referee-report/vanishing-viscosity-limits-of-a-chemotaxis-navier-stokes-model/</link><pubDate>Sat, 10 Jun 2023 10:07:55 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/test/referee-report/vanishing-viscosity-limits-of-a-chemotaxis-navier-stokes-model/</guid><description>&lt;center>
 REFEREE REPORT
 &lt;/center>
 &lt;center>
@@ -452,14 +431,12 @@ $\epsilon_1$ and $\epsilon_2$, which are sufficient to derive the vanishing visc
 to apply Banach&amp;rsquo;s fixed point theorem should be given explicitly.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>P5L-last line:
-$$ \int_{\Omega} p|\nabla \tilde{n} \| \nabla p|^5 \mathrm{~d} x\Rightarrow\int_{\Omega} p|\nabla p|^4 \nabla p \cdot\nabla\tilde{n} \mathrm{~d} x. $$
-&lt;/p>
+&lt;p>P5L-last line:&lt;/p>
+&lt;p>$$ \int_{\Omega} p|\nabla \tilde{n} | \nabla p|^5 \mathrm{~d} x\Rightarrow\int_{\Omega} p|\nabla p|^4 \nabla p \cdot\nabla\tilde{n} \mathrm{~d} x. $$&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>P6L-penultimate equation: It should be
-$$\frac{\mathrm{d}}{\mathrm{d} t}\|q\|_{L^6} \leq\|\tilde{n}\|_{L^6}.$$
-&lt;/p>
+&lt;p>P6L-penultimate equation: It should be&lt;/p>
+&lt;p>$$\frac{\mathrm{d}}{\mathrm{d} t}|q|&lt;em>{L^6} \leq|\tilde{n}|&lt;/em>{L^6}.$$&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>P7L-18,19: &amp;ldquo;$\frac{4}{l^2}$&amp;quot; $\Rightarrow$ &amp;ldquo;$\frac{4(l-1)}{l^2}$&amp;quot; and &amp;ldquo;$\frac{2}{l}$&amp;quot; $\Rightarrow$ &amp;ldquo;$\frac{2(l-1)}{l}$&amp;quot;.&lt;/p>
@@ -470,7 +447,7 @@ $$\frac{\mathrm{d}}{\mathrm{d} t}\|q\|_{L^6} \leq\|\tilde{n}\|_{L^6}.$$
 &lt;li>
 &lt;p>P11L-fourth line from the bottom: we &amp;ldquo;easily&amp;quot; see that the conclusions in Theorem 1.1 hold.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Thesis proposal defense</title><link>https://aunomax.github.io/talk/thesis-proposal-defense/</link><pubDate>Fri, 09 Jun 2023 14:00:00 +0800</pubDate><guid>https://aunomax.github.io/talk/thesis-proposal-defense/</guid><description/></item><item><title>My Desktop Computer</title><link>https://aunomax.github.io/post/my-desktop-computer/</link><pubDate>Sun, 04 Jun 2023 18:45:30 +0800</pubDate><guid>https://aunomax.github.io/post/my-desktop-computer/</guid><description>&lt;h1 id="小白装机">小白装机&lt;/h1>
+&lt;/ol></description></item><item><title>Thesis proposal defense</title><link>https://aunomax.github.io/event/thesis-proposal-defense/</link><pubDate>Fri, 09 Jun 2023 14:00:00 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/event/thesis-proposal-defense/</guid><description/></item><item><title>My Desktop Computer</title><link>https://aunomax.github.io/post/my-desktop-computer/</link><pubDate>Sun, 04 Jun 2023 18:45:30 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/post/my-desktop-computer/</guid><description>&lt;h1 id="小白装机">小白装机&lt;/h1>
 &lt;p>我趁着五一劳动节优惠，在京东全套购买配件攒了台台式机，花费5448大洋。然后花了6个小时，一次点亮。其实发生了个小意外，虽然我一直都有过怀疑，但我还是坚信我不会犯这种错误，最终在过了三周后，我终于发现了，我涂硅脂，装散热器时，没有揭开保护膜。&lt;/p>
 &lt;p>具体配置单为&lt;/p>
 &lt;table>
@@ -593,7 +570,7 @@ $$\frac{\mathrm{d}}{\mathrm{d} t}\|q\|_{L^6} \leq\|\tilde{n}\|_{L^6}.$$
 &lt;/table>
 &lt;p>后续了解了intel新出了显卡，游戏性还不错，价格又低，就趁着618活动入了一款白色使用，同时看固态大降价，又冲动消费了一波，入了块宏基2t的固态，花费1964大洋。未来看看是不是要再入台4k办公显示器，目前在用的是前室友传给我的（也是他朋友送给他的，虽然它快十岁了，但质量还是杠杠的，noc的）。&lt;/p>
 &lt;p>有点难受致钛硬盘6月5号就降到了393，才过了一个多月2333……&lt;/p>
-&lt;p>趁双十一优惠，购入飞利浦显示器27寸4k60hz办公显示器。&lt;/p></description></item><item><title>Keychron K2 Keyboard</title><link>https://aunomax.github.io/post/keychron-k2-keyboard/</link><pubDate>Fri, 02 Jun 2023 11:17:13 +0800</pubDate><guid>https://aunomax.github.io/post/keychron-k2-keyboard/</guid><description>&lt;h1 id="京东京造keychron-k2键盘快捷键">京东京造Keychron K2键盘快捷键&lt;/h1>
+&lt;p>趁双十一优惠，购入飞利浦显示器27寸4k60hz办公显示器。&lt;/p></description></item><item><title>Keychron K2 Keyboard</title><link>https://aunomax.github.io/post/keychron-k2-keyboard/</link><pubDate>Fri, 02 Jun 2023 11:17:13 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/post/keychron-k2-keyboard/</guid><description>&lt;h1 id="京东京造keychron-k2键盘快捷键">京东京造Keychron K2键盘快捷键&lt;/h1>
 &lt;h2 id="蓝牙连接">蓝牙连接&lt;/h2>
 &lt;p>1 长按&lt;code>Fn+1/2/3&lt;/code>开启蓝牙连接配对模式，可分别与1/2/3设备连接&lt;/p>
 &lt;p>2 短按&lt;code>Fn+1/2/3&lt;/code>可分别与1/2/3设备切换&lt;/p>
@@ -606,7 +583,7 @@ $$\frac{\mathrm{d}}{\mathrm{d} t}\|q\|_{L^6} \leq\|\tilde{n}\|_{L^6}.$$
 &lt;h2 id="灯效">灯效&lt;/h2>
 &lt;p>长按&lt;code>Fn+L+💡&lt;/code>锁定当前灯效&lt;/p>
 &lt;h2 id="恢复出厂模式">恢复出厂模式&lt;/h2>
-&lt;p>长按&lt;code>Fn+J+Z&lt;/code>恢复出厂模式，蓝牙复位。&lt;/p></description></item><item><title>数学书单</title><link>https://aunomax.github.io/post/%E6%95%B0%E5%AD%A6%E4%B9%A6%E5%8D%95/</link><pubDate>Mon, 29 May 2023 21:59:38 +0800</pubDate><guid>https://aunomax.github.io/post/%E6%95%B0%E5%AD%A6%E4%B9%A6%E5%8D%95/</guid><description>&lt;h1 id="math-book">Math Book&lt;/h1>
+&lt;p>长按&lt;code>Fn+J+Z&lt;/code>恢复出厂模式，蓝牙复位。&lt;/p></description></item><item><title>数学书单</title><link>https://aunomax.github.io/post/%E6%95%B0%E5%AD%A6%E4%B9%A6%E5%8D%95/</link><pubDate>Mon, 29 May 2023 21:59:38 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/post/%E6%95%B0%E5%AD%A6%E4%B9%A6%E5%8D%95/</guid><description>&lt;h1 id="math-book">Math Book&lt;/h1>
 &lt;h2 id="functional-analysis">functional analysis&lt;/h2>
 &lt;ul>
 &lt;li>Yoside&lt;/li>
@@ -623,41 +600,41 @@ $$\frac{\mathrm{d}}{\mathrm{d} t}\|q\|_{L^6} \leq\|\tilde{n}\|_{L^6}.$$
 &lt;h2 id="analysis">Analysis&lt;/h2>
 &lt;ul>
 &lt;li>Rudin(s)&lt;/li>
-&lt;/ul></description></item><item><title>软件工具</title><link>https://aunomax.github.io/post/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</link><pubDate>Mon, 29 May 2023 21:57:46 +0800</pubDate><guid>https://aunomax.github.io/post/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</guid><description>&lt;h1 id="工具">工具&lt;/h1>
+&lt;/ul></description></item><item><title>软件工具</title><link>https://aunomax.github.io/post/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</link><pubDate>Mon, 29 May 2023 21:57:46 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/post/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</guid><description>&lt;h1 id="工具">工具&lt;/h1>
 &lt;h2 id="解压缩工具">解压缩工具&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://www.7-zip.org/" target="_blank" rel="noopener">7-Zip&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.7-zip.org/">7-Zip&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="latex套装">$\LaTeX$套装&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://miktex.org/" target="_blank" rel="noopener">Miktex&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.winedt.com/" target="_blank" rel="noopener">WinEdt 11&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.texstudio.org/" target="_blank" rel="noopener">Texstudio&lt;/a>
+&lt;li>&lt;a href="https://miktex.org/">Miktex&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.winedt.com/">WinEdt 11&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.texstudio.org/">Texstudio&lt;/a>
 &lt;ul>
 &lt;li>languagetool&lt;/li>
-&lt;li>&lt;a href="https://extensions.libreoffice.org/en/extensions/show/english-dictionaries" target="_blank" rel="noopener">dictionary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://extensions.libreoffice.org/en/extensions/show/english-dictionaries">dictionary&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="https://www.sumatrapdfreader.org/free-pdf-reader" target="_blank" rel="noopener">SumatraPDF&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.sumatrapdfreader.org/free-pdf-reader">SumatraPDF&lt;/a>&lt;/li>
 &lt;li>LanguageTool&lt;/li>
-&lt;li>&lt;a href="https://www.jabref.org/" target="_blank" rel="noopener">JabRef&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/goldendict/goldendict/wiki" target="_blank" rel="noopener">GoldenDict&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://mathpix.com/" target="_blank" rel="noopener">Mathpix&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.jabref.org/">JabRef&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/goldendict/goldendict/wiki">GoldenDict&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://mathpix.com/">Mathpix&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="steam套装">Steam套装&lt;/h2>
 &lt;ul>
-&lt;li>Watt &lt;a href="https://steampp.net/" target="_blank" rel="noopener">Tookit&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://steamdb.info/" target="_blank" rel="noopener">steamdb&lt;/a>&lt;/li>
+&lt;li>Watt &lt;a href="https://steampp.net/">Tookit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://steamdb.info/">steamdb&lt;/a>&lt;/li>
 &lt;li>余额（淘宝）&lt;/li>
 &lt;li>steampy&lt;/li>
-&lt;li>&lt;a href="https://www.dogfight360.com/blog/686/" target="_blank" rel="noopener">steamcommunity 302 Ver.12.1.24 – Dogfight360&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.dogfight360.com/blog/686/">steamcommunity 302 Ver.12.1.24 – Dogfight360&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="下载">下载&lt;/h2>
 &lt;ul>
 &lt;li>Thunder&lt;/li>
 &lt;li>IDM&lt;/li>
 &lt;li>qBittorrent&lt;/li>
-&lt;li>BT搜索&lt;a href="https://wwt.lanzoul.com/iWI4J0dajrgb" target="_blank" rel="noopener">BTSOU v22.10.06.rar - 蓝奏云 (lanzoul.com)&lt;/a>&lt;/li>
+&lt;li>BT搜索&lt;a href="https://wwt.lanzoul.com/iWI4J0dajrgb">BTSOU v22.10.06.rar - 蓝奏云 (lanzoul.com)&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="影音">影音&lt;/h2>
 &lt;ul>
@@ -671,9 +648,9 @@ $$\frac{\mathrm{d}}{\mathrm{d} t}\|q\|_{L^6} \leq\|\tilde{n}\|_{L^6}.$$
 &lt;li>shadowsocket for ios&lt;/li>
 &lt;li>airport
 &lt;ul>
-&lt;li>&lt;a href="https://www.mojie.cyou/#/dashboard" target="_blank" rel="noopener">mojie&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://panel.keleofficial.com/#/dashboard" target="_blank" rel="noopener">kelecloud&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://tly.llc/modules/index.php" target="_blank" rel="noopener">tly.llc&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.mojie.cyou/#/dashboard">mojie&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://panel.keleofficial.com/#/dashboard">kelecloud&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://tly.llc/modules/index.php">tly.llc&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -691,25 +668,25 @@ $$\frac{\mathrm{d}}{\mathrm{d} t}\|q\|_{L^6} \leq\|\tilde{n}\|_{L^6}.$$
 &lt;/ul>
 &lt;h2 id="系统工具">系统工具&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/Chuyu-Team/Dism-Multi-language/releases" target="_blank" rel="noopener">Dism++&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/microsoft/PowerToys" target="_blank" rel="noopener">microsoft/PowerToys: Windows system utilities to maximize productivity (github.com)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://www.uderzo.it/main_products/space_sniffer/" target="_blank" rel="noopener">SpaceSniffer, find lost disk space the easy way. (uderzo.it)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/BluePointLilac/ContextMenuManager/releases" target="_blank" rel="noopener">ContextMenuManager&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/zhongyang219/TrafficMonitor" target="_blank" rel="noopener">zhongyang219/TrafficMonitor: 这是一个用于显示当前网速、CPU及内存利用率的桌面悬浮窗软件，并支持任务栏显示，支持更换皮肤。 (github.com)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://geekuninstaller.com/" target="_blank" rel="noopener">Geek Uninstaller - the best FREE uninstaller&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://kcsoftwares.com/?kcleaner" target="_blank" rel="noopener">KC Softwares删除系统缓存文件&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/Chuyu-Team/Dism-Multi-language/releases">Dism++&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/microsoft/PowerToys">microsoft/PowerToys: Windows system utilities to maximize productivity (github.com)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.uderzo.it/main_products/space_sniffer/">SpaceSniffer, find lost disk space the easy way. (uderzo.it)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/BluePointLilac/ContextMenuManager/releases">ContextMenuManager&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/zhongyang219/TrafficMonitor">zhongyang219/TrafficMonitor: 这是一个用于显示当前网速、CPU及内存利用率的桌面悬浮窗软件，并支持任务栏显示，支持更换皮肤。 (github.com)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://geekuninstaller.com/">Geek Uninstaller - the best FREE uninstaller&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://kcsoftwares.com/?kcleaner">KC Softwares删除系统缓存文件&lt;/a>&lt;/li>
 &lt;li>HiBit Uninstaller&lt;/li>
 &lt;li>图吧工具箱&lt;/li>
 &lt;li>Msi afterburner&lt;/li>
-&lt;li>&lt;a href="https://www.vmware.com/cn/products/workstation-player.html" target="_blank" rel="noopener">VMware Workstation Player | VMware | CN&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.vmware.com/cn/products/workstation-player.html">VMware Workstation Player | VMware | CN&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="文件检索">文件检索&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;a href="https://www.voidtools.com/support/everything/" target="_blank" rel="noopener">everything&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.voidtools.com/support/everything/">everything&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://www.listary.com/" target="_blank" rel="noopener">Listary – File Search &amp;amp; App Launcher&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.listary.com/">Listary – File Search &amp;amp; App Launcher&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>激活：&lt;/p>
@@ -727,28 +704,28 @@ $$\frac{\mathrm{d}}{\mathrm{d} t}\|q\|_{L^6} \leq\|\tilde{n}\|_{L^6}.$$
 &lt;/ul>
 &lt;h2 id="录屏">录屏&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://obsproject.com/" target="_blank" rel="noopener">OBS Studio&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://obsproject.com/">OBS Studio&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="系统修正">系统修正&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/Tatsu-syo/noMeiryoUI/releases" target="_blank" rel="noopener">修正系统字体字号-Releases · Tatsu-syo/noMeiryoUI (github.com)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/Tatsu-syo/noMeiryoUI/releases">修正系统字体字号-Releases · Tatsu-syo/noMeiryoUI (github.com)&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="图形可视化">图形可视化&lt;/h2>
 &lt;ul>
-&lt;li>&lt;del>&lt;a href="https://graphviz.org/" target="_blank" rel="noopener">Graphviz&lt;/a>&lt;/del>&lt;/li>
+&lt;li>&lt;del>&lt;a href="https://graphviz.org/">Graphviz&lt;/a>&lt;/del>&lt;/li>
 &lt;/ul>
 &lt;h2 id="图片查看器">图片查看器&lt;/h2>
 &lt;ul>
-&lt;li>&lt;del>&lt;a href="https://www.bandisoft.com/honeyview/" target="_blank" rel="noopener">Honeyview · 蜂蜜浏览器 · 免费的图像查看器 · 下载和功能说明 (bandisoft.com)&lt;/a>&lt;/del>&lt;/li>
+&lt;li>&lt;del>&lt;a href="https://www.bandisoft.com/honeyview/">Honeyview · 蜂蜜浏览器 · 免费的图像查看器 · 下载和功能说明 (bandisoft.com)&lt;/a>&lt;/del>&lt;/li>
 &lt;/ul>
 &lt;h2 id="截图">截图&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://www.snipaste.com/" target="_blank" rel="noopener">&lt;del>Snipaste&lt;/del>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://getsharex.com/" target="_blank" rel="noopener">ShareX - The best free and open source screenshot tool for Windows (getsharex.com)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.snipaste.com/">&lt;del>Snipaste&lt;/del>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://getsharex.com/">ShareX - The best free and open source screenshot tool for Windows (getsharex.com)&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="电子书">电子书&lt;/h2>
 &lt;ul>
-&lt;li>&lt;del>&lt;a href="https://calibre-ebook.com/" target="_blank" rel="noopener">calibre - E-book management (calibre-ebook.com)&lt;/a>&lt;/del>&lt;/li>
+&lt;li>&lt;del>&lt;a href="https://calibre-ebook.com/">calibre - E-book management (calibre-ebook.com)&lt;/a>&lt;/del>&lt;/li>
 &lt;/ul>
 &lt;h2 id="线上会议">线上会议&lt;/h2>
 &lt;ul>
@@ -762,909 +739,7 @@ $$\frac{\mathrm{d}}{\mathrm{d} t}\|q\|_{L^6} \leq\|\tilde{n}\|_{L^6}.$$
 &lt;/ul>
 &lt;h2 id="远程桌面">远程桌面&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://parsec.app/" target="_blank" rel="noopener">parsec&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://moonlight-stream.org/" target="_blank" rel="noopener">moonlight&lt;/a>&lt;/li>
-&lt;li>&lt;del>&lt;a href="https://rustdesk.com/zh/" target="_blank" rel="noopener">rustdesk&lt;/a>&lt;/del>&lt;/li>
-&lt;/ul></description></item><item><title>东南大学数学博士学位成果考核标准</title><link>https://aunomax.github.io/post/%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E5%8D%9A%E5%A3%AB%E5%AD%A6%E4%BD%8D%E6%88%90%E6%9E%9C%E8%80%83%E6%A0%B8%E6%A0%87%E5%87%86/</link><pubDate>Fri, 26 May 2023 17:02:01 +0800</pubDate><guid>https://aunomax.github.io/post/%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E5%8D%9A%E5%A3%AB%E5%AD%A6%E4%BD%8D%E6%88%90%E6%9E%9C%E8%80%83%E6%A0%B8%E6%A0%87%E5%87%86/</guid><description>&lt;h1 id="博士学位成果考核标准汇总">博士学位成果考核标准汇总&lt;/h1>
-&lt;p>博士学位成果考核标准汇总，请查看：研究生院-学位教育-学位授予-&lt;a href="https://seugs.seu.edu.cn/28878/list.htm" target="_blank" rel="noopener">规章制度 (seu.edu.cn)&lt;/a>。详见《东南大学博士研究生申请博士学位 的成果考核标准（2018 版）》。&lt;/p>
-&lt;h2 id="科研成果署名">科研成果署名&lt;/h2>
-&lt;p>博士学位申请者的学术论文必须以东南大学为第一署名单位， 即论文第一作者和第一通讯作者的第一署名单位必须均为“东南大 学”或“东南大学某机构”。除特别注明外，学位申请者必须是学术 论文的第一作者。&lt;/p>
-&lt;h2 id="期刊认定标准">期刊认定标准&lt;/h2>
-&lt;p>博士学位申请者的学术论文应发表在 SCIE、SSCI、A＆HCI、 EI、MI、CSSCI（核心版）、CSCD（核心版）、《中文核心期刊要目总览》 （北大图书馆编著，以论文发表当年的版本为准）的“来源期刊”（后 称“源刊”）上，但不包括这些学术期刊的增刊、专刊等非正常出版 的刊物。详见《东南大学博士研究生申请博士学位 的成果考核标准（2018 版）》。&lt;/p>
-&lt;h2 id="考核方案">考核方案&lt;/h2>
-&lt;p>理学的博士研究生申请博士学位时，须满足下列条件之一:&lt;/p>
-&lt;ol>
-&lt;li>在 SCIE/SSCI 源刊上发表学术论文二篇，其中在 JCR 分区表 中指定相应学科领域 Q1、Q2 区期刊学术论文至少一篇。&lt;/li>
-&lt;li>在 SCIE/SSCI 源刊或 EI/CSCD（核心版）源刊上发表学术论文三篇，其中被 SCIE/SSCI 收录学术论文至少二篇。&lt;/li>
-&lt;li>在 SCIE/SSCI 源刊上发表被 SCIE/SSCI 收录学术论文二篇， 且获授权国家发明专利一件。&lt;/li>
-&lt;/ol>
-&lt;h2 id="相关说明">相关说明&lt;/h2>
-&lt;p>博士学位申请者的成果应已正式发表或公布或授权，申请博士学 位时须提供学术论文所在期刊的原件及其它成果证明，包括学校图书 馆开具的论文检索证明。在 EI 源刊上发表的学术论文须被 EI 收录， EI 收录学术论文的文献类型原则上应是 Journal Article；被 SCIE/SSCI/A&amp;amp;HCI 收录学术论文的文献类型原则上应是 Article 或 Review 或 Letter；被 SCIE/SSCI/A&amp;amp;HCI/EI 收录学术论文须在相应的 数据库中检索到且有检索号。在 JCR 分区表中相应学科领域 Q1、Q2 区期刊上正式发表的学术论文可以视同被 SCIE/SSCI 收录，但须出示 有关论文正式发表的证明及期刊的 JCR 报告。&lt;/p>
-&lt;h2 id="注">注&lt;/h2>
-&lt;p>SCIE： Science Citation Index Expanded 《科学引文索引》&lt;/p>
-&lt;p>SSCI： Social Sciences Citation Index 《社会科学引文索引》&lt;/p>
-&lt;p>A&amp;amp;HCI： Arts&amp;amp;Humanities Citation Index 《艺术和人文学科引文索引》&lt;/p>
-&lt;p>EI： Engineering Index 《工程索引》&lt;/p>
-&lt;p>MI： MEDLINE 国际性生物医学文献书目数据 库包括《医学索引》（ Index Medicus）、《牙科文献索引》 （Index to Dental Literation）及 《国际护理索引》（International Nursing Index）&lt;/p>
-&lt;p>CSSCI： Chinese Social Science Citation Index 《中文社会科学引文索引》&lt;/p>
-&lt;p>CSCD： Chinese Science Citation Database 《中国科学引文数据库》&lt;/p>
-&lt;p>JCR: Journal Citation Reports 《期刊引用报告》（科睿唯安）&lt;/p></description></item><item><title>ThesisProposalDefense</title><link>https://aunomax.github.io/post/thesisproposaldefense/</link><pubDate>Thu, 25 May 2023 09:36:45 +0800</pubDate><guid>https://aunomax.github.io/post/thesisproposaldefense/</guid><description>&lt;h1 id="数学开题报告word模板的坑">数学开题报告Word模板的坑&lt;/h1>
-&lt;p>数学开题报告用Word写真的难受。多行公式编辑，排版是真不爽。&lt;/p>
-&lt;h2 id="word支持无插件插入数学公式多行公式技巧">Word支持无插件插入数学公式。多行公式技巧&lt;/h2>
-&lt;ul>
-&lt;li>先用快捷键”Alt+=“，在需要插入公式的位置插入数学格式，&lt;/li>
-&lt;li>然后点击如带大括号的多行公式，插入多行公式&lt;/li>
-&lt;li>调整行间距，否则多行公式显示不全。选中多行公式，右键单击选段落，行距选最短&lt;/li>
-&lt;li>键入公式支持用$\LaTeX$命令，直接输入对应公式即可，似乎数学字体格式不能用命令调用，如mathbb&lt;/li>
-&lt;li>关于插入公式序号，在多行公式末端敲&amp;quot;#()&amp;quot;，然后选插入-序号，选择需要的序号。或者将文本命令转化为数学符号后，在手动敲入序号&lt;/li>
-&lt;li>关于对齐，在将文本命令转化为数学符号后，选中整行公式，并将光标置于需要对其的位置，键入“&amp;amp;&amp;quot;,在其他行对应位置键入”&amp;amp;“后，公式将自动对齐。&lt;/li>
-&lt;/ul></description></item><item><title>Excerpts of Academic English</title><link>https://aunomax.github.io/post/excerpts-of-academic-english/</link><pubDate>Wed, 26 Apr 2023 12:47:05 +0800</pubDate><guid>https://aunomax.github.io/post/excerpts-of-academic-english/</guid><description>&lt;h1 id="excerpts">Excerpts&lt;/h1>
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;ul>
-&lt;li>The results of the paper &lt;strong>&lt;u>partially&lt;/u>&lt;/strong> extend previous works of Hu and Tao, and of Tao and Winkler.&lt;/li>
-&lt;/ul>
-&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;ul>
-&lt;li>
-&lt;p>A positive constant determined by $l$ besides $\tau$ (possibly changing from line to line) is henceforth denoted by $C_l$.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Here and henceforth, $T_{max}$ denotes the maximal time of the existence of the solution, and $|\cdot|_p$ is the standard $L_p$ norm&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>We do not wish to give further physical motivations for the present analysis and address the reader to Refs. [CLMP, Ki] and especially [ES, MP] for a more detailed presentation of the matter and additional &lt;strong>&lt;u>references&lt;/u>&lt;/strong>.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Before to do this let us recall that a domain A is strictly star-shaped if (modulo translations of the origin) there exists α &amp;gt; 0, such that
-$$
-x \cdot v(x) \geqq \alpha&amp;gt;0 \quad \text { when } \quad x \in \partial \Lambda
-$$
-where $v(x)$ is the outer normal to $\Lambda$ in $x$.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>under a &lt;strong>&lt;u>suitable&lt;/u>&lt;/strong> smallness condition on the initial data, we show that solutions exist globally and converge exponentially to a constant.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>An external chemoattractant source is provided in the form of a Dirac distribution &lt;strong>&lt;u>scaled by some positive constant&lt;/u>&lt;/strong>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>We’ll refer to the environments generically as “align” and will &lt;strong>distinguish&lt;/strong> between them explicitly only when necessary.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>The term &amp;ldquo;BIOS&amp;rdquo; in this user guide refers to &amp;ldquo;UEFI BIOS&amp;rdquo; &lt;u>&lt;strong>unless otherwise specified&lt;/strong>&lt;/u>.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>The volume-filling approach provides an &lt;strong>&lt;u>intuitive&lt;/u>&lt;/strong> way into how density-dependent chemotactic mod-
-els may be realistically derived.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>We have &lt;strong>&lt;u>so far&lt;/u>&lt;/strong> ignored the potential role of cell kinetics. This may be a reasonable modelling assumption for certain systems, for example during the aggregation stages of Dictyostelium discoideum when cell proliferation has &lt;strong>&lt;u>halted&lt;/u>&lt;/strong>, or if the time-scale of movement is significantly faster than that of cell growth.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Along the paper we use the following notation
-$$
-⟨f⟩ := \frac1{\Omega}\int_\Omega f
-$$
-for the average value of function $f ∈ L^1(Ω)$.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Throughout the paper we denote generic constants by C which may vary line by line according to the context.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>$C$ always denotes a generic positive constant.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Throughout this paper, the domain $\Omega$ and the non-trivial initial function $u_0$ are only confined to the following case:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>$\Omega$ is the open ball of radius $L$ with center at the origin in $R^N$.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>$u_o$ is radially symmetric when $N \geq 2$.&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Here we note that $W$ itself is bounded above for all times by the constant $nMR^n$, whereas the original function $u$ blows up if and only if the derivative $W_s(s, t) ≡ \frac1nu(r, t)$ does. Accordingly, we are interested in gradient blow-up in the problem (3.6), and as we shall see below, such behaviour occurs if $u_0$ is such that its initial mass is sufficiently strongly concentrated near $r = 0$.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>We adopt the usual convention that two functions are considered equal if they &lt;strong>&lt;u>agree&lt;/u>&lt;/strong> except on a set of $\mu$-measure zero. Then we denote by $L_p(U, d\mu)$ (or simply $L_p(d\mu)$, $L_p(U)$ or even $L_p$) the Lebesgue-space of (all equivalence classes of) scalar-valued $\mu$-measurable functions $f$ on $U$, such that
-$$
-|f|&lt;em>{L_p} = (\int_u|f(x)|^pd\mu)^{1/p}
-$$
-is finite. Here we have $1\leqslant p&amp;lt;\infty$. In the limiting case, $p=\infty$,
-$L_p$ consists of all $\mu$-measurable and bounded functions. Then we write
-$$
-|f|&lt;/em>{L_\infty}=\sup_U|f(x)|.
-$$&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Here we shall &lt;strong>&lt;u>reproduce&lt;/u>&lt;/strong> the elementary proof which was given by Thorin.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>The theory of linear and quasilinear parabolic evolution equations, outlined so far, uses crucially the smoothing property of parabolic equations. This regularizing effect is the ultimate reason for the validity of global existence theorems based on a priori estimates in &amp;lsquo;weak&amp;rsquo; norms, that is, norms involving little regularity of the solutions only. &amp;mdash;- Amann&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>First, the theory of monotone operators can sometimes be applied. However, it requires rather stringent conditions for the operators and nonlinearties and applies to a small class of problems only, &lt;strong>&lt;u>leaving aside&lt;/u>&lt;/strong> most systems of interest.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>This lack of regularity renders it rather difficult - &lt;strong>&lt;u>if not impossible&lt;/u>&lt;/strong> - to develop a dynamical systems theory and to use techniques from nonlinear analysis to establish qualitative properties of the solution set.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>It tells us, roughly speaking, that the quasilinear Cauchy problem (43) has the same behavior - as far as local existence and continuous dependence of the solutions on the data are concerned - as an ordinary differential equation: $y&amp;rsquo; = P(t, y)$ in the finite-dimensional setting. In addition, since our solutions are weak $W^1_2$-solutions as well, they coincide on the common interval of existence with weak $W^1_2$-solutions
-obtained by any other method, &lt;strong>&lt;u>provided&lt;/u>&lt;/strong> there is a uniqueness theorem for weak $W^1_2$-solutions.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>In the following, we &lt;strong>&lt;u>adopt&lt;/u>&lt;/strong> the usual convention not to distinguish (in notation) between a measurable function and its equivalence class modulo functions vanishing almost everywhere.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>We &lt;strong>&lt;u>remark&lt;/u>&lt;/strong> that $\limsup$ in (1.1) for solutions of (P) can be replaced with $\lim$ (see [23,27]).&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>In two dimensions, &lt;strong>&lt;u>to the best of our knowledge&lt;/u>&lt;/strong>, the first result on finite-time blowup was shown in [19] for radial solutions of (JL) on a disk.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Under a &lt;strong>&lt;u>restricted&lt;/u>&lt;/strong> condition on $\partial\Omega$, we show the finite-time blowup of nonradial solutions, &lt;strong>&lt;u>provided&lt;/u>&lt;/strong> that $\int_\Omega u_0 d x &amp;gt; 4\pi$ and $\int_\Omega u_0 |x-q|^2dx$ is sufficiently small.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>In our construction, to have solutions global in time, it is sufficient to obtain &lt;strong>&lt;u>an a priori estimate&lt;/u>&lt;/strong> on the $L^2(\Omega)$ norm of $(u, v)$ locally uniform in time. We will show such an estimate in certain cases in the next section, but here we would like to point out that in the case of $\Omega\subset R^3$, it &lt;strong>&lt;u>suffices&lt;/u>&lt;/strong> to have such an estimate only in $L^p, p &amp;gt; 3/2$. This follows from Amann’s theory of parabolic systems with nonlinear boundary conditions &lt;strong>&lt;u>(a personal communication)&lt;/u>&lt;/strong>.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Denoting by $f(t, x, v)$ the cell number density, at time $t$, &lt;strong>&lt;u>position&lt;/u>&lt;/strong> $x \in R^d$ moving with a velocity $v \in V$, the &lt;strong>&lt;u>governing&lt;/u>&lt;/strong> evolution equation of this process is described by a kinetic equation reading as:&lt;/p>
-&lt;/li>
-&lt;li>&lt;/li>
-&lt;/ul>
-&lt;h2 id="formalism">Formalism&lt;/h2>
-&lt;ul>
-&lt;li>By &lt;strong>&lt;u>abuse&lt;/u>&lt;/strong> of language we will write them in the differential form, which is &lt;strong>&lt;u>formally&lt;/u>&lt;/strong> obtained by taking the $L^2$ inner product of (1) and (2) with $u$, $v$, respectively, and integrating by parts. &lt;strong>&lt;u>In the sequel&lt;/u>&lt;/strong> we will be &lt;strong>&lt;u>performing some formal calculations&lt;/u>&lt;/strong> leading to differential inequalities, but we will &lt;strong>&lt;u>understand&lt;/u>&lt;/strong> them in the proper integral formulation like the energy relations above.&lt;/li>
-&lt;li>In the sequel we will not write explicitly the &lt;strong>&lt;u>dependence&lt;/u>&lt;/strong> of the &lt;strong>&lt;u>considered&lt;/u>&lt;/strong> functions on $t$,&lt;/li>
-&lt;/ul>
-&lt;h2 id="deduction">Deduction&lt;/h2>
-&lt;ul>
-&lt;li>differentiating (1.4) &lt;strong>&lt;u>with respect to time&lt;/u>&lt;/strong> gives&lt;/li>
-&lt;li>We detail the proof for the case when δ is positive, leaving to the reader the &lt;strong>&lt;u>minor modifications&lt;/u>&lt;/strong> necessary for the limit case δ = 0.&lt;/li>
-&lt;li>from which Lemma 2.5 follows &lt;strong>&lt;u>after integration with respect to time.&lt;/u>&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>&lt;u>Gathering&lt;/u>&lt;/strong> the previous three identities &lt;strong>&lt;u>leads us to&lt;/u>&lt;/strong>&lt;/li>
-&lt;li>It &lt;strong>&lt;u>follows&lt;/u>&lt;/strong> from (1.4a) and Hölder’s and Young’s inequalities that&lt;/li>
-&lt;li>We now &lt;strong>&lt;u>use&lt;/u>&lt;/strong> Young’s inequality to &lt;strong>&lt;u>obtain&lt;/u>&lt;/strong>&lt;/li>
-&lt;li>the standard continuity argument &lt;strong>&lt;u>applied&lt;/u>&lt;/strong> to (36) &lt;strong>&lt;u>guarantees&lt;/u>&lt;/strong>&lt;/li>
-&lt;li>With this choice, if α &amp;gt; 0 is sufficiently small, we &lt;strong>&lt;u>find&lt;/u>&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>&lt;u>by&lt;/u>&lt;/strong> the standard convering argument,&lt;/li>
-&lt;li>where $R &amp;gt; 0$ and $T ∈ (0, 1)$ will be fixed &lt;strong>&lt;u>below&lt;/u>&lt;/strong>.&lt;/li>
-&lt;li>multiplying the first two equations by $r^{n−1}$ and
-integrating &lt;strong>&lt;u>over&lt;/u>&lt;/strong> $(0, r)$, we obtain&amp;hellip;&lt;/li>
-&lt;li>which gives the desired estimate, up to relabeling the constant $C(n,p,s)$.&lt;/li>
-&lt;li>$\Gamma$ is oriented &lt;strong>&lt;u>in a way&lt;/u>&lt;/strong> that $Im\lambda$ increasing along $\Gamma$.&lt;/li>
-&lt;li>We will &lt;strong>&lt;u>assume without loss of generality&lt;/u>&lt;/strong> that &amp;hellip; and start by proving &amp;hellip;&lt;/li>
-&lt;li>The proof &lt;strong>&lt;u>goes along&lt;/u>&lt;/strong> the lines of [27, Lemma 3.2].&lt;/li>
-&lt;li>Furthermore, some comments and results on the convergence to steady-state solutions for general Keller–Segel-type models have been established for example in [14,34]. However, here we follow a &lt;strong>&lt;u>slightly&lt;/u>&lt;/strong> different approach.&lt;/li>
-&lt;li>&lt;strong>&lt;u>Using&lt;/u>&lt;/strong> $\Delta = r^{1-n}\partial_r(r^{n-1}\partial_r)$, multiplying the second equation in (1.1) with $r^{n-1}$ and integrating over $(0, r)$ , we get &amp;hellip;&lt;/li>
-&lt;li>On the other hand, &lt;strong>&lt;u>from&lt;/u>&lt;/strong> the first equation in (1.1), we obtain &amp;hellip;&lt;/li>
-&lt;li>&lt;strong>&lt;u>Differentiating&lt;/u>&lt;/strong> (1.1), we get &amp;hellip;&lt;/li>
-&lt;li>&lt;strong>&lt;u>Substituting&lt;/u>&lt;/strong> (2.1), (2.2) and (2.3) in (1.1), we finally obtain (2.4).&lt;/li>
-&lt;li>for each $t\in(0,T)$, $w(\cdot, t)$ can be extend to a $C^2$ function &lt;strong>&lt;u>up&lt;/u>&lt;/strong> to $r=0$.&lt;/li>
-&lt;li>&lt;strong>&lt;u>summing&lt;/u>&lt;/strong> up (23) and (24) we &lt;strong>&lt;u>arrive&lt;/u>&lt;/strong> at &amp;hellip; with the last inequality following from the Sobolev trace theorem.&lt;/li>
-&lt;li>&lt;strong>&lt;u>interpolating&lt;/u>&lt;/strong> Sobolev norms, we obtain from (25)&lt;/li>
-&lt;li>After the integration of (35) over $[0, T]$, and then letting $T$ &lt;strong>&lt;u>tend&lt;/u>&lt;/strong> to $\infty$, we conclude that there
-exists a sequence $t_k \to \infty$ such that &amp;hellip;&lt;/li>
-&lt;li>Taking into account the boundary condition (6) $(\varphi=0$ on $\partial \Omega)$ we see that $\varphi\left(t_k\right)$ converges &lt;strong>&lt;u>strongly&lt;/u>&lt;/strong> in $L^2(\Omega)$ to a function $\psi$.&lt;/li>
-&lt;li>If (37) is satisfied, then from the &lt;strong>&lt;u>compactness of imbeddings&lt;/u>&lt;/strong> $H^1(\Omega) \subset \subset L^q(\Omega), 3&amp;lt;q&amp;lt;6$, $H^1(\Omega) \subset \subset L^r(\partial \Omega), 2&amp;lt;r&amp;lt;4$, we conclude that there exist functions $w, z \in L^q(\Omega) \cap L^r(\partial \Omega)$ such that $w=\lim _{k \rightarrow \infty} u^{1 / 2}\left(t_k\right), z=\lim _{k \rightarrow \infty} v^{1 / 2}\left(t_k\right)$ in the above space &lt;strong>&lt;u>along a subsequence&lt;/u>&lt;/strong> of $t_k \mathrm{~s}$.&lt;/li>
-&lt;li>This &lt;strong>&lt;u>permits&lt;/u>&lt;/strong> us to&lt;/li>
-&lt;li>The $L^1$ convergence of $u(t)$ and $v(t)$ &lt;strong>&lt;u>is implied by&lt;/u>&lt;/strong> the estimate &amp;hellip;&lt;/li>
-&lt;li>We &lt;strong>&lt;u>observe&lt;/u>&lt;/strong> that a slightly modified version of (3.11) is also true for $p &amp;lt; n$,&lt;/li>
-&lt;li>To see this, for functions A, B and D &lt;strong>&lt;u>to be specified below&lt;/u>&lt;/strong>, let us consider&lt;/li>
-&lt;/ul>
-&lt;h3 id="subsequence">Subsequence&lt;/h3>
-&lt;ul>
-&lt;li>In addition, possibly after extracting a subsequence, we may assume that&lt;/li>
-&lt;li>up to the extraction of a subsequence,&lt;/li>
-&lt;li>extracting subsequences if necessary,&lt;/li>
-&lt;li>passing to a subsequence (denoted by the same symbol)&lt;/li>
-&lt;li>hence, a subsequence $\nabla v(t_k)$, with a new subsequence $t_k\to\infty$, still denoted $t_k$, converges weakly in $L^2(\Omega)$.&lt;/li>
-&lt;li>&lt;/li>
-&lt;/ul>
-&lt;h3 id="similarity">Similarity&lt;/h3>
-&lt;ul>
-&lt;li>At this stage, we can reproduce the argument of [20].&lt;/li>
-&lt;li>The proof is done along a similar line, but estimates near the boundary are more crucial.&lt;/li>
-&lt;li>Now we take the reflection process of [20].&lt;/li>
-&lt;li>We note in the following proposition useful facts about $(u, v)$ which can be proved in a
-standard manner along the lines of the proof of propositions 1 and 2 in [9].&lt;/li>
-&lt;li>The proof is &lt;strong>&lt;u>patterned&lt;/u>&lt;/strong> upon that of theorem 2 in [9].&lt;/li>
-&lt;li>&lt;strong>&lt;u>An analogous reasoning&lt;/u>&lt;/strong> shows that &amp;hellip;, too.&lt;/li>
-&lt;li>&lt;/li>
-&lt;/ul>
-&lt;h3 id="brevity">Brevity&lt;/h3>
-&lt;ul>
-&lt;li>We drop the suffix $n$ for simplicity of writing.&lt;/li>
-&lt;li>for the sake of simplicity&lt;/li>
-&lt;li>Here and later on, C will denote a constant independent of blabla and A.&lt;/li>
-&lt;li>Without any danger of confusion we shall write $u = u(r, t)$ for $r = |x|$ throughout.&lt;/li>
-&lt;li>The constant $C$ depends also on the space dimension $n$ but here and in the following we will suppress any dependence on $n$.&lt;/li>
-&lt;/ul>
-&lt;h3 id="obviousness">Obviousness&lt;/h3>
-&lt;ul>
-&lt;li>The following lemma is elementary, but we provide with the proof for completeness.&lt;/li>
-&lt;li>Those are preliminaries to the proof but have their own interests.&lt;/li>
-&lt;/ul>
-&lt;h3 id="conclusion">Conclusion&lt;/h3>
-&lt;ul>
-&lt;li>We are now in a position to apply [22, Lemma A.1] and derive an $L^\infty$-estimate on $u$.&lt;/li>
-&lt;/ul>
-&lt;h3 id="by-contradiction">by contradiction&lt;/h3>
-&lt;ul>
-&lt;li>Thus let us suppose (&lt;u>&lt;strong>by absurdum&lt;/strong>&lt;/u>) that&lt;/li>
-&lt;li>Suppose that (2.14) is &lt;strong>&lt;u>violated&lt;/u>&lt;/strong>.&lt;/li>
-&lt;li>This last point may be shown by contradiction.&lt;/li>
-&lt;li>this combined with the fact that $E(p) &amp;lt; E$ leads to a &lt;strong>&lt;u>contradiction&lt;/u>&lt;/strong>.&lt;/li>
-&lt;li>Without loss of generality, we may assume that&lt;/li>
-&lt;/ul>
-&lt;h2 id="remark">Remark&lt;/h2>
-&lt;ul>
-&lt;li>Having in mind &lt;strong>&lt;u>the remarks in the Introduction&lt;/u>&lt;/strong> on the nonexistence of global solutions emanating from large initial data for this problem, we should note that any attempt to prove the global existence of solutions in the electrolytic case needs a more subtle analysis of the terms on the right-hand sides of (9) and (10).&lt;/li>
-&lt;li>the integral $\int_\Omega u\nabla v\cdot\nabla v$ (even after certain integration by parts) in the general case cannot be estimated &lt;strong>&lt;u>crudely&lt;/u>&lt;/strong> for $n = 3$ using the &lt;strong>&lt;u>Sobolev-Gagliardo-Nirenberg inequalities&lt;/u>&lt;/strong>.&lt;/li>
-&lt;li>The reason is that the, so-called, net smoothness of the only terms $l&amp;lt;u, u&amp;gt;l_2^2$,
-$|\nabla&amp;lt;u, u&amp;gt;|_2^2$ that could be used to &lt;strong>&lt;u>compensate&lt;/u>&lt;/strong> the above integral is strictly less than its net
-smoothness.&lt;/li>
-&lt;li>In particular, theorem 10.1 in Chapter III of [13] gives the Hölder continuity: $u, v \in C^{\alpha, \alpha / 2}(\Omega \times(0, T))$ with some $\alpha \in(0,1)$, and the Hölder constant is locally bounded in $(x, t)$. &lt;strong>&lt;u>Under assumptions on the supplementary regularity of the boundary&lt;/u>&lt;/strong> $\partial \Omega \in C^{2+\alpha}$, and the Hölder continuity of $\langle u, v\rangle$ restricted to the parabolic boundary of $\Omega \times(0, T)$ (with suitable compatibility conditions on $\partial \Omega \times{0})$ we can obtain $C^{2+\alpha, 1+\alpha / 2}(\bar{\Omega} \times[0, T])$ regularity of solutions, which are in this case the classical ones, cf. e.g. [13, Chapter III, Section 12].&lt;/li>
-&lt;li>The general case is proved by &lt;strong>&lt;u>exhausting&lt;/u>&lt;/strong> the domain fi by an increasing sequence of smooth
-domains $\Omega_k$ for which (31) with the condition $\Phi_k = 0$ on $\partial\Omega$ is solved.&lt;/li>
-&lt;li>At the cost of some technical expense, on the basis of Theorem 2.1 and the ideas in [6], it is possible to extend the above result to less regular initial data: &lt;strong>&lt;u>Upon&lt;/u>&lt;/strong> an approximation argument, namely, one can assert global existence of small-data weak solutions with the asymptotic properties (2.2) and (2.3) for initial data with possibly discontinuous $u_0$ and $\nabla v_0$, satisfying only (2.1).&lt;/li>
-&lt;li>This result &lt;strong>&lt;u>suggests&lt;/u>&lt;/strong> a &lt;strong>&lt;u>negative&lt;/u>&lt;/strong> answer to Nanjundiah’s conjecture, which is the possibility of blow-up. Unfortunately, removing the smallness condition on $\tau &amp;gt; 0$ and the assumption of radial symmetry has been left as an open problem.&lt;/li>
-&lt;/ul>
-&lt;h2 id="uncertainty">Uncertainty&lt;/h2>
-&lt;ul>
-&lt;li>it is not certain that&lt;/li>
-&lt;/ul>
-&lt;h2 id="reference">Reference&lt;/h2>
-&lt;ul>
-&lt;li>Some parts of the proofs in this paper will be merely &lt;strong>&lt;u>sketched&lt;/u>&lt;/strong>. In such a situation [9] is a standard reference, where the details of &lt;strong>&lt;u>reasoning&lt;/u>&lt;/strong> for the simplified problem may be found.&lt;/li>
-&lt;/ul>
-&lt;h2 id="miscellaneous">Miscellaneous&lt;/h2>
-&lt;ul>
-&lt;li>then the standard argument of covering guarantees&lt;/li>
-&lt;li>Many suggestions were obtained such as the behaviors global in time, the blowup mechanism, the dynamics, and so forth.&lt;/li>
-&lt;li>$|\cdot|_{L\log L}$ denotes the Zygmund norm.&lt;/li>
-&lt;li>For backward compatibility we therefore give only a warning for this condition instead of a full error, and try to recover using the aligned environment. The alignment of the material may be &lt;u>&lt;strong>adversely&lt;/strong>&lt;/u> affected but it will at least remain readable.&lt;/li>
-&lt;li>Purists will hate this, though many of them would not have noticed had I not pointed it out here.&lt;/li>
-&lt;li>When $\Lambda = \mathbb{R}^2$ and the additional invariance of the momentum of inertia &lt;!--惯性--> is explicitly taken into account,&lt;/li>
-&lt;li>If a solution $(u, v)$ &lt;strong>&lt;u>emanates&lt;/u>&lt;/strong> from nonnegative initial data with &lt;strong>&lt;u>suitably less regularity&lt;/u>&lt;/strong>&lt;/li>
-&lt;li>The embedding $C^{0,\beta}(\Omega)\subset C^{0,\alpha}(\Omega)$, $0&amp;lt;\alpha&amp;lt;\beta\leq1$
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c84c9900304f30e83d247931db01c22620f705d6" alt="C^{0,\beta }(\Omega )\subset C^{0,\alpha }(\Omega ),0&amp;amp;lt;\alpha &amp;amp;lt;\beta \leq 1" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-is not dense. For example, $u\in C^1[0,1]$ and $\sqrt x\in C^{1/2}[0,1]$, but $|u-\sqrt x|_{C^{1/2}}=1$.&lt;/li>
-&lt;li>Models are derived by inserting into said structures a phenomenological description of interactions &lt;strong>&lt;u>among&lt;/u>&lt;/strong> pedestrians and &lt;u>&lt;strong>between&lt;/strong>&lt;/u> pedestrians and external actions.&lt;/li>
-&lt;li>&lt;u>&lt;strong>As before&lt;/strong>&lt;/u>, the square brackets denotes that functional dependence with respect to its arguments.&lt;/li>
-&lt;li>However, this simpler model might contradict &lt;u>&lt;strong>empirical&lt;/strong>&lt;/u> observations in some cases.&lt;/li>
-&lt;li>Some precise form of the speed $v$ can be given, for example in 190,187,188, such that the maximal speed is kept under low density conditions (free flow regime),i.e., &lt;u>&lt;strong>up to&lt;/strong>&lt;/u> a certain critical density $ρ_c$, while the speed decreases to zero, with a polynomial type dependence on the local density, for values of $ρ$ greater than $ρ_c$ (slowdown zone).&lt;/li>
-&lt;li>Cellular differentiation follows, eventually resulting in a fruiting body structure &lt;u>&lt;strong>composed&lt;/strong>&lt;/u> of a
-ball of spore cells supported by a stalk of dead cells.&lt;/li>
-&lt;li>Quorum-sensing type behaviour occurs both &lt;strong>&lt;u>prior&lt;/u>&lt;/strong> to starvation and &lt;strong>&lt;u>during&lt;/u>&lt;/strong> aggregation stages.&lt;/li>
-&lt;li>During aggregation, cells secrete another molecule, counting factor (CF), which &lt;strong>&lt;u>regulates&lt;/u>&lt;/strong> the size of the aggregation to &lt;strong>&lt;u>optimise&lt;/u>&lt;/strong> the efficiency with which the fruiting body can disperse the cells, [5, 6]. The CF is thought to determine the group size &lt;strong>&lt;u>via&lt;/u>&lt;/strong> modulation of the adhesive and motility properties of the cells [52].&lt;/li>
-&lt;li>We &lt;strong>&lt;u>incorporate&lt;/u>&lt;/strong> the effect of such a mechanism by assuming the existence of a secondary chemical which allows the cells to determine the local density and &lt;strong>&lt;u>alter&lt;/u>&lt;/strong> the chemotactic response to the chemoattractant $v$ &lt;strong>&lt;u>accordingly&lt;/u>&lt;/strong>.&lt;/li>
-&lt;li>A key property of the above equations is their ability to give rise to spatial pattern formation when the chemical signal acts as an auto-attractant, &lt;strong>&lt;u>that is&lt;/u>&lt;/strong>, when cells both produce and migrate up gradients
-of the chemical signal.&lt;/li>
-&lt;li>The following lemma of which proof is done by elementary calculations is useful to estimate integrals of $u^2$ and $(\partial u/\partial r)^2$ with respect to $r$.&lt;/li>
-&lt;li>The striking technical advantage of the radial framework here is that it allows for a transformation of the system (0.1) to a setting where parabolic comparison is available. &lt;u>&lt;strong>Namely&lt;/strong>&lt;/u>, &amp;hellip;&lt;/li>
-&lt;li>The following collection of comments should be considered &lt;strong>&lt;u>as far from&lt;/u>&lt;/strong> exhaustive with regard to
-aspects of language use.&lt;/li>
-&lt;li>The verbosity comes &lt;strong>&lt;u>at a cost&lt;/u>&lt;/strong> to human readability&lt;/li>
-&lt;li>&lt;strong>&lt;u>Only&lt;/u>&lt;/strong> with the increasing need in the day-to-day life of scientific programmers for simultaneous productivity and performance has the need for high performance dynamic languages become &lt;strong>&lt;u>pressing&lt;/u>&lt;/strong>.&lt;/li>
-&lt;li>We believe that the Julia programming language &lt;strong>&lt;u>fulfills&lt;/u>&lt;/strong> much of the Fortran dream: &lt;strong>&lt;u>automatic&lt;/u>&lt;/strong> translation of formulas into executable code. It &lt;strong>&lt;u>allows&lt;/u>&lt;/strong> programmers to write clear, high-level, generic and abstract code that closely &lt;strong>&lt;u>resembles&lt;/u>&lt;/strong> mathematical formulas, &lt;strong>&lt;u>yet&lt;/u>&lt;/strong> produces fast, low-level machine code that has traditionally only been generated by static languages.&lt;/li>
-&lt;li>double &lt;strong>&lt;u>precision&lt;/u>&lt;/strong> floating-point numbers&lt;/li>
-&lt;li>To be sure, experienced computer scientists tend to suspect that &lt;u>&lt;strong>there is nothing new under the sun&lt;/strong>&lt;/u>.&lt;/li>
-&lt;li>While it was &lt;strong>nurtured&lt;/strong> at the Massachusetts Institute of Technology, it is really the contributions from experts around the world &lt;strong>that&lt;/strong> make it a joy to use for numerical computing.&lt;/li>
-&lt;li>It is also &lt;strong>recognized&lt;/strong> as a general purpose computing language, unlike traditional numerical computing systems, allowing it to be used not only to &lt;strong>&lt;u>prototype&lt;/u>&lt;/strong> numerical algorithms, but also to &lt;strong>&lt;u>deploy&lt;/u>&lt;/strong> those algorithms and even serve results to the rest of the world.&lt;/li>
-&lt;li>succinctly, simply&lt;/li>
-&lt;li>Can we &lt;strong>&lt;u>strike a balance&lt;/u>&lt;/strong> between the human&amp;rsquo;s preference to avoid types and the computer&amp;rsquo;s need to know?&lt;/li>
-&lt;li>As a &lt;strong>&lt;u>by-product&lt;/u>&lt;/strong> of the proof we also obtain some global in time regularity of weak solutions.&lt;/li>
-&lt;li>&lt;strong>&lt;u>proceedings&lt;/u>&lt;/strong> [plural] the official written report of a meeting, etc.&lt;/li>
-&lt;li>If Rust did this, the operation $s2 = s1$ could be very expensive &lt;strong>&lt;u>in terms of&lt;/u>&lt;/strong> runtime performance if the data on the heap were large.&lt;/li>
-&lt;li>Most of the time when Rustaceans say “crate”, they mean library crate, and they use “crate” &lt;strong>&lt;u>interchangeably&lt;/u>&lt;/strong> with the general programming concept of a “library&amp;quot;.&lt;/li>
-&lt;li>We’ll also discuss the ways in which String is different from the other collections, &lt;strong>&lt;u>namely&lt;/u>&lt;/strong> how indexing into a String is complicated by the differences between how people and computers interpret String data.&lt;/li>
-&lt;li>AUTHOR INFORMATION PACK of JOURNAL OF DIFFERENTIAL EQUATIONS &lt;a href="https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions" target="_blank" rel="noopener">Latex Instructions (elsevier.com)&lt;/a>
-&lt;ul>
-&lt;li>
-&lt;p>Math formulae&lt;/p>
-&lt;ul>
-&lt;li>Please submit math equations as editable text and not as images.&lt;/li>
-&lt;li>Present simple formulae in line with normal text where possible and use the solidus (/) instead of a horizontal line for small fractional terms, e.g., $X/Y$.&lt;/li>
-&lt;li>In principle, variables are to be presented in italics.&lt;/li>
-&lt;li>Powers of $e$ are often more conveniently denoted by $\exp$.&lt;/li>
-&lt;li>Number consecutively any equations that have to be displayed separately from the text (if referred to explicitly in the text).&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Citation in text&lt;/p>
-&lt;ul>
-&lt;li>Please ensure that every reference cited in the text is also present in the reference list (and vice
-versa).&lt;/li>
-&lt;li>Any references cited in the abstract must be given in full.&lt;/li>
-&lt;li>Unpublished results and personal communications are not recommended in the reference list, but may be mentioned in the text.&lt;/li>
-&lt;li>If these references are included in the reference list they should follow the standard reference style of the journal and should include a substitution of the publication date with either &lt;strong>&lt;u>&amp;lsquo;Unpublished results&amp;rsquo;&lt;/u>&lt;/strong> or &lt;strong>&lt;u>&amp;lsquo;Personal communication&amp;rsquo;&lt;/u>&lt;/strong>.&lt;/li>
-&lt;li>Citation of a reference as &lt;strong>&lt;u>&amp;lsquo;in press&amp;rsquo;&lt;/u>&lt;/strong> implies that the item has been accepted for publication.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Web references&lt;/p>
-&lt;ul>
-&lt;li>As a minimum, the full URL should be given and the date when the reference was last accessed. Any further information, if known (DOI, author names, dates, reference to a source publication, etc.), should also be given. Web references can be listed separately (e.g., after the reference list) under a different heading if desired, or can be included in the reference list.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Data references&lt;/p>
-&lt;ul>
-&lt;li>This journal encourages you to cite underlying or relevant datasets in your manuscript by citing them in your text and including a data reference in your Reference List. Data references should include the following elements: author name(s), dataset title, data repository, version (where available), year, and &lt;strong>&lt;u>global persistent identifier&lt;/u>&lt;/strong>. Add [dataset] immediately before the reference so we can properly identify it as a data reference. The [dataset] identifier will not appear in your published article.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Preprint references&lt;/p>
-&lt;ul>
-&lt;li>Where a preprint has subsequently become available as a peer-reviewed publication, the formal publication should be used as the reference.&lt;/li>
-&lt;li>If there are preprints that are central to your work or that cover crucial developments in the topic, but are not yet formally published, these may be referenced.&lt;/li>
-&lt;li>Preprints should be clearly marked as such, for example by including the word preprint, or the name of the preprint server, as part of the reference. The preprint DOI should also be provided.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Reference management software&lt;/p>
-&lt;ul>
-&lt;li>Most Elsevier journals have their reference template available in many of the most popular reference management software products. These include all products that support Citation Style Language styles, such as Mendeley. Using citation plug-ins from these products, authors only need to select the appropriate journal template when preparing their article, after which citations and bibliographies will be automatically formatted in the journal&amp;rsquo;s style. If no template is yet available for this journal, please follow the format of the sample references and citations as shown in this Guide.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Reference style&lt;/p>
-&lt;ul>
-&lt;li>Text: Indicate references by number(s) in square brackets in line with the text. The actual authors can be referred to, but the reference number(s) must always be given. Example: &amp;lsquo;&amp;hellip;.. as demonstrated [3,6]. Barnaby and Jones [8] obtained a different result &amp;hellip;.&amp;rsquo;&lt;/li>
-&lt;li>List: The list of references is arranged alphabetically and then numbered (numbers in square
-brackets).&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;/li>
-&lt;li>It is assumed that the reader has a basic understanding of the domain name system as described by [2].&lt;/li>
-&lt;/ul></description></item><item><title>Hello World</title><link>https://aunomax.github.io/test/hello-world/</link><pubDate>Tue, 25 Apr 2023 13:50:13 +0800</pubDate><guid>https://aunomax.github.io/test/hello-world/</guid><description>&lt;h1 id="hello-world">Hello World&lt;/h1>
-&lt;p>this is a test.&lt;/p>
-&lt;p>
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="https://i.imgur.com/AFfPGDE.png" alt="Imgur" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p></description></item><item><title>Welcome to Wowchemy, the website builder for Hugo</title><link>https://aunomax.github.io/post/getting-started/</link><pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate><guid>https://aunomax.github.io/post/getting-started/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">libr&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;hello&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="overview">Overview&lt;/h2>
-&lt;ol>
-&lt;li>The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li>
-&lt;li>The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong>no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong> and having &lt;strong>flexibility to later add even deeper personalization with HTML and CSS&lt;/strong>&lt;/li>
-&lt;li>You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li>
-&lt;/ol>
-&lt;p>&lt;a href="https://wowchemy.com" target="_blank" rel="noopener">
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png" alt="The template is mobile first with a responsive design to ensure that your site looks stunning on every device." loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/a>&lt;/p>
-&lt;h2 id="get-started">Get Started&lt;/h2>
-&lt;ul>
-&lt;li>👉 &lt;a href="https://wowchemy.com/templates/" target="_blank" rel="noopener">&lt;strong>Create a new site&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>📚 &lt;a href="https://wowchemy.com/docs/" target="_blank" rel="noopener">&lt;strong>Personalize your site&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>💬 &lt;a href="https://discord.gg/z8wNYzb" target="_blank" rel="noopener">Chat with the &lt;strong>Wowchemy community&lt;/strong>&lt;/a> or &lt;a href="https://discourse.gohugo.io" target="_blank" rel="noopener">&lt;strong>Hugo community&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>🐦 Twitter: &lt;a href="https://twitter.com/wowchemy" target="_blank" rel="noopener">@wowchemy&lt;/a> &lt;a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">@GeorgeCushen&lt;/a> &lt;a href="https://twitter.com/search?q=%23MadeWithWowchemy&amp;amp;src=typed_query" target="_blank" rel="noopener">#MadeWithWowchemy&lt;/a>&lt;/li>
-&lt;li>💡 &lt;a href="https://github.com/wowchemy/wowchemy-hugo-themes/issues" target="_blank" rel="noopener">Request a &lt;strong>feature&lt;/strong> or report a &lt;strong>bug&lt;/strong> for &lt;em>Wowchemy&lt;/em>&lt;/a>&lt;/li>
-&lt;li>⬆️ &lt;strong>Updating Wowchemy?&lt;/strong> View the &lt;a href="https://wowchemy.com/docs/hugo-tutorials/update/" target="_blank" rel="noopener">Update Tutorial&lt;/a> and &lt;a href="https://wowchemy.com/updates/" target="_blank" rel="noopener">Release Notes&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="crowd-funded-open-source-software">Crowd-funded open-source software&lt;/h2>
-&lt;p>To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p>
-&lt;h3 id="-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomsponsor">&lt;a href="https://wowchemy.com/sponsor/" target="_blank" rel="noopener">❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a>&lt;/h3>
-&lt;p>As a token of appreciation for sponsoring, you can &lt;strong>unlock &lt;a href="https://wowchemy.com/sponsor/" target="_blank" rel="noopener">these&lt;/a> awesome rewards and extra features 🦄✨&lt;/strong>&lt;/p>
-&lt;h2 id="ecosystem">Ecosystem&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>&lt;a href="https://github.com/wowchemy/hugo-academic-cli" target="_blank" rel="noopener">Hugo Academic CLI&lt;/a>:&lt;/strong> Automatically import publications from BibTeX&lt;/li>
-&lt;/ul>
-&lt;h2 id="inspiration">Inspiration&lt;/h2>
-&lt;p>&lt;a href="https://academic-demo.netlify.com/" target="_blank" rel="noopener">Check out the latest &lt;strong>demo&lt;/strong>&lt;/a> of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href="https://wowchemy.com/user-stories/" target="_blank" rel="noopener">view the &lt;strong>showcase&lt;/strong>&lt;/a> of personal, project, and business sites.&lt;/p>
-&lt;h2 id="features">Features&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>Page builder&lt;/strong> - Create &lt;em>anything&lt;/em> with &lt;a href="https://wowchemy.com/docs/page-builder/" target="_blank" rel="noopener">&lt;strong>widgets&lt;/strong>&lt;/a> and &lt;a href="https://wowchemy.com/docs/content/writing-markdown-latex/" target="_blank" rel="noopener">&lt;strong>elements&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;strong>Edit any type of content&lt;/strong> - Blog posts, publications, talks, slides, projects, and more!&lt;/li>
-&lt;li>&lt;strong>Create content&lt;/strong> in &lt;a href="https://wowchemy.com/docs/content/writing-markdown-latex/" target="_blank" rel="noopener">&lt;strong>Markdown&lt;/strong>&lt;/a>, &lt;a href="https://wowchemy.com/docs/import/jupyter/" target="_blank" rel="noopener">&lt;strong>Jupyter&lt;/strong>&lt;/a>, or &lt;a href="https://wowchemy.com/docs/install-locally/" target="_blank" rel="noopener">&lt;strong>RStudio&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;strong>Plugin System&lt;/strong> - Fully customizable &lt;a href="https://wowchemy.com/docs/customization/" target="_blank" rel="noopener">&lt;strong>color&lt;/strong> and &lt;strong>font themes&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;strong>Display Code and Math&lt;/strong> - Code highlighting and &lt;a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank" rel="noopener">LaTeX math&lt;/a> supported&lt;/li>
-&lt;li>&lt;strong>Integrations&lt;/strong> - &lt;a href="https://analytics.google.com" target="_blank" rel="noopener">Google Analytics&lt;/a>, &lt;a href="https://disqus.com" target="_blank" rel="noopener">Disqus commenting&lt;/a>, Maps, Contact Forms, and more!&lt;/li>
-&lt;li>&lt;strong>Beautiful Site&lt;/strong> - Simple and refreshing one page design&lt;/li>
-&lt;li>&lt;strong>Industry-Leading SEO&lt;/strong> - Help get your website found on search engines and social media&lt;/li>
-&lt;li>&lt;strong>Media Galleries&lt;/strong> - Display your images and videos with captions in a customizable gallery&lt;/li>
-&lt;li>&lt;strong>Mobile Friendly&lt;/strong> - Look amazing on every screen with a mobile friendly version of your site&lt;/li>
-&lt;li>&lt;strong>Multi-language&lt;/strong> - 34+ language packs including English, 中文, and Português&lt;/li>
-&lt;li>&lt;strong>Multi-user&lt;/strong> - Each author gets their own profile page&lt;/li>
-&lt;li>&lt;strong>Privacy Pack&lt;/strong> - Assists with GDPR&lt;/li>
-&lt;li>&lt;strong>Stand Out&lt;/strong> - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li>
-&lt;li>&lt;strong>One-Click Deployment&lt;/strong> - No servers. No databases. Only files.&lt;/li>
-&lt;/ul>
-&lt;h2 id="themes">Themes&lt;/h2>
-&lt;p>Wowchemy and its templates come with &lt;strong>automatic day (light) and night (dark) mode&lt;/strong> built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href="https://academic-demo.netlify.com/" target="_blank" rel="noopener">Demo&lt;/a> to see it in action! Day/night mode can also be disabled by the site admin in &lt;code>params.toml&lt;/code>.&lt;/p>
-&lt;p>&lt;a href="https://wowchemy.com/docs/customization" target="_blank" rel="noopener">Choose a stunning &lt;strong>theme&lt;/strong> and &lt;strong>font&lt;/strong>&lt;/a> for your site. Themes are fully customizable.&lt;/p>
-&lt;h2 id="license">License&lt;/h2>
-&lt;p>Copyright 2016-present &lt;a href="https://georgecushen.com" target="_blank" rel="noopener">George Cushen&lt;/a>.&lt;/p>
-&lt;p>Released under the &lt;a href="https://github.com/wowchemy/wowchemy-hugo-themes/blob/master/LICENSE.md" target="_blank" rel="noopener">MIT&lt;/a> license.&lt;/p></description></item><item><title>Writing technical content in Markdown</title><link>https://aunomax.github.io/post/writing-technical-content/</link><pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate><guid>https://aunomax.github.io/post/writing-technical-content/</guid><description>&lt;p>Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.&lt;/p>
-&lt;p>&lt;strong>Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong>&lt;/p>
-&lt;p>On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Wowchemy.&lt;/p>
-&lt;h2 id="examples">Examples&lt;/h2>
-&lt;h3 id="code">Code&lt;/h3>
-&lt;p>Wowchemy supports a Markdown extension for highlighting code syntax. You can customize the styles under the &lt;code>syntax_highlighter&lt;/code> option in your &lt;code>config/_default/params.yaml&lt;/code> file.&lt;/p>
-&lt;pre>&lt;code>```python
-import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-```
-&lt;/code>&lt;/pre>
-&lt;p>renders as&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">pandas&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">pd&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">data&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">pd&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">read_csv&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;data.csv&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">data&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">head&lt;/span>&lt;span class="p">()&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="mindmaps">Mindmaps&lt;/h3>
-&lt;p>Wowchemy supports a Markdown extension for mindmaps.&lt;/p>
-&lt;p>Simply insert a Markdown &lt;code>markmap&lt;/code> code block and optionally set the height of the mindmap as shown in the example below.&lt;/p>
-&lt;p>A simple mindmap defined as a Markdown list:&lt;/p>
-&lt;div class="highlight">
-&lt;pre class="chroma">
-&lt;code>
-```markmap {height="200px"}
-- Hugo Modules
-- wowchemy
-- wowchemy-plugins-netlify
-- wowchemy-plugins-netlify-cms
-- wowchemy-plugins-reveal
-```
-&lt;/code>
-&lt;/pre>
-&lt;/div>
-&lt;p>renders as&lt;/p>
-&lt;div class="markmap" style="height: 200px;">
-&lt;pre>- Hugo Modules
-- wowchemy
-- wowchemy-plugins-netlify
-- wowchemy-plugins-netlify-cms
-- wowchemy-plugins-reveal&lt;/pre>
-&lt;/div>
-&lt;p>A more advanced mindmap with formatting, code blocks, and math:&lt;/p>
-&lt;div class="highlight">
-&lt;pre class="chroma">
-&lt;code>
-```markmap
-- Mindmaps
-- Links
-- [Wowchemy Docs](https://wowchemy.com/docs/)
-- [Discord Community](https://discord.gg/z8wNYzb)
-- [GitHub](https://github.com/wowchemy/wowchemy-hugo-themes)
-- Features
-- Markdown formatting
-- **inline** ~~text~~ *styles*
-- multiline
-text
-- `inline code`
--
-```js
-console.log('hello');
-console.log('code block');
-```
-- Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
-&lt;/code>
-&lt;/pre>
-&lt;/div>
-&lt;p>renders as&lt;/p>
-&lt;div class="markmap" style="height: 500px;">
-&lt;pre>- Mindmaps
-- Links
-- [Wowchemy Docs](https://wowchemy.com/docs/)
-- [Discord Community](https://discord.gg/z8wNYzb)
-- [GitHub](https://github.com/wowchemy/wowchemy-hugo-themes)
-- Features
-- Markdown formatting
-- **inline** ~~text~~ *styles*
-- multiline
-text
-- `inline code`
--
-```js
-console.log('hello');
-console.log('code block');
-```
-- Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$&lt;/pre>
-&lt;/div>
-&lt;h3 id="charts">Charts&lt;/h3>
-&lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
-&lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
-&lt;p>Demo:&lt;/p>
-&lt;div id="chart-258349167" class="chart">&lt;/div>
-&lt;script>
-(function() {
-let a = setInterval( function() {
-if ( typeof window.Plotly === 'undefined' ) {
-return;
-}
-clearInterval( a );
-Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-258349167', chart.data, chart.layout, {responsive: true});
-});
-}, 500 );
-})();
-&lt;/script>
-&lt;p>You might also find the &lt;a href="http://plotly-json-editor.getforge.io/" target="_blank" rel="noopener">Plotly JSON Editor&lt;/a> useful.&lt;/p>
-&lt;h3 id="math">Math&lt;/h3>
-&lt;p>Wowchemy supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code>math&lt;/code> option in your &lt;code>config/_default/params.yaml&lt;/code> file.&lt;/p>
-&lt;p>To render &lt;em>inline&lt;/em> or &lt;em>block&lt;/em> math, wrap your LaTeX math with &lt;code>{{&amp;lt; math &amp;gt;}}$...${{&amp;lt; /math &amp;gt;}}&lt;/code> or &lt;code>{{&amp;lt; math &amp;gt;}}$$...$${{&amp;lt; /math &amp;gt;}}&lt;/code>, respectively. (We wrap the LaTeX math in the Wowchemy &lt;em>math&lt;/em> shortcode to prevent Hugo rendering our math as Markdown. The &lt;em>math&lt;/em> shortcode is new in v5.5-dev.)&lt;/p>
-&lt;p>Example &lt;strong>math block&lt;/strong>:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-latex" data-lang="latex">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">{{&lt;/span>&amp;lt; math &amp;gt;&lt;span class="nb">}}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sb">$$&lt;/span>&lt;span class="nb">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gamma&lt;/span>&lt;span class="nb">_{n} &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\frac&lt;/span>&lt;span class="nb">{ &lt;/span>&lt;span class="nv">\left&lt;/span>&lt;span class="nb"> | &lt;/span>&lt;span class="nv">\left&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb"> x_{n} &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb"> x_{n&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">} &lt;/span>&lt;span class="nv">\right&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb">^T &lt;/span>&lt;span class="nv">\left&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">[&lt;/span>&lt;span class="nv">\nabla&lt;/span>&lt;span class="nb"> F &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb"> x_{n}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\nabla&lt;/span>&lt;span class="nb"> F &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb"> x_{n&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\right&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">]&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\right&lt;/span>&lt;span class="nb"> |}{&lt;/span>&lt;span class="nv">\left&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\|\nabla&lt;/span>&lt;span class="nb"> F&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb">{x}_{n}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\nabla&lt;/span>&lt;span class="nb"> F&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb">{x}_{n&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\right&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\|&lt;/span>&lt;span class="nb">^&lt;/span>&lt;span class="m">2&lt;/span>&lt;span class="nb">}
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="s">$$&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">{{&lt;/span>&amp;lt; /math &amp;gt;&lt;span class="nb">}}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-&lt;p>Example &lt;strong>inline math&lt;/strong> &lt;code>{{&amp;lt; math &amp;gt;}}$\nabla F(\mathbf{x}_{n})${{&amp;lt; /math &amp;gt;}}&lt;/code> renders as
-$\nabla F(\mathbf{x}_{n})$.&lt;/p>
-&lt;p>Example &lt;strong>multi-line math&lt;/strong> using the math linebreak (&lt;code>\\&lt;/code>):&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-latex" data-lang="latex">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">{{&lt;/span>&amp;lt; math &amp;gt;&lt;span class="nb">}}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sb">$$&lt;/span>&lt;span class="nb">f&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nb">k;p_{&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="nb">}^{&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="nb">}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\begin&lt;/span>&lt;span class="nb">{cases}p_{&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="nb">}^{&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="nb">} &amp;amp; &lt;/span>&lt;span class="nv">\text&lt;/span>&lt;span class="nb">{if }k&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">, &lt;/span>&lt;span class="nv">\\&lt;/span>&lt;span class="nb">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nb">p_{&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="nb">}^{&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="nb">} &amp;amp; &lt;/span>&lt;span class="nv">\text&lt;/span>&lt;span class="nb">{if }k&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="nb">.&lt;/span>&lt;span class="nv">\end&lt;/span>&lt;span class="nb">{cases}&lt;/span>&lt;span class="s">$$&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">{{&lt;/span>&amp;lt; /math &amp;gt;&lt;span class="nb">}}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
-$$
-f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp; \text{if }k=1, \\
-1-p_{0}^{*} &amp; \text{if }k=0.\end{cases}
-$$
-&lt;h3 id="diagrams">Diagrams&lt;/h3>
-&lt;p>Wowchemy supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code>diagram&lt;/code> option in your &lt;code>config/_default/params.toml&lt;/code> file or by adding &lt;code>diagram: true&lt;/code> to your page front matter.&lt;/p>
-&lt;p>An example &lt;strong>flowchart&lt;/strong>:&lt;/p>
-&lt;pre>&lt;code>```mermaid
-graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-```
-&lt;/code>&lt;/pre>
-&lt;p>renders as&lt;/p>
-&lt;div class="mermaid">graph TD
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-&lt;/div>
-&lt;p>An example &lt;strong>sequence diagram&lt;/strong>:&lt;/p>
-&lt;pre>&lt;code>```mermaid
-sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-```
-&lt;/code>&lt;/pre>
-&lt;p>renders as&lt;/p>
-&lt;div class="mermaid">sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
-&lt;/div>
-&lt;p>An example &lt;strong>Gantt diagram&lt;/strong>:&lt;/p>
-&lt;pre>&lt;code>```mermaid
-gantt
-section Section
-Completed :done, des1, 2014-01-06,2014-01-08
-Active :active, des2, 2014-01-07, 3d
-Parallel 1 : des3, after des1, 1d
-Parallel 2 : des4, after des1, 1d
-Parallel 3 : des5, after des3, 1d
-Parallel 4 : des6, after des4, 1d
-```
-&lt;/code>&lt;/pre>
-&lt;p>renders as&lt;/p>
-&lt;div class="mermaid">gantt
-section Section
-Completed :done, des1, 2014-01-06,2014-01-08
-Active :active, des2, 2014-01-07, 3d
-Parallel 1 : des3, after des1, 1d
-Parallel 2 : des4, after des1, 1d
-Parallel 3 : des5, after des3, 1d
-Parallel 4 : des6, after des4, 1d
-&lt;/div>
-&lt;p>An example &lt;strong>class diagram&lt;/strong>:&lt;/p>
-&lt;pre>&lt;code>```mermaid
-classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 &amp;lt;--&amp;gt; C2: Cool label
-```
-&lt;/code>&lt;/pre>
-&lt;p>renders as&lt;/p>
-&lt;div class="mermaid">classDiagram
-Class01 &lt;|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --> C2 : Where am i?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 &lt;--> C2: Cool label
-&lt;/div>
-&lt;p>An example &lt;strong>state diagram&lt;/strong>:&lt;/p>
-&lt;pre>&lt;code>```mermaid
-stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-```
-&lt;/code>&lt;/pre>
-&lt;p>renders as&lt;/p>
-&lt;div class="mermaid">stateDiagram
-[*] --> Still
-Still --> [*]
-Still --> Moving
-Moving --> Still
-Moving --> Crash
-Crash --> [*]
-&lt;/div>
-&lt;h3 id="todo-lists">Todo lists&lt;/h3>
-&lt;p>You can even write your todo lists in Markdown too:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="k">- [x]&lt;/span> Write math example
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">- [x]&lt;/span> Write diagram example
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">- [ ]&lt;/span> Do something else
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Write math example
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Write diagram example&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Do something else&lt;/li>
-&lt;/ul>
-&lt;h3 id="tables">Tables&lt;/h3>
-&lt;p>Save your spreadsheet as a CSV file in your page&amp;rsquo;s folder and then render it by adding the &lt;em>Table&lt;/em> shortcode to your page:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-go" data-lang="go">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{{&amp;lt;&lt;/span> &lt;span class="nx">table&lt;/span> &lt;span class="nx">path&lt;/span>&lt;span class="p">=&lt;/span>&lt;span class="s">&amp;#34;results.csv&amp;#34;&lt;/span> &lt;span class="nx">header&lt;/span>&lt;span class="p">=&lt;/span>&lt;span class="s">&amp;#34;true&amp;#34;&lt;/span> &lt;span class="nx">caption&lt;/span>&lt;span class="p">=&lt;/span>&lt;span class="s">&amp;#34;Table 1: My results&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;}}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
-&lt;table class="table">
-&lt;tr> &lt;th>customer_id&lt;/th> &lt;th>score&lt;/th> &lt;/tr>
-&lt;tr>
-&lt;td data-table-dtype="number">1&lt;/td>
-&lt;td data-table-dtype="number">0&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td data-table-dtype="number">2&lt;/td>
-&lt;td data-table-dtype="text">0.5&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td data-table-dtype="number">3&lt;/td>
-&lt;td data-table-dtype="number">1&lt;/td>
-&lt;/tr>
-&lt;caption>Table 1: My results&lt;/caption>
-&lt;/table>
-&lt;h3 id="callouts">Callouts&lt;/h3>
-&lt;p>Academic supports a &lt;a href="https://wowchemy.com/docs/content/writing-markdown-latex/#callouts" target="_blank" rel="noopener">shortcode for callouts&lt;/a>, also referred to as &lt;em>asides&lt;/em>, &lt;em>hints&lt;/em>, or &lt;em>alerts&lt;/em>. By wrapping a paragraph in &lt;code>{{% callout note %}} ... {{% /callout %}}&lt;/code>, it will render as an aside.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{% callout note %}}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{% /callout %}}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
-&lt;div class="alert alert-note">
-&lt;div>
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-&lt;/div>
-&lt;/div>
-&lt;h3 id="spoilers">Spoilers&lt;/h3>
-&lt;p>Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">spoiler&lt;/span> &lt;span class="na">text&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;Click to view the spoiler&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">You found me!
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="nt">spoiler&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
-&lt;details class="spoiler " id="spoiler-6">
-&lt;summary>Click to view the spoiler&lt;/summary>
-&lt;p>You found me!&lt;/p>
-&lt;/details>
-&lt;h3 id="icons">Icons&lt;/h3>
-&lt;p>Academic enables you to use a wide range of &lt;a href="https://wowchemy.com/docs/getting-started/page-builder/#icons" target="_blank" rel="noopener">icons from &lt;em>Font Awesome&lt;/em> and &lt;em>Academicons&lt;/em>&lt;/a> in addition to &lt;a href="https://wowchemy.com/docs/content/writing-markdown-latex/#emojis" target="_blank" rel="noopener">emojis&lt;/a>.&lt;/p>
-&lt;p>Here are some examples using the &lt;code>icon&lt;/code> shortcode to render icons:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">icon&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;terminal&amp;#34;&lt;/span> &lt;span class="na">pack&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;fas&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}} Terminal
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">icon&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;python&amp;#34;&lt;/span> &lt;span class="na">pack&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;fab&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}} Python
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">icon&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;r-project&amp;#34;&lt;/span> &lt;span class="na">pack&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;fab&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}} R
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
-&lt;p>
-&lt;i class="fas fa-terminal pr-1 fa-fw">&lt;/i> Terminal&lt;br>
-&lt;i class="fab fa-python pr-1 fa-fw">&lt;/i> Python&lt;br>
-&lt;i class="fab fa-r-project pr-1 fa-fw">&lt;/i> R&lt;/p>
-&lt;h3 id="did-you-find-this-page-helpful-consider-sharing-it-">Did you find this page helpful? Consider sharing it 🙌&lt;/h3></description></item><item><title>Display Jupyter Notebooks with Academic</title><link>https://aunomax.github.io/post/jupyter/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://aunomax.github.io/post/jupyter/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">IPython.core.display&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">Image&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Image&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./index_1_0.png" alt="png" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Welcome to Academic!&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>Welcome to Academic!
-&lt;/code>&lt;/pre>
-&lt;h2 id="install-python-and-jupyterlab">Install Python and JupyterLab&lt;/h2>
-&lt;p>&lt;a href="https://www.anaconda.com/distribution/#download-section" target="_blank" rel="noopener">Install Anaconda&lt;/a> which includes Python 3 and JupyterLab.&lt;/p>
-&lt;p>Alternatively, install JupyterLab with &lt;code>pip3 install jupyterlab&lt;/code>.&lt;/p>
-&lt;h2 id="create-or-upload-a-jupyter-notebook">Create or upload a Jupyter notebook&lt;/h2>
-&lt;p>Run the following commands in your Terminal, substituting &lt;code>&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code> and &lt;code>&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code> with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">jupyter lab index.ipynb
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;code>jupyter&lt;/code> command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p>
-&lt;h2 id="edit-your-post-metadata">Edit your post metadata&lt;/h2>
-&lt;p>The first cell of your Jupter notebook will contain your post metadata (&lt;a href="https://sourcethemes.com/academic/docs/front-matter/" target="_blank" rel="noopener">front matter&lt;/a>).&lt;/p>
-&lt;p>In Jupter, choose &lt;em>Markdown&lt;/em> as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">---
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">title: My post&amp;#39;s title
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">date: 2019-09-01
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># Put any other Academic metadata here...
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">---
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Edit the metadata of your post, using the &lt;a href="https://sourcethemes.com/academic/docs/managing-content" target="_blank" rel="noopener">documentation&lt;/a> as a guide to the available options.&lt;/p>
-&lt;p>To set a &lt;a href="https://sourcethemes.com/academic/docs/managing-content/#featured-image" target="_blank" rel="noopener">featured image&lt;/a>, place an image named &lt;code>featured&lt;/code> into your post&amp;rsquo;s folder.&lt;/p>
-&lt;p>For other tips, such as using math, see the guide on &lt;a href="https://wowchemy.com/docs/content/writing-markdown-latex/" target="_blank" rel="noopener">writing content with Academic&lt;/a>.&lt;/p>
-&lt;h2 id="convert-notebook-to-markdown">Convert notebook to Markdown&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir&lt;span class="o">=&lt;/span>.
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="example">Example&lt;/h2>
-&lt;p>This post was created with Jupyter. The orginal files can be found at &lt;a href="https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter" target="_blank" rel="noopener">https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a>&lt;/p></description></item><item><title>Slides</title><link>https://aunomax.github.io/slides/example/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://aunomax.github.io/slides/example/</guid><description>&lt;h1 id="create-slides-in-markdown-with-wowchemy">Create slides in Markdown with Wowchemy&lt;/h1>
-&lt;p>&lt;a href="https://wowchemy.com/" target="_blank" rel="noopener">Wowchemy&lt;/a> | &lt;a href="https://wowchemy.com/docs/content/slides/" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p>
-&lt;hr>
-&lt;h2 id="features">Features&lt;/h2>
-&lt;ul>
-&lt;li>Efficiently write slides in Markdown&lt;/li>
-&lt;li>3-in-1: Create, Present, and Publish your slides&lt;/li>
-&lt;li>Supports speaker notes&lt;/li>
-&lt;li>Mobile friendly slides&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="controls">Controls&lt;/h2>
-&lt;ul>
-&lt;li>Next: &lt;code>Right Arrow&lt;/code> or &lt;code>Space&lt;/code>&lt;/li>
-&lt;li>Previous: &lt;code>Left Arrow&lt;/code>&lt;/li>
-&lt;li>Start: &lt;code>Home&lt;/code>&lt;/li>
-&lt;li>Finish: &lt;code>End&lt;/code>&lt;/li>
-&lt;li>Overview: &lt;code>Esc&lt;/code>&lt;/li>
-&lt;li>Speaker notes: &lt;code>S&lt;/code>&lt;/li>
-&lt;li>Fullscreen: &lt;code>F&lt;/code>&lt;/li>
-&lt;li>Zoom: &lt;code>Alt + Click&lt;/code>&lt;/li>
-&lt;li>&lt;a href="https://revealjs.com/pdf-export/" target="_blank" rel="noopener">PDF Export&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="code-highlighting">Code Highlighting&lt;/h2>
-&lt;p>Inline code: &lt;code>variable&lt;/code>&lt;/p>
-&lt;p>Code block:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">porridge&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;blueberry&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">if&lt;/span> &lt;span class="n">porridge&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="s2">&amp;#34;blueberry&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Eating...&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
-&lt;h2 id="math">Math&lt;/h2>
-&lt;p>In-line math: $x + y = z$&lt;/p>
-&lt;p>Block math:&lt;/p>
-&lt;p>$$
-f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$&lt;/p>
-&lt;hr>
-&lt;h2 id="fragments">Fragments&lt;/h2>
-&lt;p>Make content appear incrementally&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">{{% fragment %}} One {{% /fragment %}}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{% fragment %}} **Two** {{% /fragment %}}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{% fragment %}} Three {{% /fragment %}}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Press &lt;code>Space&lt;/code> to play!&lt;/p>
-&lt;span class="fragment " >
-One
-&lt;/span>
-&lt;span class="fragment " >
-&lt;strong>Two&lt;/strong>
-&lt;/span>
-&lt;span class="fragment " >
-Three
-&lt;/span>
-&lt;hr>
-&lt;p>A fragment can accept two optional parameters:&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>class&lt;/code>: use a custom style (requires definition in custom CSS)&lt;/li>
-&lt;li>&lt;code>weight&lt;/code>: sets the order in which a fragment appears&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="speaker-notes">Speaker Notes&lt;/h2>
-&lt;p>Add speaker notes to your presentation&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{% speaker_note %}}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> Only the speaker can read these notes
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> Press &lt;span class="sb">`S`&lt;/span> key to view
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> {{% /speaker_note %}}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Press the &lt;code>S&lt;/code> key to view the speaker notes!&lt;/p>
-&lt;aside class="notes">
-&lt;ul>
-&lt;li>Only the speaker can read these notes&lt;/li>
-&lt;li>Press &lt;code>S&lt;/code> key to view&lt;/li>
-&lt;/ul>
-&lt;/aside>
-&lt;hr>
-&lt;h2 id="themes">Themes&lt;/h2>
-&lt;ul>
-&lt;li>black: Black background, white text, blue links (default)&lt;/li>
-&lt;li>white: White background, black text, blue links&lt;/li>
-&lt;li>league: Gray background, white text, blue links&lt;/li>
-&lt;li>beige: Beige background, dark text, brown links&lt;/li>
-&lt;li>sky: Blue background, thin dark text, blue links&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;ul>
-&lt;li>night: Black background, thick white text, orange links&lt;/li>
-&lt;li>serif: Cappuccino background, gray text, brown links&lt;/li>
-&lt;li>simple: White background, black text, blue links&lt;/li>
-&lt;li>solarized: Cream-colored background, dark green text, blue links&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;section data-noprocess data-shortcode-slide
-data-background-image="/media/boards.jpg"
->
-&lt;h2 id="custom-slide">Custom Slide&lt;/h2>
-&lt;p>Customize the slide style and background&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">slide&lt;/span> &lt;span class="na">background-image&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;/media/boards.jpg&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">slide&lt;/span> &lt;span class="na">background-color&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;#0000FF&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">slide&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;my-style&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
-&lt;h2 id="custom-css-example">Custom CSS Example&lt;/h2>
-&lt;p>Let&amp;rsquo;s make headers navy colored.&lt;/p>
-&lt;p>Create &lt;code>assets/css/reveal_custom.css&lt;/code> with:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">reveal&lt;/span> &lt;span class="nt">section&lt;/span> &lt;span class="nt">h1&lt;/span>&lt;span class="o">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">reveal&lt;/span> &lt;span class="nt">section&lt;/span> &lt;span class="nt">h2&lt;/span>&lt;span class="o">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">reveal&lt;/span> &lt;span class="nt">section&lt;/span> &lt;span class="nt">h3&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">navy&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
-&lt;h1 id="questions">Questions?&lt;/h1>
-&lt;p>&lt;a href="https://discord.gg/z8wNYzb" target="_blank" rel="noopener">Ask&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://wowchemy.com/docs/content/slides/" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p></description></item><item><title>Example Project</title><link>https://aunomax.github.io/project/example/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>https://aunomax.github.io/project/example/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p>
-&lt;p>Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p>
-&lt;p>Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p>
-&lt;p>Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p>
-&lt;p>Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p></description></item><item><title>External Project</title><link>https://aunomax.github.io/project/external-project/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>https://aunomax.github.io/project/external-project/</guid><description/></item><item><title>An example journal article</title><link>https://aunomax.github.io/publication/journal-article/</link><pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate><guid>https://aunomax.github.io/publication/journal-article/</guid><description>&lt;div class="alert alert-note">
-&lt;div>
-Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-&lt;/div>
-&lt;/div>
-&lt;div class="alert alert-note">
-&lt;div>
-Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
-&lt;/div>
-&lt;/div>
-&lt;p>Supplementary notes can be added here, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">code, math, and images&lt;/a>.&lt;/p></description></item><item><title>test</title><link>https://aunomax.github.io/post/test/</link><pubDate>Wed, 31 Dec 1969 23:59:45 +0000</pubDate><guid>https://aunomax.github.io/post/test/</guid><description>&lt;p>i﻿ just followed the steps at &lt;a href="https://wowchemy.com/docs/getting-started/hugo-cms/" target="_blank" rel="noopener">https://wowchemy.com/docs/getting-started/hugo-cms/&lt;/a>&lt;/p>
-&lt;p>
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="https://images.unsplash.com/photo-1685988755134-6d6457cb9ed3?ixlib=rb-4.0.3&amp;amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=730&amp;amp;q=80" alt="" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p></description></item><item><title/><link>https://aunomax.github.io/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aunomax.github.io/admin/config.yml</guid><description/></item></channel></rss>
+&lt;li>&lt;a href="https://parsec.app/">parsec&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://moonlight-stream.org/">moonlight&lt;/a>&lt;/li>
+&lt;li>&lt;del>&lt;a href="https://rustdesk.com/zh/">rustdesk&lt;/a>&lt;/del>&lt;/li>
+&lt;/ul></description></item></channel></rss>
