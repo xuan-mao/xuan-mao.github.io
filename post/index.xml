@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on TeXify</title><link>https://aunomax.github.io/post/</link><description>Recent content in Posts on TeXify</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>me@example.com (author)</managingEditor><webMaster>me@example.com (author)</webMaster><lastBuildDate>Mon, 16 Oct 2023 13:01:42 +0800</lastBuildDate><atom:link href="https://aunomax.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Wsl for OpenSUSE</title><link>https://aunomax.github.io/post/wslopensuse/</link><pubDate>Mon, 16 Oct 2023 13:01:42 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/post/wslopensuse/</guid><description>&lt;h1 id="installation">installation&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Aunomax's Site</title><link>https://aunomax.github.io/post/</link><description>Recent content in Posts on Aunomax's Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>mao_xuan@outlook.com (Xuan Mao)</managingEditor><webMaster>mao_xuan@outlook.com (Xuan Mao)</webMaster><lastBuildDate>Mon, 16 Oct 2023 13:01:42 +0800</lastBuildDate><atom:link href="https://aunomax.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Wsl for OpenSUSE</title><link>https://aunomax.github.io/post/wslopensuse/</link><pubDate>Mon, 16 Oct 2023 13:01:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/wslopensuse/</guid><description>&lt;h1 id="installation">installation&lt;/h1>
 &lt;p>在Windows terminal中输入&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-powershell" data-lang="powershell">&lt;span style="display:flex;">&lt;span> wsl --list -o
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>查看可安装的分发列表：&lt;/p>
@@ -125,7 +125,7 @@ LOGO=&amp;#34;distributor-logo-Leap&amp;#34;
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>curl -L sh.rustlings.cool | bash
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="trouble-or-bugs-happensed-to-me">trouble or bugs happensed to me&lt;/h2>
 &lt;h3 id="inputoutput-error-httpsgithubcommicrosoftwslissues4377">Input/output error &lt;a href="https://github.com/microsoft/WSL/issues/4377">https://github.com/microsoft/WSL/issues/4377&lt;/a>&lt;/h3>
-&lt;p>That error occurs if the hidden wslhost.exe process is died/killed. Just use &lt;code>wsl.exe --shutdown&lt;/code> and restart it.&lt;/p></description></item><item><title>International_conference</title><link>https://aunomax.github.io/post/international_conference/</link><pubDate>Sat, 07 Oct 2023 21:04:09 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/post/international_conference/</guid><description>&lt;h1 id="联系会议">联系会议&lt;/h1>
+&lt;p>That error occurs if the hidden wslhost.exe process is died/killed. Just use &lt;code>wsl.exe --shutdown&lt;/code> and restart it.&lt;/p></description></item><item><title>International_conference</title><link>https://aunomax.github.io/post/international_conference/</link><pubDate>Sat, 07 Oct 2023 21:04:09 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/international_conference/</guid><description>&lt;h1 id="联系会议">联系会议&lt;/h1>
 &lt;p>申请人自行联系并获取国际会议邀请函&lt;/p>
 &lt;h1 id="办护照">办护照&lt;/h1>
 &lt;ul>
@@ -134,7 +134,7 @@ LOGO=&amp;#34;distributor-logo-Leap&amp;#34;
 &lt;h1 id="国际交流申请">国际交流申请&lt;/h1>
 &lt;ul>
 &lt;li>申请理由：申请人（Xuan Mao）受邀于2023年12月9-11号在马来西亚举办的第三届太平洋优化会议（Third Pacific Optimisation Conference）上，口头报告申请人为第一作者，导师（Yuxiang Li）为第二作者的学术论文。该论文题为Dirac-Type Aggregation with Full Mass in A Chemotaxis Model，现已被英文国际期刊Discrete and Continuous Dynamical Systems - Series S接收。申请人是东南大学全日制博士生，希望研究生院予以资助此次国际会议的相关费用，包括往返交通费、会议注册费及签证费等。&lt;/li>
-&lt;/ul></description></item><item><title>Shortcut</title><link>https://aunomax.github.io/post/shortcut/</link><pubDate>Tue, 29 Aug 2023 10:50:55 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/post/shortcut/</guid><description>&lt;ul>
+&lt;/ul></description></item><item><title>Shortcut</title><link>https://aunomax.github.io/post/shortcut/</link><pubDate>Tue, 29 Aug 2023 10:50:55 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/shortcut/</guid><description>&lt;ul>
 &lt;li>Microsoft Edge
 &lt;ul>
 &lt;li>Ctrl + Shift + /: toggle the Sidebar on/off&lt;/li>
@@ -150,7 +150,7 @@ LOGO=&amp;#34;distributor-logo-Leap&amp;#34;
 &lt;li>Ctrl + c + c&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>My Desktop Computer</title><link>https://aunomax.github.io/post/my-desktop-computer/</link><pubDate>Sun, 04 Jun 2023 18:45:30 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/post/my-desktop-computer/</guid><description>&lt;h1 id="小白装机">小白装机&lt;/h1>
+&lt;/ul></description></item><item><title>My Desktop Computer</title><link>https://aunomax.github.io/post/my-desktop-computer/</link><pubDate>Sun, 04 Jun 2023 18:45:30 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/my-desktop-computer/</guid><description>&lt;h1 id="小白装机">小白装机&lt;/h1>
 &lt;p>我趁着五一劳动节优惠，在京东全套购买配件攒了台台式机，花费5448大洋。然后花了6个小时，一次点亮。其实发生了个小意外，虽然我一直都有过怀疑，但我还是坚信我不会犯这种错误，最终在过了三周后，我终于发现了，我涂硅脂，装散热器时，没有揭开保护膜。&lt;/p>
 &lt;p>具体配置单为&lt;/p>
 &lt;table>
@@ -273,7 +273,7 @@ LOGO=&amp;#34;distributor-logo-Leap&amp;#34;
 &lt;/table>
 &lt;p>后续了解了intel新出了显卡，游戏性还不错，价格又低，就趁着618活动入了一款白色使用，同时看固态大降价，又冲动消费了一波，入了块宏基2t的固态，花费1964大洋。未来看看是不是要再入台4k办公显示器，目前在用的是前室友传给我的（也是他朋友送给他的，虽然它快十岁了，但质量还是杠杠的，noc的）。&lt;/p>
 &lt;p>有点难受致钛硬盘6月5号就降到了393，才过了一个多月2333……&lt;/p>
-&lt;p>趁双十一优惠，购入飞利浦显示器27寸4k60hz办公显示器。&lt;/p></description></item><item><title>Keychron K2 Keyboard</title><link>https://aunomax.github.io/post/keychron-k2-keyboard/</link><pubDate>Fri, 02 Jun 2023 11:17:13 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/post/keychron-k2-keyboard/</guid><description>&lt;h1 id="京东京造keychron-k2键盘快捷键">京东京造Keychron K2键盘快捷键&lt;/h1>
+&lt;p>趁双十一优惠，购入飞利浦显示器27寸4k60hz办公显示器。&lt;/p></description></item><item><title>Keychron K2 Keyboard</title><link>https://aunomax.github.io/post/keychron-k2-keyboard/</link><pubDate>Fri, 02 Jun 2023 11:17:13 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/keychron-k2-keyboard/</guid><description>&lt;h1 id="京东京造keychron-k2键盘快捷键">京东京造Keychron K2键盘快捷键&lt;/h1>
 &lt;h2 id="蓝牙连接">蓝牙连接&lt;/h2>
 &lt;p>1 长按&lt;code>Fn+1/2/3&lt;/code>开启蓝牙连接配对模式，可分别与1/2/3设备连接&lt;/p>
 &lt;p>2 短按&lt;code>Fn+1/2/3&lt;/code>可分别与1/2/3设备切换&lt;/p>
@@ -286,7 +286,7 @@ LOGO=&amp;#34;distributor-logo-Leap&amp;#34;
 &lt;h2 id="灯效">灯效&lt;/h2>
 &lt;p>长按&lt;code>Fn+L+💡&lt;/code>锁定当前灯效&lt;/p>
 &lt;h2 id="恢复出厂模式">恢复出厂模式&lt;/h2>
-&lt;p>长按&lt;code>Fn+J+Z&lt;/code>恢复出厂模式，蓝牙复位。&lt;/p></description></item><item><title>数学书单</title><link>https://aunomax.github.io/post/%E6%95%B0%E5%AD%A6%E4%B9%A6%E5%8D%95/</link><pubDate>Mon, 29 May 2023 21:59:38 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/post/%E6%95%B0%E5%AD%A6%E4%B9%A6%E5%8D%95/</guid><description>&lt;h1 id="math-book">Math Book&lt;/h1>
+&lt;p>长按&lt;code>Fn+J+Z&lt;/code>恢复出厂模式，蓝牙复位。&lt;/p></description></item><item><title>数学书单</title><link>https://aunomax.github.io/post/%E6%95%B0%E5%AD%A6%E4%B9%A6%E5%8D%95/</link><pubDate>Mon, 29 May 2023 21:59:38 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/%E6%95%B0%E5%AD%A6%E4%B9%A6%E5%8D%95/</guid><description>&lt;h1 id="math-book">Math Book&lt;/h1>
 &lt;h2 id="functional-analysis">functional analysis&lt;/h2>
 &lt;ul>
 &lt;li>Yoside&lt;/li>
@@ -303,7 +303,7 @@ LOGO=&amp;#34;distributor-logo-Leap&amp;#34;
 &lt;h2 id="analysis">Analysis&lt;/h2>
 &lt;ul>
 &lt;li>Rudin(s)&lt;/li>
-&lt;/ul></description></item><item><title>软件工具</title><link>https://aunomax.github.io/post/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</link><pubDate>Mon, 29 May 2023 21:57:46 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/post/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</guid><description>&lt;h1 id="工具">工具&lt;/h1>
+&lt;/ul></description></item><item><title>软件工具</title><link>https://aunomax.github.io/post/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</link><pubDate>Mon, 29 May 2023 21:57:46 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</guid><description>&lt;h1 id="工具">工具&lt;/h1>
 &lt;h2 id="解压缩工具">解压缩工具&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://www.7-zip.org/">7-Zip&lt;/a>&lt;/li>
@@ -445,7 +445,7 @@ LOGO=&amp;#34;distributor-logo-Leap&amp;#34;
 &lt;li>&lt;a href="https://parsec.app/">parsec&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://moonlight-stream.org/">moonlight&lt;/a>&lt;/li>
 &lt;li>&lt;del>&lt;a href="https://rustdesk.com/zh/">rustdesk&lt;/a>&lt;/del>&lt;/li>
-&lt;/ul></description></item><item><title>东南大学数学博士学位成果考核标准</title><link>https://aunomax.github.io/post/%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E5%8D%9A%E5%A3%AB%E5%AD%A6%E4%BD%8D%E6%88%90%E6%9E%9C%E8%80%83%E6%A0%B8%E6%A0%87%E5%87%86/</link><pubDate>Fri, 26 May 2023 17:02:01 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/post/%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E5%8D%9A%E5%A3%AB%E5%AD%A6%E4%BD%8D%E6%88%90%E6%9E%9C%E8%80%83%E6%A0%B8%E6%A0%87%E5%87%86/</guid><description>&lt;h1 id="博士学位成果考核标准汇总">博士学位成果考核标准汇总&lt;/h1>
+&lt;/ul></description></item><item><title>东南大学数学博士学位成果考核标准</title><link>https://aunomax.github.io/post/%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E5%8D%9A%E5%A3%AB%E5%AD%A6%E4%BD%8D%E6%88%90%E6%9E%9C%E8%80%83%E6%A0%B8%E6%A0%87%E5%87%86/</link><pubDate>Fri, 26 May 2023 17:02:01 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E5%8D%9A%E5%A3%AB%E5%AD%A6%E4%BD%8D%E6%88%90%E6%9E%9C%E8%80%83%E6%A0%B8%E6%A0%87%E5%87%86/</guid><description>&lt;h1 id="博士学位成果考核标准汇总">博士学位成果考核标准汇总&lt;/h1>
 &lt;p>博士学位成果考核标准汇总，请查看：研究生院-学位教育-学位授予-&lt;a href="https://seugs.seu.edu.cn/28878/list.htm">规章制度 (seu.edu.cn)&lt;/a>。详见《东南大学博士研究生申请博士学位 的成果考核标准（2018 版）》。&lt;/p>
 &lt;h2 id="科研成果署名">科研成果署名&lt;/h2>
 &lt;p>博士学位申请者的学术论文必须以东南大学为第一署名单位， 即论文第一作者和第一通讯作者的第一署名单位必须均为“东南大 学”或“东南大学某机构”。除特别注明外，学位申请者必须是学术 论文的第一作者。&lt;/p>
@@ -468,7 +468,7 @@ LOGO=&amp;#34;distributor-logo-Leap&amp;#34;
 &lt;p>MI： MEDLINE 国际性生物医学文献书目数据 库包括《医学索引》（ Index Medicus）、《牙科文献索引》 （Index to Dental Literation）及 《国际护理索引》（International Nursing Index）&lt;/p>
 &lt;p>CSSCI： Chinese Social Science Citation Index 《中文社会科学引文索引》&lt;/p>
 &lt;p>CSCD： Chinese Science Citation Database 《中国科学引文数据库》&lt;/p>
-&lt;p>JCR: Journal Citation Reports 《期刊引用报告》（科睿唯安）&lt;/p></description></item><item><title>ThesisProposalDefense</title><link>https://aunomax.github.io/post/thesisproposaldefense/</link><pubDate>Thu, 25 May 2023 09:36:45 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/post/thesisproposaldefense/</guid><description>&lt;h1 id="数学开题报告word模板的坑">数学开题报告Word模板的坑&lt;/h1>
+&lt;p>JCR: Journal Citation Reports 《期刊引用报告》（科睿唯安）&lt;/p></description></item><item><title>ThesisProposalDefense</title><link>https://aunomax.github.io/post/thesisproposaldefense/</link><pubDate>Thu, 25 May 2023 09:36:45 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/thesisproposaldefense/</guid><description>&lt;h1 id="数学开题报告word模板的坑">数学开题报告Word模板的坑&lt;/h1>
 &lt;p>数学开题报告用Word写真的难受。多行公式编辑，排版是真不爽。&lt;/p>
 &lt;h2 id="word支持无插件插入数学公式多行公式技巧">Word支持无插件插入数学公式。多行公式技巧&lt;/h2>
 &lt;ul>
@@ -478,7 +478,7 @@ LOGO=&amp;#34;distributor-logo-Leap&amp;#34;
 &lt;li>键入公式支持用$\LaTeX$命令，直接输入对应公式即可，似乎数学字体格式不能用命令调用，如mathbb&lt;/li>
 &lt;li>关于插入公式序号，在多行公式末端敲&amp;quot;#()&amp;quot;，然后选插入-序号，选择需要的序号。或者将文本命令转化为数学符号后，在手动敲入序号&lt;/li>
 &lt;li>关于对齐，在将文本命令转化为数学符号后，选中整行公式，并将光标置于需要对其的位置，键入“&amp;amp;&amp;quot;,在其他行对应位置键入”&amp;amp;“后，公式将自动对齐。&lt;/li>
-&lt;/ul></description></item><item><title>Excerpts of Academic English</title><link>https://aunomax.github.io/post/excerpts-of-academic-english/</link><pubDate>Wed, 26 Apr 2023 12:47:05 +0800</pubDate><author>me@example.com (author)</author><guid>https://aunomax.github.io/post/excerpts-of-academic-english/</guid><description>&lt;h1 id="excerpts">Excerpts&lt;/h1>
+&lt;/ul></description></item><item><title>Excerpts of Academic English</title><link>https://aunomax.github.io/post/excerpts-of-academic-english/</link><pubDate>Wed, 26 Apr 2023 12:47:05 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/excerpts-of-academic-english/</guid><description>&lt;h1 id="excerpts">Excerpts&lt;/h1>
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;ul>
 &lt;li>The results of the paper &lt;strong>&lt;u>partially&lt;/u>&lt;/strong> extend previous works of Hu and Tao, and of Tao and Winkler.&lt;/li>
