@@ -6,13 +6,13 @@
 &lt;li>The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong>no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong> and having &lt;strong>flexibility to later add even deeper personalization with HTML and CSS&lt;/strong>&lt;/li>
 &lt;li>You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li>
 &lt;/ol>
-&lt;p>&lt;a href="https://wowchemy.com">&lt;img alt="The template is mobile first with a responsive design to ensure that your site looks stunning on every device." src="https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png">&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://wowchemy.com">&lt;img src="https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png" alt="The template is mobile first with a responsive design to ensure that your site looks stunning on every device.">&lt;/a>&lt;/p>
 &lt;h2 id="get-started">Get Started&lt;/h2>
 &lt;ul>
 &lt;li>👉 &lt;a href="https://wowchemy.com/templates/">&lt;strong>Create a new site&lt;/strong>&lt;/a>&lt;/li>
 &lt;li>📚 &lt;a href="https://wowchemy.com/docs/">&lt;strong>Personalize your site&lt;/strong>&lt;/a>&lt;/li>
 &lt;li>💬 &lt;a href="https://discord.gg/z8wNYzb">Chat with the &lt;strong>Wowchemy community&lt;/strong>&lt;/a> or &lt;a href="https://discourse.gohugo.io">&lt;strong>Hugo community&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>🐦 Twitter: &lt;a href="https://twitter.com/wowchemy">@wowchemy&lt;/a> &lt;a href="https://twitter.com/GeorgeCushen">@GeorgeCushen&lt;/a> &lt;a href="https://twitter.com/search?q=%23MadeWithWowchemy&amp;src=typed_query">#MadeWithWowchemy&lt;/a>&lt;/li>
+&lt;li>🐦 Twitter: &lt;a href="https://twitter.com/wowchemy">@wowchemy&lt;/a> &lt;a href="https://twitter.com/GeorgeCushen">@GeorgeCushen&lt;/a> &lt;a href="https://twitter.com/search?q=%23MadeWithWowchemy&amp;amp;src=typed_query">#MadeWithWowchemy&lt;/a>&lt;/li>
 &lt;li>💡 &lt;a href="https://github.com/wowchemy/wowchemy-hugo-themes/issues">Request a &lt;strong>feature&lt;/strong> or report a &lt;strong>bug&lt;/strong> for &lt;em>Wowchemy&lt;/em>&lt;/a>&lt;/li>
 &lt;li>⬆️ &lt;strong>Updating Wowchemy?&lt;/strong> View the &lt;a href="https://wowchemy.com/docs/hugo-tutorials/update/">Update Tutorial&lt;/a> and &lt;a href="https://wowchemy.com/updates/">Release Notes&lt;/a>&lt;/li>
 &lt;/ul>
