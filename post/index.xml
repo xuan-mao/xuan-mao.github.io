@@ -525,6 +525,7 @@ to apply Banach&amp;rsquo;s fixed point theorem should be given explicitly.&lt;/
 &lt;p>JCR: Journal Citation Reports 《期刊引用报告》（科睿唯安）&lt;/p></description></item><item><title>ThesisProposalDefense</title><link>https://aunomax.github.io/post/thesisproposaldefense/</link><pubDate>Thu, 25 May 2023 09:36:45 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/thesisproposaldefense/</guid><description>&lt;h1 id="数学开题报告word模板的坑">数学开题报告Word模板的坑&lt;/h1>
 &lt;p>数学开题报告用Word写真的难受。多行公式编辑，排版是真不爽。&lt;/p>
 &lt;h2 id="word支持无插件插入数学公式多行公式技巧">Word支持无插件插入数学公式。多行公式技巧&lt;/h2>
+&lt;p>也可以用mathpix导出word版数学公式了!!!&lt;/p>
 &lt;ul>
 &lt;li>先用快捷键”Alt+=“，在需要插入公式的位置插入数学格式，&lt;/li>
 &lt;li>然后点击如带大括号的多行公式，插入多行公式&lt;/li>
