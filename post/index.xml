@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Aunomax's Site</title><link>https://aunomax.github.io/post/</link><description>Recent content in Posts on Aunomax's Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>mao_xuan@outlook.com (Xuan Mao)</managingEditor><webMaster>mao_xuan@outlook.com (Xuan Mao)</webMaster><lastBuildDate>Mon, 16 Oct 2023 13:01:42 +0800</lastBuildDate><atom:link href="https://aunomax.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Wsl for OpenSUSE</title><link>https://aunomax.github.io/post/wslopensuse/</link><pubDate>Mon, 16 Oct 2023 13:01:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/wslopensuse/</guid><description>&lt;h1 id="installation">installation&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Aunomax's Site</title><link>https://aunomax.github.io/post/</link><description>Recent content in Posts on Aunomax's Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>mao_xuan@outlook.com (Xuan Mao)</managingEditor><webMaster>mao_xuan@outlook.com (Xuan Mao)</webMaster><lastBuildDate>Thu, 23 May 2024 12:03:05 +0800</lastBuildDate><atom:link href="https://aunomax.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>alist+aria2</title><link>https://aunomax.github.io/post/alist+aria2/</link><pubDate>Thu, 23 May 2024 12:03:05 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/alist+aria2/</guid><description>&lt;h1 id="alist--aria2--onedrive">Alist + aria2 + OneDrive&lt;/h1>
+&lt;h2 id="aria2">aria2&lt;/h2>
+&lt;p>edit configuration file&lt;/p>
+&lt;p>&lt;code>helix ~/.aria2/aria2.conf&lt;/code>&lt;/p></description></item><item><title>Wsl for OpenSUSE</title><link>https://aunomax.github.io/post/wslopensuse/</link><pubDate>Mon, 16 Oct 2023 13:01:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/wslopensuse/</guid><description>&lt;h1 id="installation">installation&lt;/h1>
 &lt;p>在Windows terminal中输入&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-powershell" data-lang="powershell">&lt;span style="display:flex;">&lt;span> wsl --list -o
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>查看可安装的分发列表：&lt;/p>
@@ -522,15 +525,4 @@ to apply Banach&amp;rsquo;s fixed point theorem should be given explicitly.&lt;/
 &lt;p>MI： MEDLINE 国际性生物医学文献书目数据 库包括《医学索引》（ Index Medicus）、《牙科文献索引》 （Index to Dental Literation）及 《国际护理索引》（International Nursing Index）&lt;/p>
 &lt;p>CSSCI： Chinese Social Science Citation Index 《中文社会科学引文索引》&lt;/p>
 &lt;p>CSCD： Chinese Science Citation Database 《中国科学引文数据库》&lt;/p>
-&lt;p>JCR: Journal Citation Reports 《期刊引用报告》（科睿唯安）&lt;/p></description></item><item><title>ThesisProposalDefense</title><link>https://aunomax.github.io/post/thesisproposaldefense/</link><pubDate>Thu, 25 May 2023 09:36:45 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/thesisproposaldefense/</guid><description>&lt;h1 id="数学开题报告word模板的坑">数学开题报告Word模板的坑&lt;/h1>
-&lt;p>数学开题报告用Word写真的难受。多行公式编辑，排版是真不爽。&lt;/p>
-&lt;h2 id="word支持无插件插入数学公式多行公式技巧">Word支持无插件插入数学公式。多行公式技巧&lt;/h2>
-&lt;p>也可以用mathpix导出word版数学公式了!!!&lt;/p>
-&lt;ul>
-&lt;li>先用快捷键”Alt+=“，在需要插入公式的位置插入数学格式，&lt;/li>
-&lt;li>然后点击如带大括号的多行公式，插入多行公式&lt;/li>
-&lt;li>调整行间距，否则多行公式显示不全。选中多行公式，右键单击选段落，行距选最短&lt;/li>
-&lt;li>键入公式支持用$\LaTeX$命令，直接输入对应公式即可，似乎数学字体格式不能用命令调用，如mathbb&lt;/li>
-&lt;li>关于插入公式序号，在多行公式末端敲&amp;quot;#()&amp;quot;，然后选插入-序号，选择需要的序号。或者将文本命令转化为数学符号后，在手动敲入序号&lt;/li>
-&lt;li>关于对齐，在将文本命令转化为数学符号后，选中整行公式，并将光标置于需要对其的位置，键入“&amp;amp;&amp;quot;,在其他行对应位置键入”&amp;amp;“后，公式将自动对齐。&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p>JCR: Journal Citation Reports 《期刊引用报告》（科睿唯安）&lt;/p></description></item></channel></rss>
