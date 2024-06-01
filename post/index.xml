@@ -20,23 +20,88 @@ systemctl enable --now v2raya.service
 &lt;/code>&lt;/pre>&lt;ul>
 &lt;li>config v2raya by webUI at &lt;code>http://localhost:2017/&lt;/code>&lt;/li>
 &lt;/ul></description></item><item><title>some arch applications</title><link>https://aunomax.github.io/post/archlinux/</link><pubDate>Sat, 01 Jun 2024 16:01:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/archlinux/</guid><description>&lt;h1 id="installation">installation&lt;/h1>
-&lt;p>follow this to install archlinux step by step.&lt;/p>
+&lt;p>follow &lt;a href="https://arch.icekylin.online/guide">this&lt;/a> to install archlinux step by step.&lt;/p>
 &lt;h1 id="some-application">some application&lt;/h1>
 &lt;ul>
-&lt;li>
-&lt;p>starship&lt;/p>
-&lt;p>&lt;code>pacman -S starship&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Chinese fonts&lt;/p>
-&lt;p>&lt;code>pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts adobe-source-code-pro-fonts&lt;/code>&lt;/p>
-&lt;p>&lt;code>pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>swaywm&lt;/p>
-&lt;p>&lt;code>pacman -S sway alacritty&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ul></description></item><item><title>alist+aria2</title><link>https://aunomax.github.io/post/alist+aria2/</link><pubDate>Thu, 23 May 2024 12:03:05 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/alist+aria2/</guid><description>&lt;h1 id="alist--aria2--onedrive">Alist + aria2 + OneDrive&lt;/h1>
+&lt;li>neofetch&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>pacman -S neofetch
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>firefox &amp;ndash; web browser&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>pacman -S firefox
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>starship&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code> pacman -S starship
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>Chinese fonts&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code> pacman -S adobe-source-han-sans-cn-fonts
+pacman -S adobe-source-han-serif-cn-fonts
+pacman -S adobe-source-code-pro-fonts
+pacman -S noto-fonts noto-fonts-cjk
+pacman -S noto-fonts-emoji noto-fonts-extra
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>swaywm&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code> pacman -S sway alacritty
+pacman -S wofi
+pacman -S swaybg
+pacman -S waybar ttf-font-awesome
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>git&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>pacman -S git openssh
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>texlive&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>pacman -S texlive-basic
+pacman -S texlive-bin
+pacman -S texlive-binextra
+pacman -S texlive-xetex
+pacman -S texlive-langchinese
+pacman -S texlive-latexrecommended
+pacman -S texlive-latexextra
+pacman -S texlive-mathscience
+pacman -S texlive-bibtexextra
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>Chinese input method engine&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>pacman -S fcitx5 fcitx5-chinese-addons
+pacman -S fcitx5-configtool
+pacman -S fcitx5-gtk fcitx5-qt
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>audio component&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>pacman -S pulseaudio pulseaudio-alsa alsa-utils
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>bluetooth suite&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>pacman -S bluez bluez-utils
+pacman -S pulseaudio-bluetooth
+pacman -S blueman
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>background brightness&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>pacman -S light
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>manual&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>pacman -S man-db
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>telegram&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>pacman -S telegram-desktop
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>mpv video player&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>pacman -S mpv
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>texstudio&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>pacman -S texstudio
+&lt;/code>&lt;/pre></description></item><item><title>alist+aria2</title><link>https://aunomax.github.io/post/alist+aria2/</link><pubDate>Thu, 23 May 2024 12:03:05 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/alist+aria2/</guid><description>&lt;h1 id="alist--aria2--onedrive">Alist + aria2 + OneDrive&lt;/h1>
 &lt;h2 id="aria2">aria2&lt;/h2>
 &lt;p>edit configuration file&lt;/p>
 &lt;p>&lt;code>helix ~/.aria2/aria2.conf&lt;/code>&lt;/p></description></item><item><title>Wsl for OpenSUSE</title><link>https://aunomax.github.io/post/wslopensuse/</link><pubDate>Mon, 16 Oct 2023 13:01:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/wslopensuse/</guid><description>&lt;h1 id="installation">installation&lt;/h1>
