@@ -101,7 +101,37 @@ pacman -S blueman
 &lt;li>texstudio&lt;/li>
 &lt;/ul>
 &lt;pre tabindex="0">&lt;code>pacman -S texstudio
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>pot-translation&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code># poor support on wayland
+pacman -S pot-translation
 &lt;/code>&lt;/pre></description></item><item><title>alist+aria2</title><link>https://aunomax.github.io/post/alist+aria2/</link><pubDate>Thu, 23 May 2024 12:03:05 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/alist+aria2/</guid><description>&lt;h1 id="alist--aria2--onedrive">Alist + aria2 + OneDrive&lt;/h1>
+&lt;h2 id="install-aria2">install aria2&lt;/h2>
+&lt;pre tabindex="0">&lt;code>pacman -S aria2
+&lt;/code>&lt;/pre>&lt;h2 id="download-alist">Download alist&lt;/h2>
+&lt;pre tabindex="0">&lt;code>aria2c https://github.com/alist-org/alist/releases/download/v3.35.0/alist-linux-amd64.tar.gz
+&lt;/code>&lt;/pre>&lt;h2 id="unzip-the-downloaded-file">unzip the downloaded file&lt;/h2>
+&lt;pre tabindex="0">&lt;code>tar -zxvf alist-linux-amd64.tar.gz
+&lt;/code>&lt;/pre>&lt;h2 id="write-a-systemd-service">write a systemd service&lt;/h2>
+&lt;pre tabindex="0">&lt;code># .config/systemd/user/alist.service
+# alist.service
+[Unit]
+Description=alist server
+After=network.target
+[Service]
+Type=simple
+WorkingDirectory=/home/aunomax/opt
+ExecStart=/home/aunomax/opt/alist server
+StandardOutput=journal
+Restart=on-failure
+[Install]
+WantedBy=default.target
+&lt;/code>&lt;/pre>&lt;h2 id="enable-alistservice">enable alist.service&lt;/h2>
+&lt;pre tabindex="0">&lt;code>systemctl --user enable alist.service
+systemctl --user start alist.service
+systemctl --user status alist.service
+&lt;/code>&lt;/pre>&lt;h2 id="read-thishttpsalistnnciguidedriversonedrivehtml-add-storage-onedrive">read &lt;a href="https://alist.nn.ci/guide/drivers/onedrive.html">this&lt;/a> add storage &lt;code>OneDrive&lt;/code>&lt;/h2>
 &lt;h2 id="aria2">aria2&lt;/h2>
 &lt;p>edit configuration file&lt;/p>
 &lt;p>&lt;code>helix ~/.aria2/aria2.conf&lt;/code>&lt;/p></description></item><item><title>Wsl for OpenSUSE</title><link>https://aunomax.github.io/post/wslopensuse/</link><pubDate>Mon, 16 Oct 2023 13:01:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/wslopensuse/</guid><description>&lt;h1 id="installation">installation&lt;/h1>
