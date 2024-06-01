@@ -1,0 +1,22 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=author content="Xuan Mao"><meta name=description content="v2ray tools on archlinux"><link rel=icon href=https://aunomax.github.io/favicon.ico><meta name=keywords content=" hugo  latex  theme "><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css integrity=sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js integrity=sha384-0fdwu/T/EQMsQlrHCCHoH10pkPLlKA1jL5dFyUOvB3lfeT2540/2g6YgSi2BL14p crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js integrity=sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR crossorigin=anonymous></script>
+<script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"\\[",right:"\\]",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1}],ignoredTags:["script","noscript","style","textarea","pre","code","option"],throwOnError:!1})})</script><meta property="og:title" content="climb the great wall"><meta property="og:description" content="v2ray tools on archlinux"><meta property="og:type" content="article"><meta property="og:url" content="https://aunomax.github.io/post/great_wall/"><meta property="article:section" content="post"><meta property="article:published_time" content="2024-06-01T16:01:42+08:00"><meta property="article:modified_time" content="2024-06-01T16:01:42+08:00"><link rel=canonical href=https://aunomax.github.io/post/great_wall/><meta itemprop=name content="climb the great wall"><meta itemprop=description content="v2ray tools on archlinux"><meta itemprop=datePublished content="2024-06-01T16:01:42+08:00"><meta itemprop=dateModified content="2024-06-01T16:01:42+08:00"><meta itemprop=wordCount content="54"><meta itemprop=keywords content><link media=screen rel=stylesheet href=https://aunomax.github.io/css/common.css><link media=screen rel=stylesheet href=https://aunomax.github.io/css/content.css><title>climb the great wall - Aunomax's Site</title><meta name=twitter:card content="summary"><meta name=twitter:title content="climb the great wall"><meta name=twitter:description content="v2ray tools on archlinux"><link rel=stylesheet href=https://aunomax.github.io/css/single.css></head><body><div id=wrapper><header id=header><h1><a href=https://aunomax.github.io/>Aunomax's Site</a></h1><nav><span class=nav-bar-item><a class=link href=/>Home</a></span>
+<span class=nav-bar-item><a class=link href=/post/>Archives</a></span>
+<span class=nav-bar-item><a class=link href=/about/>About</a></span></nav></header><main id=main class=post><h1>climb the great wall</h1><article class=content><h1 id=v2raya--v2ray>v2raya + v2ray</h1><ul><li>enable repository archlinuxcn</li></ul><pre tabindex=0><code># /etc/pacman.conf
+# add the two lines below
+[archlinuxcn]
+Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+
+# exec the following line in zsh
+pacman -S archlinuxcn-keyring
+</code></pre><ul><li>install v2raya + v2ray</li></ul><pre tabindex=0><code>pacman -S v2ray v2raya
+</code></pre><ul><li>enable v2ray.service and v2raya.service</li></ul><pre tabindex=0><code>systemctl enable --now v2ray.service
+systemctl enable --now v2raya.service
+</code></pre><ul><li>config v2raya by webUI at <code>http://localhost:2017/</code></li></ul></article><div class=paginator><a class=link href=https://aunomax.github.io/post/archlinux/>← prev</a>
+<a></a></div><div class=comment></div></main><footer id=footer><div><span>© 2023</span> - <span>2024</span></div><div><span>Powered by</span>
+<a class=link href=https://gohugo.io/>Hugo</a>
+<span>🍦 Theme</span>
+<a class=link href=https://github.com/queensferryme/hugo-theme-texify>TeXify</a></div><div class=footnote><span>Follow me on <a class=link href=https://github.com/aunomax>GitHub</a>,
+<a class=link href=https://space.bilibili.com/30034502>Bilibili</a> or
+<a class=link href=/index.xml>RSS</a> |
+<a class=link href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh target=_blank rel=noopener>CC BY-NC-SA 4.0</a></span></div></footer></div></body></html>

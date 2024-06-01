@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aunomax's Site</title><link>https://aunomax.github.io/</link><description>Recent content on Aunomax's Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>mao_xuan@outlook.com (Xuan Mao)</managingEditor><webMaster>mao_xuan@outlook.com (Xuan Mao)</webMaster><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://aunomax.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>alist+aria2</title><link>https://aunomax.github.io/post/alist+aria2/</link><pubDate>Thu, 23 May 2024 12:03:05 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/alist+aria2/</guid><description>&lt;h1 id="alist--aria2--onedrive">Alist + aria2 + OneDrive&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aunomax's Site</title><link>https://aunomax.github.io/</link><description>Recent content on Aunomax's Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>mao_xuan@outlook.com (Xuan Mao)</managingEditor><webMaster>mao_xuan@outlook.com (Xuan Mao)</webMaster><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://aunomax.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>climb the great wall</title><link>https://aunomax.github.io/post/great_wall/</link><pubDate>Sat, 01 Jun 2024 16:01:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/great_wall/</guid><description>&lt;h1 id="v2raya--v2ray">v2raya + v2ray&lt;/h1>
+&lt;ul>
+&lt;li>enable repository archlinuxcn&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code># /etc/pacman.conf
+# add the two lines below
+[archlinuxcn]
+Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+# exec the following line in zsh
+pacman -S archlinuxcn-keyring
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>install v2raya + v2ray&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>pacman -S v2ray v2raya
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>enable v2ray.service and v2raya.service&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>systemctl enable --now v2ray.service
+systemctl enable --now v2raya.service
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>config v2raya by webUI at &lt;code>http://localhost:2017/&lt;/code>&lt;/li>
+&lt;/ul></description></item><item><title>some arch applications</title><link>https://aunomax.github.io/post/archlinux/</link><pubDate>Sat, 01 Jun 2024 16:01:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/archlinux/</guid><description>&lt;h1 id="installation">installation&lt;/h1>
+&lt;p>follow this to install archlinux step by step.&lt;/p>
+&lt;h1 id="some-application">some application&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>starship&lt;/p>
+&lt;p>&lt;code>pacman -S starship&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Chinese fonts&lt;/p>
+&lt;p>&lt;code>pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts adobe-source-code-pro-fonts&lt;/code>&lt;/p>
+&lt;p>&lt;code>pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>swaywm&lt;/p>
+&lt;p>&lt;code>pacman -S sway alacritty&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>alist+aria2</title><link>https://aunomax.github.io/post/alist+aria2/</link><pubDate>Thu, 23 May 2024 12:03:05 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/alist+aria2/</guid><description>&lt;h1 id="alist--aria2--onedrive">Alist + aria2 + OneDrive&lt;/h1>
 &lt;h2 id="aria2">aria2&lt;/h2>
 &lt;p>edit configuration file&lt;/p>
 &lt;p>&lt;code>helix ~/.aria2/aria2.conf&lt;/code>&lt;/p></description></item><item><title>Wsl for OpenSUSE</title><link>https://aunomax.github.io/post/wslopensuse/</link><pubDate>Mon, 16 Oct 2023 13:01:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/wslopensuse/</guid><description>&lt;h1 id="installation">installation&lt;/h1>
@@ -573,34 +611,4 @@ to apply Banach&amp;rsquo;s fixed point theorem should be given explicitly.&lt;/
 &lt;/table>
 &lt;p>后续了解了intel新出了显卡，游戏性还不错，价格又低，就趁着618活动入了一款白色使用，同时看固态大降价，又冲动消费了一波，入了块宏基2t的固态，花费1964大洋。未来看看是不是要再入台4k办公显示器，目前在用的是前室友传给我的（也是他朋友送给他的，虽然它快十岁了，但质量还是杠杠的，noc的）。&lt;/p>
 &lt;p>有点难受致钛硬盘6月5号就降到了393，才过了一个多月2333……&lt;/p>
-&lt;p>趁双十一优惠，购入飞利浦显示器27寸4k60hz办公显示器。&lt;/p></description></item><item><title>Keychron K2 Keyboard</title><link>https://aunomax.github.io/post/keychron-k2-keyboard/</link><pubDate>Fri, 02 Jun 2023 11:17:13 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/keychron-k2-keyboard/</guid><description>&lt;h1 id="京东京造keychron-k2键盘快捷键">京东京造Keychron K2键盘快捷键&lt;/h1>
-&lt;h2 id="蓝牙连接">蓝牙连接&lt;/h2>
-&lt;p>1 长按&lt;code>Fn+1/2/3&lt;/code>开启蓝牙连接配对模式，可分别与1/2/3设备连接&lt;/p>
-&lt;p>2 短按&lt;code>Fn+1/2/3&lt;/code>可分别与1/2/3设备切换&lt;/p>
-&lt;h2 id="自动睡眠">自动睡眠&lt;/h2>
-&lt;p>长按&lt;code>Fn+S+O&lt;/code>启用/禁用10分钟闲置自动睡眠&lt;/p>
-&lt;h2 id="功能键切换">功能键切换&lt;/h2>
-&lt;p>长按&lt;code>Fn+X+L&lt;/code>切换&lt;code>F1-F12&lt;/code>功能键和多媒体键。&lt;/p>
-&lt;h2 id="查看电量">查看电量&lt;/h2>
-&lt;p>长按&lt;code>Fn+B&lt;/code>；灭第一排，其余全亮，表示电亮30-70％。&lt;/p>
-&lt;h2 id="灯效">灯效&lt;/h2>
-&lt;p>长按&lt;code>Fn+L+💡&lt;/code>锁定当前灯效&lt;/p>
-&lt;h2 id="恢复出厂模式">恢复出厂模式&lt;/h2>
-&lt;p>长按&lt;code>Fn+J+Z&lt;/code>恢复出厂模式，蓝牙复位。&lt;/p></description></item><item><title>数学书单</title><link>https://aunomax.github.io/post/%E6%95%B0%E5%AD%A6%E4%B9%A6%E5%8D%95/</link><pubDate>Mon, 29 May 2023 21:59:38 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/%E6%95%B0%E5%AD%A6%E4%B9%A6%E5%8D%95/</guid><description>&lt;h1 id="math-book">Math Book&lt;/h1>
-&lt;h2 id="functional-analysis">functional analysis&lt;/h2>
-&lt;ul>
-&lt;li>Yoside&lt;/li>
-&lt;li>Brezis&lt;/li>
-&lt;/ul>
-&lt;h2 id="operator-semigroup">Operator Semigroup&lt;/h2>
-&lt;ul>
-&lt;li>Pazy&lt;/li>
-&lt;/ul>
-&lt;h2 id="pde">PDE&lt;/h2>
-&lt;ul>
-&lt;li>Evans&lt;/li>
-&lt;/ul>
-&lt;h2 id="analysis">Analysis&lt;/h2>
-&lt;ul>
-&lt;li>Rudin(s)&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p>趁双十一优惠，购入飞利浦显示器27寸4k60hz办公显示器。&lt;/p></description></item></channel></rss>

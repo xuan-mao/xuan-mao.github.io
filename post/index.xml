@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Aunomax's Site</title><link>https://aunomax.github.io/post/</link><description>Recent content in Posts on Aunomax's Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>mao_xuan@outlook.com (Xuan Mao)</managingEditor><webMaster>mao_xuan@outlook.com (Xuan Mao)</webMaster><lastBuildDate>Thu, 23 May 2024 12:03:05 +0800</lastBuildDate><atom:link href="https://aunomax.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>alist+aria2</title><link>https://aunomax.github.io/post/alist+aria2/</link><pubDate>Thu, 23 May 2024 12:03:05 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/alist+aria2/</guid><description>&lt;h1 id="alist--aria2--onedrive">Alist + aria2 + OneDrive&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Aunomax's Site</title><link>https://aunomax.github.io/post/</link><description>Recent content in Posts on Aunomax's Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>mao_xuan@outlook.com (Xuan Mao)</managingEditor><webMaster>mao_xuan@outlook.com (Xuan Mao)</webMaster><lastBuildDate>Sat, 01 Jun 2024 16:01:42 +0800</lastBuildDate><atom:link href="https://aunomax.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>climb the great wall</title><link>https://aunomax.github.io/post/great_wall/</link><pubDate>Sat, 01 Jun 2024 16:01:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/great_wall/</guid><description>&lt;h1 id="v2raya--v2ray">v2raya + v2ray&lt;/h1>
+&lt;ul>
+&lt;li>enable repository archlinuxcn&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code># /etc/pacman.conf
+# add the two lines below
+[archlinuxcn]
+Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+# exec the following line in zsh
+pacman -S archlinuxcn-keyring
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>install v2raya + v2ray&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>pacman -S v2ray v2raya
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>enable v2ray.service and v2raya.service&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>systemctl enable --now v2ray.service
+systemctl enable --now v2raya.service
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>config v2raya by webUI at &lt;code>http://localhost:2017/&lt;/code>&lt;/li>
+&lt;/ul></description></item><item><title>some arch applications</title><link>https://aunomax.github.io/post/archlinux/</link><pubDate>Sat, 01 Jun 2024 16:01:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/archlinux/</guid><description>&lt;h1 id="installation">installation&lt;/h1>
+&lt;p>follow this to install archlinux step by step.&lt;/p>
+&lt;h1 id="some-application">some application&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>starship&lt;/p>
+&lt;p>&lt;code>pacman -S starship&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Chinese fonts&lt;/p>
+&lt;p>&lt;code>pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts adobe-source-code-pro-fonts&lt;/code>&lt;/p>
+&lt;p>&lt;code>pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>swaywm&lt;/p>
+&lt;p>&lt;code>pacman -S sway alacritty&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>alist+aria2</title><link>https://aunomax.github.io/post/alist+aria2/</link><pubDate>Thu, 23 May 2024 12:03:05 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/alist+aria2/</guid><description>&lt;h1 id="alist--aria2--onedrive">Alist + aria2 + OneDrive&lt;/h1>
 &lt;h2 id="aria2">aria2&lt;/h2>
 &lt;p>edit configuration file&lt;/p>
 &lt;p>&lt;code>helix ~/.aria2/aria2.conf&lt;/code>&lt;/p></description></item><item><title>Wsl for OpenSUSE</title><link>https://aunomax.github.io/post/wslopensuse/</link><pubDate>Mon, 16 Oct 2023 13:01:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/wslopensuse/</guid><description>&lt;h1 id="installation">installation&lt;/h1>
@@ -355,174 +393,4 @@ to apply Banach&amp;rsquo;s fixed point theorem should be given explicitly.&lt;/
 &lt;h2 id="analysis">Analysis&lt;/h2>
 &lt;ul>
 &lt;li>Rudin(s)&lt;/li>
-&lt;/ul></description></item><item><title>软件工具</title><link>https://aunomax.github.io/post/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</link><pubDate>Mon, 29 May 2023 21:57:46 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</guid><description>&lt;h1 id="工具">工具&lt;/h1>
-&lt;h2 id="解压缩工具">解压缩工具&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://www.7-zip.org/">7-Zip&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="latex套装">$\LaTeX$套装&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://miktex.org/">Miktex&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.winedt.com/">WinEdt 11&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.texstudio.org/">Texstudio&lt;/a>
-&lt;ul>
-&lt;li>languagetool&lt;/li>
-&lt;li>&lt;a href="https://extensions.libreoffice.org/en/extensions/show/english-dictionaries">dictionary&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="https://www.sumatrapdfreader.org/free-pdf-reader">SumatraPDF&lt;/a>&lt;/li>
-&lt;li>LanguageTool&lt;/li>
-&lt;li>&lt;a href="https://www.jabref.org/">JabRef&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/goldendict/goldendict/wiki">GoldenDict&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://mathpix.com/">Mathpix&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="steam套装">Steam套装&lt;/h2>
-&lt;ul>
-&lt;li>Watt &lt;a href="https://steampp.net/">Tookit&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://steamdb.info/">steamdb&lt;/a>&lt;/li>
-&lt;li>余额（淘宝）&lt;/li>
-&lt;li>steampy&lt;/li>
-&lt;li>&lt;a href="https://www.dogfight360.com/blog/686/">steamcommunity 302 Ver.12.1.24 – Dogfight360&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="下载">下载&lt;/h2>
-&lt;ul>
-&lt;li>Thunder&lt;/li>
-&lt;li>IDM&lt;/li>
-&lt;li>qBittorrent&lt;/li>
-&lt;li>BT搜索&lt;a href="https://wwt.lanzoul.com/iWI4J0dajrgb">BTSOU v22.10.06.rar - 蓝奏云 (lanzoul.com)&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="影音">影音&lt;/h2>
-&lt;ul>
-&lt;li>Potplayer&lt;/li>
-&lt;li>VLC&lt;/li>
-&lt;/ul>
-&lt;h2 id="翻墙">翻墙&lt;/h2>
-&lt;ul>
-&lt;li>Clash for Windows + Docker + subconverter(后端转码)&lt;/li>
-&lt;li>v2rayNG/v2flyNG for android&lt;/li>
-&lt;li>shadowsocket for ios&lt;/li>
-&lt;li>airport
-&lt;ul>
-&lt;li>&lt;a href="https://www.mojie.cyou/#/dashboard">mojie&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://panel.keleofficial.com/#/dashboard">kelecloud&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://tly.llc/modules/index.php">tly.llc&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="杀毒">杀毒&lt;/h2>
-&lt;ul>
-&lt;li>&lt;del>Avast&lt;/del>&lt;/li>
-&lt;li>卡巴斯基&lt;/li>
-&lt;li>&lt;del>火绒&lt;/del>&lt;/li>
-&lt;li>Windows Defender&lt;/li>
-&lt;/ul>
-&lt;h2 id="网盘">网盘&lt;/h2>
-&lt;ul>
-&lt;li>坚果云&lt;/li>
-&lt;li>OneDrive&lt;/li>
-&lt;/ul>
-&lt;h2 id="系统工具">系统工具&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/Chuyu-Team/Dism-Multi-language/releases">Dism++&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/microsoft/PowerToys">microsoft/PowerToys: Windows system utilities to maximize productivity (github.com)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://www.uderzo.it/main_products/space_sniffer/">SpaceSniffer, find lost disk space the easy way. (uderzo.it)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/BluePointLilac/ContextMenuManager/releases">ContextMenuManager&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/zhongyang219/TrafficMonitor">zhongyang219/TrafficMonitor: 这是一个用于显示当前网速、CPU及内存利用率的桌面悬浮窗软件，并支持任务栏显示，支持更换皮肤。 (github.com)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://geekuninstaller.com/">Geek Uninstaller - the best FREE uninstaller&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://kcsoftwares.com/?kcleaner">KC Softwares删除系统缓存文件&lt;/a>&lt;/li>
-&lt;li>HiBit Uninstaller&lt;/li>
-&lt;li>图吧工具箱&lt;/li>
-&lt;li>Msi afterburner&lt;/li>
-&lt;li>&lt;a href="https://www.vmware.com/cn/products/workstation-player.html">VMware Workstation Player | VMware | CN&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="文件检索">文件检索&lt;/h2>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://www.voidtools.com/support/everything/">everything&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://www.listary.com/">Listary – File Search &amp;amp; App Launcher&lt;/a>&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>激活：&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>email &lt;a href="mailto:samoray@samoray.com">samoray@samoray.com&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>授权码 JE4V8T3M96PWT4SUCNZNVZ37XKLBU2QW N64LEJQ3VHY7MPL6KY2R5SQZ76QFFTKP VVE8JBVEAME8MMBRHRGF2P6MAJG7ZSQY MUY2PGTQ2EG3W2YHTU2CFWL7SE6THU3Q TAL3U894S2BWA9629EFCXYYYG3S65WEQ N3SZSNSEGXMEUWD27PNENP4GR2EKKDK6&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="录屏">录屏&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://obsproject.com/">OBS Studio&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="系统修正">系统修正&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/Tatsu-syo/noMeiryoUI/releases">修正系统字体字号-Releases · Tatsu-syo/noMeiryoUI (github.com)&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="图形可视化">图形可视化&lt;/h2>
-&lt;ul>
-&lt;li>&lt;del>&lt;a href="https://graphviz.org/">Graphviz&lt;/a>&lt;/del>&lt;/li>
-&lt;/ul>
-&lt;h2 id="图片查看器">图片查看器&lt;/h2>
-&lt;ul>
-&lt;li>&lt;del>&lt;a href="https://www.bandisoft.com/honeyview/">Honeyview · 蜂蜜浏览器 · 免费的图像查看器 · 下载和功能说明 (bandisoft.com)&lt;/a>&lt;/del>&lt;/li>
-&lt;/ul>
-&lt;h2 id="截图">截图&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://www.snipaste.com/">&lt;del>Snipaste&lt;/del>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://getsharex.com/">ShareX - The best free and open source screenshot tool for Windows (getsharex.com)&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="电子书">电子书&lt;/h2>
-&lt;ul>
-&lt;li>&lt;del>&lt;a href="https://calibre-ebook.com/">calibre - E-book management (calibre-ebook.com)&lt;/a>&lt;/del>&lt;/li>
-&lt;/ul>
-&lt;h2 id="线上会议">线上会议&lt;/h2>
-&lt;ul>
-&lt;li>Zoom&lt;/li>
-&lt;li>腾讯会议&lt;/li>
-&lt;/ul>
-&lt;h2 id="游戏">游戏&lt;/h2>
-&lt;ul>
-&lt;li>Epic&lt;/li>
-&lt;li>Steam&lt;/li>
-&lt;/ul>
-&lt;h2 id="远程桌面">远程桌面&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://parsec.app/">parsec&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://moonlight-stream.org/">moonlight&lt;/a>&lt;/li>
-&lt;li>&lt;del>&lt;a href="https://rustdesk.com/zh/">rustdesk&lt;/a>&lt;/del>&lt;/li>
-&lt;/ul>
-&lt;h2 id="winedt-11-激活码">WinEdt 11 激活码&lt;/h2>
-&lt;ul>
-&lt;li>账号: *60[20220501] Warez_Down [RU-BOARD] (100 users)&lt;/li>
-&lt;li>密码: 4049089118892183088&lt;/li>
-&lt;/ul></description></item><item><title>东南大学数学博士学位成果考核标准</title><link>https://aunomax.github.io/post/%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E5%8D%9A%E5%A3%AB%E5%AD%A6%E4%BD%8D%E6%88%90%E6%9E%9C%E8%80%83%E6%A0%B8%E6%A0%87%E5%87%86/</link><pubDate>Fri, 26 May 2023 17:02:01 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E5%8D%9A%E5%A3%AB%E5%AD%A6%E4%BD%8D%E6%88%90%E6%9E%9C%E8%80%83%E6%A0%B8%E6%A0%87%E5%87%86/</guid><description>&lt;h1 id="博士学位成果考核标准汇总">博士学位成果考核标准汇总&lt;/h1>
-&lt;p>博士学位成果考核标准汇总，请查看：研究生院-学位教育-学位授予-&lt;a href="https://seugs.seu.edu.cn/28878/list.htm">规章制度 (seu.edu.cn)&lt;/a>。详见《东南大学博士研究生申请博士学位 的成果考核标准（2018 版）》。&lt;/p>
-&lt;h2 id="科研成果署名">科研成果署名&lt;/h2>
-&lt;p>博士学位申请者的学术论文必须以东南大学为第一署名单位， 即论文第一作者和第一通讯作者的第一署名单位必须均为“东南大 学”或“东南大学某机构”。除特别注明外，学位申请者必须是学术 论文的第一作者。&lt;/p>
-&lt;h2 id="期刊认定标准">期刊认定标准&lt;/h2>
-&lt;p>博士学位申请者的学术论文应发表在 SCIE、SSCI、A＆HCI、 EI、MI、CSSCI（核心版）、CSCD（核心版）、《中文核心期刊要目总览》 （北大图书馆编著，以论文发表当年的版本为准）的“来源期刊”（后 称“源刊”）上，但不包括这些学术期刊的增刊、专刊等非正常出版 的刊物。详见《东南大学博士研究生申请博士学位 的成果考核标准（2018 版）》。&lt;/p>
-&lt;h2 id="考核方案">考核方案&lt;/h2>
-&lt;p>理学的博士研究生申请博士学位时，须满足下列条件之一:&lt;/p>
-&lt;ol>
-&lt;li>在 SCIE/SSCI 源刊上发表学术论文二篇，其中在 JCR 分区表 中指定相应学科领域 Q1、Q2 区期刊学术论文至少一篇。&lt;/li>
-&lt;li>在 SCIE/SSCI 源刊或 EI/CSCD（核心版）源刊上发表学术论文三篇，其中被 SCIE/SSCI 收录学术论文至少二篇。&lt;/li>
-&lt;li>在 SCIE/SSCI 源刊上发表被 SCIE/SSCI 收录学术论文二篇， 且获授权国家发明专利一件。&lt;/li>
-&lt;/ol>
-&lt;h2 id="相关说明">相关说明&lt;/h2>
-&lt;p>博士学位申请者的成果应已正式发表或公布或授权，申请博士学 位时须提供学术论文所在期刊的原件及其它成果证明，包括学校图书 馆开具的论文检索证明。在 EI 源刊上发表的学术论文须被 EI 收录， EI 收录学术论文的文献类型原则上应是 Journal Article；被 SCIE/SSCI/A&amp;amp;HCI 收录学术论文的文献类型原则上应是 Article 或 Review 或 Letter；被 SCIE/SSCI/A&amp;amp;HCI/EI 收录学术论文须在相应的 数据库中检索到且有检索号。在 JCR 分区表中相应学科领域 Q1、Q2 区期刊上正式发表的学术论文可以视同被 SCIE/SSCI 收录，但须出示 有关论文正式发表的证明及期刊的 JCR 报告。&lt;/p>
-&lt;h2 id="注">注&lt;/h2>
-&lt;p>SCIE： Science Citation Index Expanded 《科学引文索引》&lt;/p>
-&lt;p>SSCI： Social Sciences Citation Index 《社会科学引文索引》&lt;/p>
-&lt;p>A&amp;amp;HCI： Arts&amp;amp;Humanities Citation Index 《艺术和人文学科引文索引》&lt;/p>
-&lt;p>EI： Engineering Index 《工程索引》&lt;/p>
-&lt;p>MI： MEDLINE 国际性生物医学文献书目数据 库包括《医学索引》（ Index Medicus）、《牙科文献索引》 （Index to Dental Literation）及 《国际护理索引》（International Nursing Index）&lt;/p>
-&lt;p>CSSCI： Chinese Social Science Citation Index 《中文社会科学引文索引》&lt;/p>
-&lt;p>CSCD： Chinese Science Citation Database 《中国科学引文数据库》&lt;/p>
-&lt;p>JCR: Journal Citation Reports 《期刊引用报告》（科睿唯安）&lt;/p></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
