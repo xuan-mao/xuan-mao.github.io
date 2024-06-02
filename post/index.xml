@@ -113,7 +113,7 @@ pacman -S pot-translation
 &lt;pre tabindex="0">&lt;code>aria2c https://github.com/alist-org/alist/releases/download/v3.35.0/alist-linux-amd64.tar.gz
 &lt;/code>&lt;/pre>&lt;h2 id="unzip-the-downloaded-file">unzip the downloaded file&lt;/h2>
 &lt;pre tabindex="0">&lt;code>tar -zxvf alist-linux-amd64.tar.gz
-&lt;/code>&lt;/pre>&lt;h2 id="write-a-systemd-service">write a systemd service&lt;/h2>
+&lt;/code>&lt;/pre>&lt;h2 id="write-a-systemd-service-as-thishttpsgithubcomaunomaxdotfilesblobmasterconfigsystemduseralistservice">write a systemd service as &lt;a href="https://github.com/aunomax/dotfiles/blob/master/.config/systemd/user/alist.service">this&lt;/a>&lt;/h2>
 &lt;pre tabindex="0">&lt;code># .config/systemd/user/alist.service
 # alist.service
 [Unit]
@@ -133,8 +133,16 @@ systemctl --user start alist.service
 systemctl --user status alist.service
 &lt;/code>&lt;/pre>&lt;h2 id="read-thishttpsalistnnciguidedriversonedrivehtml-add-storage-onedrive">read &lt;a href="https://alist.nn.ci/guide/drivers/onedrive.html">this&lt;/a> add storage &lt;code>OneDrive&lt;/code>&lt;/h2>
 &lt;h2 id="aria2">aria2&lt;/h2>
-&lt;p>edit configuration file&lt;/p>
-&lt;p>&lt;code>helix ~/.aria2/aria2.conf&lt;/code>&lt;/p></description></item><item><title>Wsl for OpenSUSE</title><link>https://aunomax.github.io/post/wslopensuse/</link><pubDate>Mon, 16 Oct 2023 13:01:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/wslopensuse/</guid><description>&lt;h1 id="installation">installation&lt;/h1>
+&lt;pre tabindex="0">&lt;code>mkdir ~/config/aria2
+touch ~/config/aria2.conf
+touch ~/config/aria2.session
+touch ~/config/aria2.log
+chmod 666 ~/config/aria2.log ~/config/aria2.session
+&lt;/code>&lt;/pre>&lt;p>edit configuration file as &lt;a href="https://github.com/aunomax/dotfiles/blob/master/.config/aria2/aria2.conf">this&lt;/a>&lt;/p>
+&lt;pre tabindex="0">&lt;code>helix ~/.aria2/aria2.conf
+&lt;/code>&lt;/pre>&lt;p>add a systemd service as &lt;a href="https://github.com/aunomax/dotfiles/blob/master/.config/systemd/user/aria2.service">this&lt;/a>&lt;/p>
+&lt;pre tabindex="0">&lt;code>helix ~/config/systemd/user/aria2.service
+&lt;/code>&lt;/pre></description></item><item><title>Wsl for OpenSUSE</title><link>https://aunomax.github.io/post/wslopensuse/</link><pubDate>Mon, 16 Oct 2023 13:01:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/wslopensuse/</guid><description>&lt;h1 id="installation">installation&lt;/h1>
 &lt;p>在Windows terminal中输入&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-powershell" data-lang="powershell">&lt;span style="display:flex;">&lt;span> wsl --list -o
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>查看可安装的分发列表：&lt;/p>
