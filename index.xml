@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aunomax's Site</title><link>https://aunomax.github.io/</link><description>Recent content on Aunomax's Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>mao_xuan@outlook.com (Xuan Mao)</managingEditor><webMaster>mao_xuan@outlook.com (Xuan Mao)</webMaster><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://aunomax.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>climb the great wall</title><link>https://aunomax.github.io/post/great_wall/</link><pubDate>Sat, 01 Jun 2024 16:01:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/great_wall/</guid><description>&lt;h1 id="v2raya--v2ray">v2raya + v2ray&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aunomax's Site</title><link>https://aunomax.github.io/</link><description>Recent content on Aunomax's Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>mao_xuan@outlook.com (Xuan Mao)</managingEditor><webMaster>mao_xuan@outlook.com (Xuan Mao)</webMaster><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://aunomax.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>$ aTeX$ suite in arch</title><link>https://aunomax.github.io/post/latex-suite/</link><pubDate>Wed, 05 Jun 2024 16:07:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/latex-suite/</guid><description>&lt;h1 id="install-texlive-packages">install texlive packages&lt;/h1>
+&lt;p>using &lt;code>pacman -F package-name&lt;/code> can find missing packages.&lt;/p>
+&lt;p>some useful packages&lt;/p>
+&lt;pre tabindex="0">&lt;code>pacman -S texlive-basic
+pacman -S texlive-bin
+pacman -S texlive-binextra
+pacman -S texlive-xetex
+pacman -S texlive-langchinese
+pacman -S texlive-latexrecommended
+pacman -S texlive-latexextra
+pacman -S texlive-mathscience
+pacman -S texlive-bibtexextra
+&lt;/code>&lt;/pre>&lt;h1 id="install-vscode">install vscode&lt;/h1>
+&lt;p>vscode can be used in &lt;code>Sway&lt;/code> window manager, but Chinese input function of &lt;code>fcitx&lt;/code> is not working due to &lt;code>election&lt;/code> application.&lt;/p>
+&lt;pre tabindex="0">&lt;code>pacman -S code
+&lt;/code>&lt;/pre>&lt;h1 id="texstudio----editor">texstudio &amp;ndash; editor&lt;/h1>
+&lt;pre tabindex="0">&lt;code>pacman -S texstudio
+&lt;/code>&lt;/pre>&lt;h1 id="sioyek----pdf-viewer">sioyek &amp;ndash; pdf-viewer&lt;/h1>
+&lt;h1 id="zathura----pdf-viewer">zathura &amp;ndash; pdf-viewer&lt;/h1>
+&lt;h1 id="tectonic----tex-engine">tectonic &amp;ndash; tex engine&lt;/h1></description></item><item><title>TODO list</title><link>https://aunomax.github.io/post/todo/</link><pubDate>Wed, 05 Jun 2024 10:41:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/todo/</guid><description>&lt;p>-[] tectonic
+-[] sioyek
+-[] zathura&lt;/p></description></item><item><title>climb the great wall</title><link>https://aunomax.github.io/post/great_wall/</link><pubDate>Sat, 01 Jun 2024 16:01:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/great_wall/</guid><description>&lt;h1 id="v2raya--v2ray">v2raya + v2ray&lt;/h1>
 &lt;ul>
 &lt;li>enable repository archlinuxcn&lt;/li>
 &lt;/ul>
@@ -106,6 +127,12 @@ pacman -S blueman
 &lt;/ul>
 &lt;pre tabindex="0">&lt;code># poor support on wayland
 pacman -S pot-translation
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>establish my dotfile repository with the help of &lt;a href="https://www.atlassian.com/git/tutorials/dotfiles">this blog&lt;/a>.&lt;/li>
+&lt;li>extract file&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>pacman -S unrar
+# usage: unrar x file.rar
 &lt;/code>&lt;/pre></description></item><item><title>alist+aria2</title><link>https://aunomax.github.io/post/alist+aria2/</link><pubDate>Thu, 23 May 2024 12:03:05 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/alist+aria2/</guid><description>&lt;h1 id="alist--aria2--onedrive">Alist + aria2 + OneDrive&lt;/h1>
 &lt;h2 id="install-aria2">install aria2&lt;/h2>
 &lt;pre tabindex="0">&lt;code>pacman -S aria2
@@ -591,127 +618,4 @@ to apply Banach&amp;rsquo;s fixed point theorem should be given explicitly.&lt;/
 &lt;li>
 &lt;p>P11L-fourth line from the bottom: we &amp;ldquo;easily&amp;quot; see that the conclusions in Theorem 1.1 hold.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Thesis proposal defense</title><link>https://aunomax.github.io/event/thesis-proposal-defense/</link><pubDate>Fri, 09 Jun 2023 14:00:00 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/event/thesis-proposal-defense/</guid><description/></item><item><title>My Desktop Computer</title><link>https://aunomax.github.io/post/my-desktop-computer/</link><pubDate>Sun, 04 Jun 2023 18:45:30 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/my-desktop-computer/</guid><description>&lt;h1 id="小白装机">小白装机&lt;/h1>
-&lt;p>我趁着五一劳动节优惠，在京东全套购买配件攒了台台式机，花费5448大洋。然后花了6个小时，一次点亮。其实发生了个小意外，虽然我一直都有过怀疑，但我还是坚信我不会犯这种错误，最终在过了三周后，我终于发现了，我涂硅脂，装散热器时，没有揭开保护膜。&lt;/p>
-&lt;p>具体配置单为&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">配件&lt;/th>
-&lt;th style="text-align:left">配置&lt;/th>
-&lt;th>价格&lt;/th>
-&lt;th>实付&lt;/th>
-&lt;th>备注&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">cpu&lt;/td>
-&lt;td style="text-align:left">intel i5-13600k&lt;/td>
-&lt;td>2599&lt;/td>
-&lt;td>2065&lt;/td>
-&lt;td>板u套装&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">主板&lt;/td>
-&lt;td style="text-align:left">rog b760g&lt;/td>
-&lt;td>1499&lt;/td>
-&lt;td>1385&lt;/td>
-&lt;td>板u套装&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">gpu&lt;/td>
-&lt;td style="text-align:left">蓝戟arc750&lt;/td>
-&lt;td>1549&lt;/td>
-&lt;td>1485&lt;/td>
-&lt;td>20230531&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">硬盘&lt;/td>
-&lt;td style="text-align:left">致钛7100-1t&lt;/td>
-&lt;td>539&lt;/td>
-&lt;td>526&lt;/td>
-&lt;td>20230430&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:left">宏基gm7&lt;/td>
-&lt;td>499&lt;/td>
-&lt;td>479&lt;/td>
-&lt;td>20230531&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">内存&lt;/td>
-&lt;td style="text-align:left">kingbank16*2ddr5&lt;/td>
-&lt;td>648&lt;/td>
-&lt;td>645&lt;/td>
-&lt;td>20230430&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">电源&lt;/td>
-&lt;td style="text-align:left">Segotep GM750&lt;/td>
-&lt;td>549&lt;/td>
-&lt;td>486&lt;/td>
-&lt;td>20230430&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">散热&lt;/td>
-&lt;td style="text-align:left">利民PA120SE&lt;/td>
-&lt;td>173&lt;/td>
-&lt;td>160&lt;/td>
-&lt;td>20230430&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">机箱&lt;/td>
-&lt;td style="text-align:left">先马m2air&lt;/td>
-&lt;td>118&lt;/td>
-&lt;td>118&lt;/td>
-&lt;td>20230430&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">风扇&lt;/td>
-&lt;td style="text-align:left">利民tl-c12c&lt;/td>
-&lt;td>26&lt;/td>
-&lt;td>26&lt;/td>
-&lt;td>20230430&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:left">id-cooling&lt;/td>
-&lt;td>19.9&lt;/td>
-&lt;td>18.9&lt;/td>
-&lt;td>20230430&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:left">id-cooling&lt;/td>
-&lt;td>19.9&lt;/td>
-&lt;td>8.5&lt;/td>
-&lt;td>20230520&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">显示器&lt;/td>
-&lt;td style="text-align:left">飞利浦27E2F7901&lt;/td>
-&lt;td>2799&lt;/td>
-&lt;td>2668.9&lt;/td>
-&lt;td>20231102&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">其他&lt;/td>
-&lt;td style="text-align:left">赫钢精密螺丝刀套装&lt;/td>
-&lt;td>19.5&lt;/td>
-&lt;td>18.5&lt;/td>
-&lt;td>20230430&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td style="text-align:left">&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>后续了解了intel新出了显卡，游戏性还不错，价格又低，就趁着618活动入了一款白色使用，同时看固态大降价，又冲动消费了一波，入了块宏基2t的固态，花费1964大洋。未来看看是不是要再入台4k办公显示器，目前在用的是前室友传给我的（也是他朋友送给他的，虽然它快十岁了，但质量还是杠杠的，noc的）。&lt;/p>
-&lt;p>有点难受致钛硬盘6月5号就降到了393，才过了一个多月2333……&lt;/p>
-&lt;p>趁双十一优惠，购入飞利浦显示器27寸4k60hz办公显示器。&lt;/p></description></item></channel></rss>
+&lt;/ol></description></item></channel></rss>
